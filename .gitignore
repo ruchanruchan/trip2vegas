@@ -1,0 +1,29 @@
+.claude/
+node_modules/
+package.json
+package-lock.json
+.DS_Store
+*.log
+.env
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.backup
+*-ORIGINAL-*
+*-OLD-*
+*.zip
+
+# Build artifacts (if using build tools later)
+dist/
+build/
+.cache/
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
