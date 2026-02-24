@@ -233,6 +233,24 @@ trip2vegas/
 
 ## 🔄 Recent Updates
 
+### February 24, 2026 — Phase 1 COMPLETE
+✅ **Full website built and deployed**:
+- CSS design system: vegas-theme.css, main.css, responsive.css (mobile-first)
+- JS modules: language.js, components.js, main.js, tours.js, contact.js
+- Shared components: header.html, footer.html (loaded via fetch)
+- Homepage with hero, features, categories, featured tours, testimonials
+- Tours catalog (search + filter) + detail page (42 tours, bilingual EN/TR)
+- About page + Contact page with form
+- staticwebapp.config.json (routing + security headers)
+- sitemap.xml + robots.txt
+
+✅ **Custom domain configured**:
+- https://trip2vegas.com — LIVE (apex domain, alias A record + TXT validation)
+- https://www.trip2vegas.com — LIVE (CNAME to Azure SWA)
+- Azure DNS zone: trip2vegas-rg
+- Azure SWA: CoffeeFortuneAI-RG / trip2vegas
+- Default hostname: purple-cliff-0bd29300f.4.azurestaticapps.net
+
 ### January 5, 2026 (Initial Setup)
 ✅ **Project Initialization**:
 1. Created D:\trip2vegas folder
@@ -242,13 +260,55 @@ trip2vegas/
 5. Created GitHub Actions workflow for deployment
 6. Created README.md and CLAUDE.md
 
-**Next Steps**:
-1. Create homepage (index.html)
-2. Set up CSS framework (vegas-theme.css)
-3. Implement language toggle (language.js)
-4. Create tours.json with sample data
-5. Build tours catalog page
-6. Create tour detail page template
+---
+
+## 🚀 NEXT STEPS (Phase 2+)
+
+### Phase 2 — C# Azure Functions API Layer
+**Tech stack**: C# (.NET 8), Azure Functions v4, PostgreSQL
+- [ ] Set up `api/` folder with C# Azure Functions isolated worker project
+- [ ] Contact form function (replace Formspree)
+- [ ] Hotelbeds auth client (SHA256 signatures) — **Owner has Bedsonline credentials, needs to get API key from https://developer.hotelbeds.com**
+- [ ] Pricing/markup engine
+- [ ] Update GitHub Actions workflow: `api_location: "api"`
+- [ ] Set environment variables in Azure Portal (API keys, connection strings)
+
+### Phase 3 — Hotelbeds Integration
+**Prerequisite**: API keys from developer.hotelbeds.com
+- [ ] Hotel search page + API function
+- [ ] Hotel detail page
+- [ ] Activities integration into tours page
+- [ ] Transfer search page
+- [ ] Turkish translation for API content
+
+### Phase 4 — AI Chatbot
+- [ ] AI chatbot widget (floating chat)
+- [ ] Chat API function (OpenAI/Claude)
+- [ ] Smart search bar with suggestions
+
+### Phase 5 — Online Booking & Payments
+- [ ] Stripe Checkout integration
+- [ ] Stripe webhooks
+- [ ] Hotelbeds booking confirmation
+- [ ] PostgreSQL for booking storage
+- [ ] Success/cancel pages
+
+### Phase 6 — Polish & Launch
+- [ ] Real tour images (WebP, lazy loading)
+- [ ] Lighthouse 90+ score
+- [ ] Final SEO (structured data, hreflang, keywords)
+
+---
+
+## 🏗️ Architecture Decisions
+
+- **Frontend**: Static HTML/CSS/JS (no framework) — modular, mobile-first
+- **Backend (Phase 2+)**: C# Azure Functions (free with Azure SWA)
+- **Database (Phase 5+)**: PostgreSQL
+- **Hosting**: Azure Static Web Apps (free tier)
+- **Payments**: Stripe
+- **AI**: TBD (OpenAI or Claude API)
+- **Language**: Bilingual EN/TR via `html[data-lang]` CSS-driven toggle
 
 ---
 
@@ -285,7 +345,7 @@ trip2vegas/
 
 **Developer**: richard@raqballusa.com
 **Business Owner**: [Add contact]
-**Domain Registrar**: [Check where trip2vegas.com is registered]
+**Domain DNS**: Azure DNS (zone: trip2vegas-rg, nameservers: ns1-03.azure-dns.com)
 
 ---
 
@@ -304,11 +364,12 @@ When working on this project:
 9. **Test on mobile** - Responsive design is critical
 
 **Remember**:
-- This is a static site (no database, no server-side code)
-- GitHub Pages deployment (free hosting)
-- Turkish + English support (dual language)
+- Phase 1 is static (Phase 2+ adds C# Azure Functions + PostgreSQL)
+- Azure Static Web Apps deployment (free hosting)
+- Turkish + English support (dual language, CSS-driven toggle)
 - Vegas Luxury aesthetic (gold, black, red)
-- 40+ tours to showcase
+- 42 tours in data/tours.json (bilingual)
+- GitHub repo: https://github.com/ruchanruchan/trip2vegas
 
 ---
 
