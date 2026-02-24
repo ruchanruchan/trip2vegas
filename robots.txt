@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /components/
+Disallow: /api/
+
+Sitemap: https://trip2vegas.com/sitemap.xml

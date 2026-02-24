@@ -1,0 +1,54 @@
+<!-- Header Component - Loaded by components.js -->
+<header class="header" role="banner">
+  <div class="header__inner">
+    <a href="/" class="header__logo" aria-label="Trip2Vegas Home">
+      TRIP<span>2</span>VEGAS
+    </a>
+
+    <!-- Mobile menu button -->
+    <button class="header__menu-btn" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Navigation overlay (mobile) -->
+    <div class="nav__overlay" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <ul class="nav__list">
+        <li>
+          <a href="/" class="nav__link">
+            <span data-lang-en>Home</span>
+            <span data-lang-tr>Ana Sayfa</span>
+          </a>
+        </li>
+        <li>
+          <a href="/pages/tours/" class="nav__link">
+            <span data-lang-en>Tours</span>
+            <span data-lang-tr>Turlar</span>
+          </a>
+        </li>
+        <li>
+          <a href="/pages/about/" class="nav__link">
+            <span data-lang-en>About Us</span>
+            <span data-lang-tr>Hakkımızda</span>
+          </a>
+        </li>
+        <li>
+          <a href="/pages/contact/" class="nav__link">
+            <span data-lang-en>Contact</span>
+            <span data-lang-tr>İletişim</span>
+          </a>
+        </li>
+      </ul>
+
+      <!-- Language Toggle -->
+      <div class="lang-toggle" role="group" aria-label="Language selection">
+        <button class="lang-toggle__btn" data-lang-btn="en" aria-label="English">EN</button>
+        <button class="lang-toggle__btn" data-lang-btn="tr" aria-label="Türkçe">TR</button>
+      </div>
+    </nav>
+  </div>
+</header>

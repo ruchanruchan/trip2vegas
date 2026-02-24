@@ -1,389 +1,432 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Trip2Vegas - Your Premium Las Vegas Tour Specialist. Luxury tours, shows, and experiences coming soon!">
-    <meta name="keywords" content="Las Vegas tours, Vegas experiences, Grand Canyon tours, Vegas shows, luxury travel">
-    <title>Trip2Vegas - Coming Soon | Premium Las Vegas Tours & Experiences</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trip2Vegas - Premium Las Vegas travel agency. Curated tours, world-class shows, helicopter rides, Grand Canyon excursions, and exclusive experiences for Turkish and international travelers.">
+  <meta name="keywords" content="Las Vegas tours, Vegas experiences, Grand Canyon tours, Vegas shows, luxury travel, helicopter tours, Turkish travel agency, Las Vegas turları">
+  <meta name="author" content="Trip2Vegas">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <!-- Open Graph -->
+  <meta property="og:title" content="Trip2Vegas - Premium Las Vegas Tours & Experiences">
+  <meta property="og:description" content="40+ curated Las Vegas tours, shows, and experiences. Helicopter rides, Grand Canyon, Cirque du Soleil, and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://trip2vegas.com">
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%);
-            color: #FFFFFF;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-            position: relative;
-        }
+  <!-- Hreflang for bilingual SEO -->
+  <link rel="alternate" hreflang="en" href="https://trip2vegas.com">
+  <link rel="alternate" hreflang="tr" href="https://trip2vegas.com">
+  <link rel="alternate" hreflang="x-default" href="https://trip2vegas.com">
 
-        /* Animated Vegas-style background */
-        body::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background:
-                radial-gradient(circle at 20% 50%, rgba(255, 215, 0, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 50%, rgba(220, 20, 60, 0.1) 0%, transparent 50%);
-            animation: pulse 4s ease-in-out infinite;
-            z-index: 0;
-        }
+  <title>Trip2Vegas | Premium Las Vegas Tours & Experiences</title>
 
-        @keyframes pulse {
-            0%, 100% { opacity: 0.5; }
-            50% { opacity: 0.8; }
-        }
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 
-        .container {
-            text-align: center;
-            padding: 2rem;
-            max-width: 800px;
-            position: relative;
-            z-index: 1;
-        }
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/vegas-theme.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
 
-        .logo {
-            font-size: 3.5rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 1rem;
-            text-shadow: 0 0 30px rgba(255, 215, 0, 0.3);
-            animation: glow 2s ease-in-out infinite;
-        }
-
-        @keyframes glow {
-            0%, 100% { filter: brightness(1); }
-            50% { filter: brightness(1.2); }
-        }
-
-        .tagline {
-            font-size: 1.5rem;
-            color: #FFD700;
-            margin-bottom: 2rem;
-            font-weight: 300;
-            letter-spacing: 2px;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
-            color: #FFFFFF;
-            font-weight: 600;
-        }
-
-        .subtitle {
-            font-size: 1.2rem;
-            color: #CCCCCC;
-            margin-bottom: 3rem;
-            line-height: 1.6;
-        }
-
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            margin: 3rem 0;
-        }
-
-        .feature {
-            padding: 1.5rem;
-            background: rgba(255, 255, 255, 0.05);
-            border: 2px solid #FFD700;
-            border-radius: 10px;
-            transition: all 0.3s ease;
-        }
-
-        .feature:hover {
-            background: rgba(255, 215, 0, 0.1);
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
-        }
-
-        .feature-icon {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .feature-title {
-            font-size: 1.1rem;
-            color: #FFD700;
-            margin-bottom: 0.5rem;
-            font-weight: 600;
-        }
-
-        .feature-text {
-            color: #CCCCCC;
-            font-size: 0.9rem;
-        }
-
-        .contact-info {
-            margin-top: 3rem;
-            padding: 2rem;
-            background: rgba(220, 20, 60, 0.1);
-            border: 2px solid #DC143C;
-            border-radius: 10px;
-        }
-
-        .contact-info h2 {
-            color: #FFD700;
-            margin-bottom: 1rem;
-            font-size: 1.5rem;
-        }
-
-        .contact-details {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            align-items: center;
-        }
-
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            font-size: 1.1rem;
-            color: #FFFFFF;
-        }
-
-        .contact-item a {
-            color: #FFD700;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .contact-item a:hover {
-            color: #FFA500;
-            text-decoration: underline;
-        }
-
-        .language-toggle {
-            position: absolute;
-            top: 2rem;
-            right: 2rem;
-            display: flex;
-            gap: 1rem;
-            z-index: 10;
-        }
-
-        .lang-btn {
-            padding: 0.5rem 1rem;
-            background: rgba(255, 215, 0, 0.2);
-            border: 2px solid #FFD700;
-            color: #FFD700;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-        }
-
-        .lang-btn:hover,
-        .lang-btn.active {
-            background: #FFD700;
-            color: #0A0A0A;
-        }
-
-        .spinner {
-            width: 50px;
-            height: 50px;
-            margin: 2rem auto;
-            border: 4px solid rgba(255, 215, 0, 0.3);
-            border-top: 4px solid #FFD700;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .logo {
-                font-size: 2.5rem;
-            }
-
-            h1 {
-                font-size: 2rem;
-            }
-
-            .tagline {
-                font-size: 1.2rem;
-            }
-
-            .subtitle {
-                font-size: 1rem;
-            }
-
-            .features {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
-
-            .language-toggle {
-                top: 1rem;
-                right: 1rem;
-            }
-
-            .lang-btn {
-                padding: 0.4rem 0.8rem;
-                font-size: 0.9rem;
-            }
-        }
-
-        /* Hide/show based on language */
-        [data-lang-en] { display: block; }
-        [data-lang-tr] { display: none; }
-
-        body.lang-tr [data-lang-en] { display: none; }
-        body.lang-tr [data-lang-tr] { display: block; }
-    </style>
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TravelAgency",
+    "name": "Trip2Vegas",
+    "description": "Premium Las Vegas travel agency offering 40+ curated tours and experiences",
+    "url": "https://trip2vegas.com",
+    "email": "pa@trip2vegas.com",
+    "areaServed": "Las Vegas, Nevada",
+    "priceRange": "$$$"
+  }
+  </script>
 </head>
-<body>
-    <!-- Language Toggle -->
-    <div class="language-toggle">
-        <button class="lang-btn active" onclick="setLanguage('en')" id="btn-en"><�<� EN</button>
-        <button class="lang-btn" onclick="setLanguage('tr')" id="btn-tr"><�<� TR</button>
-    </div>
+<body class="page-loading">
+  <!-- Header placeholder (loaded by components.js) -->
+  <div id="header-placeholder"></div>
 
+  <!-- ============================================================
+       HERO SECTION
+       ============================================================ -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__content">
+      <span class="hero__badge">
+        <span data-lang-en>Premium Las Vegas Travel Agency</span>
+        <span data-lang-tr>Premium Las Vegas Seyahat Acentesi</span>
+      </span>
+
+      <h1 class="hero__title">
+        <span data-lang-en>Unforgettable <span class="text-gold">Las Vegas</span> Experiences</span>
+        <span data-lang-tr>Unutulmaz <span class="text-gold">Las Vegas</span> Deneyimleri</span>
+      </h1>
+
+      <p class="hero__subtitle">
+        <span data-lang-en>From helicopter tours over the Grand Canyon to world-class shows on the Strip — we curate the best of Las Vegas for you.</span>
+        <span data-lang-tr>Grand Canyon üzerinde helikopter turlarından Strip'teki dünya standartlarında gösterilere kadar — Las Vegas'ın en iyisini sizin için seçiyoruz.</span>
+      </p>
+
+      <div class="hero__actions">
+        <a href="pages/tours/" class="btn btn--gold btn--lg">
+          <span data-lang-en>Explore Tours</span>
+          <span data-lang-tr>Turları Keşfet</span>
+        </a>
+        <a href="pages/contact/" class="btn btn--outline-white btn--lg">
+          <span data-lang-en>Contact Us</span>
+          <span data-lang-tr>Bize Ulaşın</span>
+        </a>
+      </div>
+
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-value">40+</span>
+          <span class="hero__stat-label">
+            <span data-lang-en>Tours</span>
+            <span data-lang-tr>Tur</span>
+          </span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-value">5000+</span>
+          <span class="hero__stat-label">
+            <span data-lang-en>Happy Guests</span>
+            <span data-lang-tr>Mutlu Misafir</span>
+          </span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-value">4.9</span>
+          <span class="hero__stat-label">
+            <span data-lang-en>Rating</span>
+            <span data-lang-tr>Puan</span>
+          </span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-value">24/7</span>
+          <span class="hero__stat-label">
+            <span data-lang-en>Support</span>
+            <span data-lang-tr>Destek</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FEATURES STRIP
+       ============================================================ -->
+  <section class="section section--darker">
     <div class="container">
-        <!-- Logo -->
-        <div class="logo">TRIP2VEGAS</div>
-
-        <!-- English Content -->
-        <div data-lang-en>
-            <div class="tagline">Your Gateway to Unforgettable Las Vegas Experiences</div>
-
-            <h1>=� Under Construction =�</h1>
-
-            <div class="subtitle">
-                We're crafting something extraordinary for you! Our new website featuring premium Las Vegas tours,
-                world-class shows, and exclusive experiences is coming soon.
-            </div>
-
-            <div class="spinner"></div>
-
-            <div class="features">
-                <div class="feature">
-                    <div class="feature-icon">=�</div>
-                    <div class="feature-title">Adventure Tours</div>
-                    <div class="feature-text">Helicopter rides, exotic cars, and thrilling experiences</div>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon"><�</div>
-                    <div class="feature-title">World-Class Shows</div>
-                    <div class="feature-text">Cirque du Soleil, magic shows, and entertainment</div>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon"><�</div>
-                    <div class="feature-title">Sightseeing</div>
-                    <div class="feature-text">Grand Canyon, Hoover Dam, and natural wonders</div>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon"><}</div>
-                    <div class="feature-title">Fine Dining</div>
-                    <div class="feature-text">Michelin-star restaurants and culinary experiences</div>
-                </div>
-            </div>
-
-            <div class="contact-info">
-                <h2>Get in Touch</h2>
-                <div class="contact-details">
-                    <div class="contact-item">
-                        =� Email: <a href="mailto:pa@trip2vegas.com">pa@trip2vegas.com</a>
-                    </div>
-                    <div class="contact-item">
-                        < Coming Soon: Full tour catalog with Turkish & English support
-                    </div>
-                </div>
-            </div>
+      <div class="features-strip fade-in">
+        <div class="feature-item">
+          <div class="feature-item__icon">🚁</div>
+          <h3 class="feature-item__title">
+            <span data-lang-en>Helicopter Tours</span>
+            <span data-lang-tr>Helikopter Turları</span>
+          </h3>
+          <p class="feature-item__text">
+            <span data-lang-en>Fly over the Grand Canyon and the Strip</span>
+            <span data-lang-tr>Grand Canyon ve Strip üzerinde uçun</span>
+          </p>
         </div>
-
-        <!-- Turkish Content -->
-        <div data-lang-tr>
-            <div class="tagline">Unutulmaz Las Vegas Deneyimlerinize A�1lan Kap1</div>
-
-            <h1>=� Yap1m A_amas1nda =�</h1>
-
-            <div class="subtitle">
-                Sizin i�in olaan�st� bir _ey haz1rl1yoruz! Premium Las Vegas turlar1,
-                d�nya standartlar1nda g�steriler ve �zel deneyimler i�eren yeni web sitemiz �ok yak1nda yay1nda.
-            </div>
-
-            <div class="spinner"></div>
-
-            <div class="features">
-                <div class="feature">
-                    <div class="feature-icon">=�</div>
-                    <div class="feature-title">Macera Turlar1</div>
-                    <div class="feature-text">Helikopter u�u_lar1, egzotik arabalar ve heyecan verici deneyimler</div>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon"><�</div>
-                    <div class="feature-title">D�nya Klasman1 G�steriler</div>
-                    <div class="feature-text">Cirque du Soleil, sihirbazl1k g�sterileri ve elence</div>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon"><�</div>
-                    <div class="feature-title">Gezi Turlar1</div>
-                    <div class="feature-text">Grand Canyon, Hoover Baraj1 ve doal harikalar</div>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon"><}</div>
-                    <div class="feature-title">Gurme Yemekler</div>
-                    <div class="feature-text">Michelin y1ld1zl1 restoranlar ve mutfak deneyimleri</div>
-                </div>
-            </div>
-
-            <div class="contact-info">
-                <h2>0leti_ime Ge�in</h2>
-                <div class="contact-details">
-                    <div class="contact-item">
-                        =� E-posta: <a href="mailto:pa@trip2vegas.com">pa@trip2vegas.com</a>
-                    </div>
-                    <div class="contact-item">
-                        < �ok Yak1nda: T�rk�e ve 0ngilizce destekli tam tur katalou
-                    </div>
-                </div>
-            </div>
+        <div class="feature-item">
+          <div class="feature-item__icon">🎭</div>
+          <h3 class="feature-item__title">
+            <span data-lang-en>World-Class Shows</span>
+            <span data-lang-tr>Dünya Standartlarında Gösteriler</span>
+          </h3>
+          <p class="feature-item__text">
+            <span data-lang-en>Cirque du Soleil, magic, concerts & more</span>
+            <span data-lang-tr>Cirque du Soleil, sihirbazlık, konserler ve daha fazlası</span>
+          </p>
         </div>
+        <div class="feature-item">
+          <div class="feature-item__icon">🏜️</div>
+          <h3 class="feature-item__title">
+            <span data-lang-en>Desert Adventures</span>
+            <span data-lang-tr>Çöl Maceraları</span>
+          </h3>
+          <p class="feature-item__text">
+            <span data-lang-en>Grand Canyon, Red Rock, Death Valley</span>
+            <span data-lang-tr>Grand Canyon, Red Rock, Ölüm Vadisi</span>
+          </p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-item__icon">🍽️</div>
+          <h3 class="feature-item__title">
+            <span data-lang-en>Fine Dining</span>
+            <span data-lang-tr>Gurme Yemekler</span>
+          </h3>
+          <p class="feature-item__text">
+            <span data-lang-en>Celebrity chef restaurants and food tours</span>
+            <span data-lang-tr>Ünlü şef restoranları ve yemek turları</span>
+          </p>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <script>
-        // Language Toggle Functionality
-        function setLanguage(lang) {
-            // Update body class
-            document.body.className = lang === 'tr' ? 'lang-tr' : '';
+  <!-- ============================================================
+       TOUR CATEGORIES
+       ============================================================ -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>
+          <span data-lang-en>Explore <span class="text-gold">Categories</span></span>
+          <span data-lang-tr>Kategorileri <span class="text-gold">Keşfedin</span></span>
+        </h2>
+        <hr class="gold-line gold-line--center">
+        <p class="section-subtitle">
+          <span data-lang-en>Choose your adventure from our curated collection of Las Vegas experiences</span>
+          <span data-lang-tr>Özenle seçilmiş Las Vegas deneyimlerimizden maceranızı seçin</span>
+        </p>
+      </div>
 
-            // Update button states
-            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
-            document.getElementById('btn-tr').classList.toggle('active', lang === 'tr');
+      <div class="grid grid--4">
+        <a href="pages/tours/?cat=adventure" class="category-card fade-in stagger-1">
+          <div class="category-card__bg" style="background: linear-gradient(135deg, #1a0a00, #2a1a0a);"></div>
+          <div class="category-card__overlay"></div>
+          <div class="category-card__content">
+            <div class="category-card__icon">🚁</div>
+            <h3 class="category-card__title">
+              <span data-lang-en>Adventure</span>
+              <span data-lang-tr>Macera</span>
+            </h3>
+            <span class="category-card__count">
+              <span data-lang-en>11 experiences</span>
+              <span data-lang-tr>11 deneyim</span>
+            </span>
+          </div>
+        </a>
 
-            // Save preference
-            localStorage.setItem('trip2vegas-lang', lang);
+        <a href="pages/tours/?cat=entertainment" class="category-card fade-in stagger-2">
+          <div class="category-card__bg" style="background: linear-gradient(135deg, #1a001a, #2a0a2a);"></div>
+          <div class="category-card__overlay"></div>
+          <div class="category-card__content">
+            <div class="category-card__icon">🎭</div>
+            <h3 class="category-card__title">
+              <span data-lang-en>Entertainment</span>
+              <span data-lang-tr>Eğlence</span>
+            </h3>
+            <span class="category-card__count">
+              <span data-lang-en>11 experiences</span>
+              <span data-lang-tr>11 deneyim</span>
+            </span>
+          </div>
+        </a>
+
+        <a href="pages/tours/?cat=sightseeing" class="category-card fade-in stagger-3">
+          <div class="category-card__bg" style="background: linear-gradient(135deg, #001a1a, #0a2a2a);"></div>
+          <div class="category-card__overlay"></div>
+          <div class="category-card__content">
+            <div class="category-card__icon">🏜️</div>
+            <h3 class="category-card__title">
+              <span data-lang-en>Sightseeing</span>
+              <span data-lang-tr>Gezi</span>
+            </h3>
+            <span class="category-card__count">
+              <span data-lang-en>11 experiences</span>
+              <span data-lang-tr>11 deneyim</span>
+            </span>
+          </div>
+        </a>
+
+        <a href="pages/tours/?cat=dining" class="category-card fade-in stagger-4">
+          <div class="category-card__bg" style="background: linear-gradient(135deg, #1a0a00, #2a1500);"></div>
+          <div class="category-card__overlay"></div>
+          <div class="category-card__content">
+            <div class="category-card__icon">🍽️</div>
+            <h3 class="category-card__title">
+              <span data-lang-en>Dining & Hospitality</span>
+              <span data-lang-tr>Yeme & İçme</span>
+            </h3>
+            <span class="category-card__count">
+              <span data-lang-en>9 experiences</span>
+              <span data-lang-tr>9 deneyim</span>
+            </span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FEATURED TOURS
+       ============================================================ -->
+  <section class="section section--darker">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>
+          <span data-lang-en>Featured <span class="text-gold">Experiences</span></span>
+          <span data-lang-tr>Öne Çıkan <span class="text-gold">Deneyimler</span></span>
+        </h2>
+        <hr class="gold-line gold-line--center">
+        <p class="section-subtitle">
+          <span data-lang-en>Our most popular tours handpicked for an unforgettable Vegas trip</span>
+          <span data-lang-tr>Unutulmaz bir Vegas seyahati için özenle seçilmiş en popüler turlarımız</span>
+        </p>
+      </div>
+
+      <div class="grid grid--3" id="featured-tours">
+        <!-- Populated by JS from tours.json -->
+      </div>
+
+      <div style="text-align: center; margin-top: var(--space-10);" class="fade-in">
+        <a href="pages/tours/" class="btn btn--outline btn--lg">
+          <span data-lang-en>View All 40+ Tours</span>
+          <span data-lang-tr>40+ Turun Tamamını Gör</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY TRIP2VEGAS
+       ============================================================ -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>
+          <span data-lang-en>Why <span class="text-gold">Trip2Vegas</span></span>
+          <span data-lang-tr>Neden <span class="text-gold">Trip2Vegas</span></span>
+        </h2>
+        <hr class="gold-line gold-line--center">
+      </div>
+
+      <div class="grid grid--3">
+        <div class="card fade-in stagger-1" style="border: none; background: transparent; text-align: center; padding: var(--space-6);">
+          <div style="font-size: var(--text-4xl); margin-bottom: var(--space-4);">🇹🇷</div>
+          <h3 style="color: var(--color-gold); font-size: var(--text-xl); margin-bottom: var(--space-3);">
+            <span data-lang-en>Turkish-Speaking Guides</span>
+            <span data-lang-tr>Türkçe Konuşan Rehberler</span>
+          </h3>
+          <p style="font-size: var(--text-sm); color: var(--color-gray);">
+            <span data-lang-en>Feel at home with our Turkish-speaking team. We understand your culture, preferences, and dietary needs.</span>
+            <span data-lang-tr>Türkçe konuşan ekibimizle kendinizi evinizde hissedin. Kültürünüzü, tercihlerinizi ve beslenme ihtiyaçlarınızı anlıyoruz.</span>
+          </p>
+        </div>
+
+        <div class="card fade-in stagger-2" style="border: none; background: transparent; text-align: center; padding: var(--space-6);">
+          <div style="font-size: var(--text-4xl); margin-bottom: var(--space-4);">💎</div>
+          <h3 style="color: var(--color-gold); font-size: var(--text-xl); margin-bottom: var(--space-3);">
+            <span data-lang-en>Curated Experiences</span>
+            <span data-lang-tr>Özenle Seçilmiş Deneyimler</span>
+          </h3>
+          <p style="font-size: var(--text-sm); color: var(--color-gray);">
+            <span data-lang-en>Every tour is handpicked and quality-checked. We only offer the best Las Vegas has to offer.</span>
+            <span data-lang-tr>Her tur özenle seçilmiş ve kalite kontrolünden geçirilmiştir. Sadece Las Vegas'ın en iyisini sunuyoruz.</span>
+          </p>
+        </div>
+
+        <div class="card fade-in stagger-3" style="border: none; background: transparent; text-align: center; padding: var(--space-6);">
+          <div style="font-size: var(--text-4xl); margin-bottom: var(--space-4);">🤝</div>
+          <h3 style="color: var(--color-gold); font-size: var(--text-xl); margin-bottom: var(--space-3);">
+            <span data-lang-en>24/7 Support</span>
+            <span data-lang-tr>7/24 Destek</span>
+          </h3>
+          <p style="font-size: var(--text-sm); color: var(--color-gray);">
+            <span data-lang-en>We're just a WhatsApp message away. Get instant help anytime during your Las Vegas trip.</span>
+            <span data-lang-tr>Bir WhatsApp mesajı kadar yakınız. Las Vegas seyahatiniz sırasında istediğiniz zaman anında yardım alın.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA BANNER
+       ============================================================ -->
+  <section class="cta-banner fade-in">
+    <div class="cta-banner__bg"></div>
+    <div class="cta-banner__content">
+      <h2>
+        <span data-lang-en>Ready for <span class="text-gold">Vegas</span>?</span>
+        <span data-lang-tr><span class="text-gold">Vegas</span>'a Hazır mısınız?</span>
+      </h2>
+      <p>
+        <span data-lang-en>Tell us your dream Vegas experience and we'll make it happen. Custom packages available for groups and special occasions.</span>
+        <span data-lang-tr>Hayalinizdeki Vegas deneyimini bize anlatın, biz gerçekleştirelim. Gruplar ve özel günler için özel paketler mevcuttur.</span>
+      </p>
+      <a href="pages/contact/" class="btn btn--gold btn--lg">
+        <span data-lang-en>Get in Touch</span>
+        <span data-lang-tr>İletişime Geçin</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS
+       ============================================================ -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>
+          <span data-lang-en>What Our <span class="text-gold">Guests Say</span></span>
+          <span data-lang-tr>Misafirlerimiz <span class="text-gold">Ne Diyor</span></span>
+        </h2>
+        <hr class="gold-line gold-line--center">
+      </div>
+
+      <div class="grid grid--3">
+        <div class="testimonial fade-in stagger-1">
+          <p class="testimonial__text">
+            <span data-lang-en>"The helicopter tour over the Grand Canyon was the highlight of our entire trip. Trip2Vegas made everything so easy — from pickup to return. Highly recommended!"</span>
+            <span data-lang-tr>"Grand Canyon üzerindeki helikopter turu tüm seyahatimizin en önemli anıydı. Trip2Vegas alımdan dönüşe kadar her şeyi çok kolay hale getirdi. Kesinlikle tavsiye ederim!"</span>
+          </p>
+          <span class="testimonial__author">— Mehmet K., Istanbul</span>
+        </div>
+
+        <div class="testimonial fade-in stagger-2">
+          <p class="testimonial__text">
+            <span data-lang-en>"We booked the Cirque du Soleil show and a food tour. Both were incredible! The Turkish-speaking guide made all the difference for our family."</span>
+            <span data-lang-tr>"Cirque du Soleil gösterisini ve yemek turunu ayırttık. İkisi de inanılmazdı! Türkçe konuşan rehber ailemiz için çok fark yarattı."</span>
+          </p>
+          <span class="testimonial__author">— Ayşe & Berk T., Ankara</span>
+        </div>
+
+        <div class="testimonial fade-in stagger-3">
+          <p class="testimonial__text">
+            <span data-lang-en>"From the exotic car experience to the VIP nightclub package — everything was top notch. Trip2Vegas knows how to deliver luxury in Las Vegas."</span>
+            <span data-lang-tr>"Egzotik araba deneyiminden VIP gece kulübü paketine kadar — her şey birinci sınıftı. Trip2Vegas Las Vegas'ta lüksü nasıl sunacağını biliyor."</span>
+          </p>
+          <span class="testimonial__author">— Emre S., Izmir</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer placeholder (loaded by components.js) -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts (order matters: language first, then components, then app logic) -->
+  <script src="assets/js/language.js"></script>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/tours.js"></script>
+
+  <!-- Homepage: Load featured tours -->
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      // Wait for tours data to load
+      try {
+        const resp = await fetch('data/tours.json');
+        const data = await resp.json();
+        const featured = (data.tours || []).filter(t => t.featured).slice(0, 6);
+        const grid = document.getElementById('featured-tours');
+        if (grid && featured.length) {
+          grid.innerHTML = featured.map((tour, i) => Tours.renderCard(tour, i)).join('');
+          // Re-apply language
+          const lang = Language.get();
+          document.documentElement.setAttribute('data-lang', lang);
+          // Re-init scroll animations
+          App.init();
         }
-
-        // Load saved language preference on page load
-        document.addEventListener('DOMContentLoaded', function() {
-            const savedLang = localStorage.getItem('trip2vegas-lang') || 'en';
-            setLanguage(savedLang);
-        });
-    </script>
+      } catch (err) {
+        console.warn('Could not load featured tours', err);
+      }
+    });
+  </script>
 </body>
 </html>

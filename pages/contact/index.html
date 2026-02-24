@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Trip2Vegas for Las Vegas tour bookings, custom packages, and inquiries. Available 24/7 via WhatsApp, email, and phone.">
+  <title>Contact Us | Trip2Vegas</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../assets/css/vegas-theme.css">
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <link rel="stylesheet" href="../../assets/css/responsive.css">
+</head>
+<body class="page-loading">
+  <div id="header-placeholder"></div>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <div class="breadcrumb" style="justify-content: center;">
+        <a href="../../">
+          <span data-lang-en>Home</span>
+          <span data-lang-tr>Ana Sayfa</span>
+        </a>
+        <span class="breadcrumb__separator">›</span>
+        <span>
+          <span data-lang-en>Contact</span>
+          <span data-lang-tr>İletişim</span>
+        </span>
+      </div>
+      <h1>
+        <span data-lang-en>Get In <span class="text-gold">Touch</span></span>
+        <span data-lang-tr>İletişime <span class="text-gold">Geçin</span></span>
+      </h1>
+      <p class="section-subtitle">
+        <span data-lang-en>We'd love to hear from you. Send us a message and we'll respond within 24 hours.</span>
+        <span data-lang-tr>Sizden haber almak isteriz. Bize bir mesaj gönderin, 24 saat içinde yanıt vereceğiz.</span>
+      </p>
+    </div>
+  </div>
+
+  <section class="section section--dark">
+    <div class="container">
+      <!-- Contact Info Cards -->
+      <div class="grid grid--3 fade-in" style="margin-bottom: var(--space-12);">
+        <div class="contact-info-card">
+          <div class="contact-info-card__icon">📧</div>
+          <div>
+            <h3 class="contact-info-card__title">
+              <span data-lang-en>Email</span>
+              <span data-lang-tr>E-posta</span>
+            </h3>
+            <p class="contact-info-card__text">
+              <a href="mailto:pa@trip2vegas.com" style="color: var(--color-gold);">pa@trip2vegas.com</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-info-card__icon">💬</div>
+          <div>
+            <h3 class="contact-info-card__title">WhatsApp</h3>
+            <p class="contact-info-card__text">
+              <a href="https://wa.me/17025551234" style="color: var(--color-gold);" target="_blank" rel="noopener">+1 (702) 555-1234</a>
+              <br>
+              <span style="font-size: var(--text-xs);">
+                <span data-lang-en>Available 24/7</span>
+                <span data-lang-tr>7/24 Ulaşılabilir</span>
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-info-card__icon">📍</div>
+          <div>
+            <h3 class="contact-info-card__title">
+              <span data-lang-en>Location</span>
+              <span data-lang-tr>Konum</span>
+            </h3>
+            <p class="contact-info-card__text">
+              <span data-lang-en>Las Vegas, Nevada, USA</span>
+              <span data-lang-tr>Las Vegas, Nevada, ABD</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-grid">
+        <div class="fade-in">
+          <h2>
+            <span data-lang-en>Send Us a <span class="text-gold">Message</span></span>
+            <span data-lang-tr>Bize <span class="text-gold">Mesaj</span> Gönderin</span>
+          </h2>
+          <hr class="gold-line">
+
+          <div id="form-message" class="alert" style="display: none;"></div>
+
+          <form id="contact-form" method="POST" novalidate>
+            <div class="grid grid--2">
+              <div class="form-group">
+                <label class="form-label" for="name">
+                  <span data-lang-en>Full Name *</span>
+                  <span data-lang-tr>Ad Soyad *</span>
+                </label>
+                <input type="text" id="name" name="name" class="form-control" required
+                  placeholder="John Doe"
+                  autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email">
+                  <span data-lang-en>Email Address *</span>
+                  <span data-lang-tr>E-posta Adresi *</span>
+                </label>
+                <input type="email" id="email" name="email" class="form-control" required
+                  placeholder="john@example.com"
+                  autocomplete="email">
+              </div>
+            </div>
+
+            <div class="grid grid--2">
+              <div class="form-group">
+                <label class="form-label" for="phone">
+                  <span data-lang-en>Phone Number</span>
+                  <span data-lang-tr>Telefon Numarası</span>
+                </label>
+                <input type="tel" id="phone" name="phone" class="form-control"
+                  placeholder="+90 555 123 4567"
+                  autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="tour-interest">
+                  <span data-lang-en>Tour Interest</span>
+                  <span data-lang-tr>İlgilendiğiniz Tur</span>
+                </label>
+                <select id="tour-interest" name="tour_interest" class="form-control">
+                  <option value="">
+                    -- Select --
+                  </option>
+                  <option value="Helicopter Tours">Helicopter Tours / Helikopter Turları</option>
+                  <option value="Grand Canyon">Grand Canyon</option>
+                  <option value="Shows & Entertainment">Shows & Entertainment / Gösteriler</option>
+                  <option value="Adventure Tours">Adventure Tours / Macera Turları</option>
+                  <option value="Sightseeing">Sightseeing / Gezi Turları</option>
+                  <option value="Dining">Dining / Yeme & İçme</option>
+                  <option value="Custom Package">Custom Package / Özel Paket</option>
+                  <option value="Other">Other / Diğer</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="message">
+                <span data-lang-en>Message *</span>
+                <span data-lang-tr>Mesajınız *</span>
+              </label>
+              <textarea id="message" name="message" class="form-control" required rows="6"
+                placeholder="Tell us about your dream Las Vegas experience..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--gold btn--lg">
+              <span data-lang-en>Send Message</span>
+              <span data-lang-tr>Mesaj Gönder</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="fade-in-right">
+          <div style="background: var(--color-black-lighter); border-radius: var(--radius-lg); padding: var(--space-6); border: 1px solid rgba(255,215,0,0.1); margin-bottom: var(--space-6);">
+            <h3 style="color: var(--color-gold); margin-bottom: var(--space-4);">
+              <span data-lang-en>Quick Contact</span>
+              <span data-lang-tr>Hızlı İletişim</span>
+            </h3>
+            <p style="font-size: var(--text-sm); color: var(--color-gray); line-height: 1.8;">
+              <span data-lang-en>Prefer instant messaging? Reach us directly on WhatsApp for the fastest response. We typically reply within minutes.</span>
+              <span data-lang-tr>Anlık mesajlaşmayı mı tercih ediyorsunuz? En hızlı yanıt için bize doğrudan WhatsApp'tan ulaşın. Genellikle dakikalar içinde yanıt veriyoruz.</span>
+            </p>
+            <a href="https://wa.me/17025551234?text=Hello!%20I'm%20interested%20in%20Las%20Vegas%20tours." class="btn btn--gold btn--full" style="margin-top: var(--space-4);" target="_blank" rel="noopener">
+              💬
+              <span data-lang-en>Chat on WhatsApp</span>
+              <span data-lang-tr>WhatsApp'ta Yazın</span>
+            </a>
+          </div>
+
+          <div style="background: var(--color-black-lighter); border-radius: var(--radius-lg); padding: var(--space-6); border: 1px solid rgba(255,215,0,0.1);">
+            <h3 style="color: var(--color-gold); margin-bottom: var(--space-4);">
+              <span data-lang-en>Office Hours</span>
+              <span data-lang-tr>Çalışma Saatleri</span>
+            </h3>
+            <div style="font-size: var(--text-sm); color: var(--color-gray); line-height: 2;">
+              <div class="flex flex--between">
+                <span>
+                  <span data-lang-en>Monday - Friday</span>
+                  <span data-lang-tr>Pazartesi - Cuma</span>
+                </span>
+                <span style="color: var(--color-white);">9:00 - 21:00 PST</span>
+              </div>
+              <div class="flex flex--between">
+                <span>
+                  <span data-lang-en>Saturday - Sunday</span>
+                  <span data-lang-tr>Cumartesi - Pazar</span>
+                </span>
+                <span style="color: var(--color-white);">10:00 - 18:00 PST</span>
+              </div>
+              <div style="margin-top: var(--space-3); padding-top: var(--space-3); border-top: 1px solid rgba(255,255,255,0.1);">
+                <span data-lang-en>WhatsApp available 24/7</span>
+                <span data-lang-tr>WhatsApp 7/24 ulaşılabilir</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="../../assets/js/language.js"></script>
+  <script src="../../assets/js/components.js"></script>
+  <script src="../../assets/js/main.js"></script>
+  <script src="../../assets/js/contact.js"></script>
+</body>
+</html>

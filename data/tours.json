@@ -1,0 +1,1429 @@
+{
+  "tours": [
+    {
+      "slug": "grand-canyon-helicopter",
+      "name": {
+        "en": "Grand Canyon Helicopter Tour",
+        "tr": "Grand Canyon Helikopter Turu"
+      },
+      "description": {
+        "en": "Soar over the breathtaking Grand Canyon on an unforgettable helicopter adventure with stunning aerial views.",
+        "tr": "Nefes kesen Grand Canyon üzerinde unutulmaz bir helikopter macerası yaşayın ve muhteşem hava manzaralarının keyfini çıkarın."
+      },
+      "longDescription": {
+        "en": "Experience the awe-inspiring beauty of the Grand Canyon from a perspective few ever see. Your helicopter journey takes you over the Hoover Dam, Lake Mead, and deep into the canyon itself, where you'll descend 4,000 feet to the canyon floor. Enjoy champagne and a light snack at a private landing site on the banks of the Colorado River. This is the ultimate Las Vegas day trip and a once-in-a-lifetime experience you'll never forget.",
+        "tr": "Grand Canyon'un büyüleyici güzelliğini çok az kişinin görebildiği bir perspektiften deneyimleyin. Helikopter yolculuğunuz sizi Hoover Barajı, Lake Mead üzerinden geçirerek kanyonun derinliklerine götürür ve kanyon tabanına 1.200 metre inerek Colorado Nehri kıyısındaki özel iniş noktasında şampanya ve hafif atıştırmalıkların tadını çıkarırsınız. Bu, Las Vegas'ın en popüler günübirlik gezisi ve hayat boyu unutamayacağınız eşsiz bir deneyimdir."
+      },
+      "category": "adventure",
+      "price": 449,
+      "duration": "3.5-4 hours",
+      "groupSize": "2-6",
+      "icon": "🚁",
+      "featured": true,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "Champagne toast at canyon floor", "tr": "Kanyon tabanında şampanya ikramı" },
+        { "en": "Commemorative flight certificate", "tr": "Hatıra uçuş sertifikası" }
+      ],
+      "highlights": [
+        { "en": "Land 4,000 feet below the rim on the canyon floor", "tr": "Kanyonun tabanına 1.200 metre inerek iniş yapın" },
+        { "en": "Fly over Hoover Dam and Lake Mead", "tr": "Hoover Barajı ve Lake Mead üzerinden uçun" },
+        { "en": "Panoramic views through wraparound windows", "tr": "Geniş pencerelerden panoramik manzara keyfi" }
+      ]
+    },
+    {
+      "slug": "vegas-strip-helicopter-night",
+      "name": {
+        "en": "Vegas Strip Helicopter Night Tour",
+        "tr": "Vegas Strip Gece Helikopter Turu"
+      },
+      "description": {
+        "en": "See the dazzling Las Vegas Strip light up the night sky from the air on this spectacular evening helicopter flight.",
+        "tr": "Muhteşem bir gece helikopter uçuşuyla Las Vegas Strip'in göz kamaştıran ışıklarını havadan izleyin."
+      },
+      "longDescription": {
+        "en": "There's nothing quite like seeing the Las Vegas Strip at night from the air. This thrilling helicopter flight takes you over the world-famous neon lights, iconic hotels, and the Bellagio fountains as they dance below. The entire Strip transforms into a river of light stretching across the desert, creating a magical spectacle that photos simply can't capture. Perfect for couples, celebrations, or anyone wanting to see Vegas at its most glamorous.",
+        "tr": "Las Vegas Strip'i gece havadan görmek kadar etkileyici çok az deneyim vardır. Bu heyecan verici helikopter uçuşu sizi dünyaca ünlü neon ışıklar, ikonik oteller ve dans eden Bellagio süs havuzları üzerinden geçirir. Tüm Strip, çölün ortasında uzanan bir ışık nehrine dönüşerek fotoğrafların asla yakalayamayacağı büyülü bir görsel şölen sunar. Çiftler, kutlamalar veya Vegas'ı en görkemli haliyle görmek isteyen herkes için mükemmeldir."
+      },
+      "category": "adventure",
+      "price": 129,
+      "duration": "15-20 minutes",
+      "groupSize": "2-6",
+      "icon": "🌃",
+      "featured": true,
+      "meetingPoint": {
+        "en": "Helicopter terminal with hotel pickup available",
+        "tr": "Helikopter terminali, otel transferi mevcuttur"
+      },
+      "included": [
+        { "en": "Round-trip hotel shuttle", "tr": "Gidiş-dönüş otel servisi" },
+        { "en": "Professional pilot narration", "tr": "Profesyonel pilot anlatımı" }
+      ],
+      "highlights": [
+        { "en": "Stunning aerial views of the entire Las Vegas Strip", "tr": "Tüm Las Vegas Strip'in muhteşem hava manzarası" },
+        { "en": "See the Bellagio fountains and iconic landmarks from above", "tr": "Bellagio süs havuzlarını ve ikonik yapıları yukarıdan görün" }
+      ]
+    },
+    {
+      "slug": "ferrari-driving-experience",
+      "name": {
+        "en": "Ferrari Driving Experience",
+        "tr": "Ferrari Sürüş Deneyimi"
+      },
+      "description": {
+        "en": "Get behind the wheel of a genuine Ferrari and push it to the limit on a professional racetrack.",
+        "tr": "Gerçek bir Ferrari'nin direksiyonuna geçin ve profesyonel bir yarış pistinde sınırlarını zorlayın."
+      },
+      "longDescription": {
+        "en": "Fulfill your dream of driving a Ferrari on a real racetrack just minutes from the Las Vegas Strip. Choose from the latest Ferrari models and receive professional instruction before hitting the track for an adrenaline-fueled driving experience. Feel the raw power of a 600+ horsepower engine as you navigate high-speed turns and straightaways. Every moment is captured on video so you can relive the thrill again and again.",
+        "tr": "Las Vegas Strip'e sadece birkaç dakika mesafedeki gerçek bir yarış pistinde Ferrari kullanma hayalinizi gerçekleştirin. En yeni Ferrari modelleri arasından seçim yapın ve piste çıkmadan önce profesyonel eğitim alın. 600+ beygir gücündeki motorun ham gücünü yüksek hızlı virajlarda ve düzlüklerde hissedin. Her an video olarak kaydedilir, böylece bu heyecanı tekrar tekrar yaşayabilirsiniz."
+      },
+      "category": "adventure",
+      "price": 349,
+      "duration": "1-2 hours",
+      "groupSize": "1-2",
+      "icon": "🏎️",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Las Vegas Motor Speedway (shuttle available)",
+        "tr": "Las Vegas Motor Speedway (servis mevcuttur)"
+      },
+      "included": [
+        { "en": "Professional racing instructor", "tr": "Profesyonel yarış eğitmeni" },
+        { "en": "In-car video recording", "tr": "Araç içi video kaydı" },
+        { "en": "Safety gear and helmet", "tr": "Güvenlik ekipmanı ve kask" }
+      ],
+      "highlights": [
+        { "en": "Drive a real Ferrari on a professional racetrack", "tr": "Profesyonel bir pistte gerçek bir Ferrari kullanın" },
+        { "en": "Reach speeds over 130 mph with expert guidance", "tr": "Uzman rehberliğinde 200 km/s üzeri hıza ulaşın" }
+      ]
+    },
+    {
+      "slug": "lamborghini-driving-experience",
+      "name": {
+        "en": "Lamborghini Driving Experience",
+        "tr": "Lamborghini Sürüş Deneyimi"
+      },
+      "description": {
+        "en": "Take the wheel of a roaring Lamborghini and experience supercar performance on a world-class track.",
+        "tr": "Kükreyen bir Lamborghini'nin direksiyonuna geçin ve dünya standartlarında bir pistte süper otomobil performansını yaşayın."
+      },
+      "longDescription": {
+        "en": "Experience the unmistakable roar of a Lamborghini as you take control of one of the world's most exotic supercars. From the Huracán to the Aventador, you'll feel the Italian engineering perfection on every turn. A professional instructor rides alongside to help you push the car to its limits safely. This is more than a drive — it's an unforgettable encounter with automotive excellence in the heart of the Nevada desert.",
+        "tr": "Dünyanın en egzotik süper otomobillerinden birinin kontrolünü elinize alırken Lamborghini'nin eşsiz kükremesini deneyimleyin. Huracán'dan Aventador'a kadar her virajda İtalyan mühendislik mükemmelliğini hissedeceksiniz. Profesyonel bir eğitmen, aracı güvenle sınırlarına kadar zorlamanız için yanınızda olacaktır. Bu sadece bir sürüş değil — Nevada çölünün kalbinde otomotiv mükemmelliğiyle unutulmaz bir buluşmadır."
+      },
+      "category": "adventure",
+      "price": 379,
+      "duration": "1-2 hours",
+      "groupSize": "1-2",
+      "icon": "🏎️",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Las Vegas Motor Speedway (shuttle available)",
+        "tr": "Las Vegas Motor Speedway (servis mevcuttur)"
+      },
+      "included": [
+        { "en": "Professional racing instructor", "tr": "Profesyonel yarış eğitmeni" },
+        { "en": "In-car video recording", "tr": "Araç içi video kaydı" },
+        { "en": "Safety briefing and equipment", "tr": "Güvenlik bilgilendirmesi ve ekipman" }
+      ],
+      "highlights": [
+        { "en": "Drive a Lamborghini Huracán or Aventador", "tr": "Lamborghini Huracán veya Aventador kullanın" },
+        { "en": "Feel 600+ horsepower on a professional circuit", "tr": "Profesyonel bir pistte 600+ beygir gücünü hissedin" }
+      ]
+    },
+    {
+      "slug": "indoor-skydiving",
+      "name": {
+        "en": "Indoor Skydiving Experience",
+        "tr": "Kapalı Alan Yamaç Paraşütü Deneyimi"
+      },
+      "description": {
+        "en": "Defy gravity in a state-of-the-art vertical wind tunnel and experience the thrill of freefall without jumping from a plane.",
+        "tr": "Son teknoloji dikey rüzgar tünelinde yerçekimine meydan okuyun ve uçaktan atlamadan serbest düşüş heyecanını yaşayın."
+      },
+      "longDescription": {
+        "en": "Feel the incredible sensation of human flight at iFLY Las Vegas, the world's premier indoor skydiving facility. A powerful vertical wind tunnel generates winds up to 175 mph, lifting you effortlessly into the air for an authentic freefall experience. No experience is necessary — certified instructors guide you through every moment. It's safe for ages 3 to 103 and perfect for families, thrill-seekers, or anyone curious about what it feels like to fly.",
+        "tr": "Dünyanın önde gelen kapalı alan skydiving tesisi iFLY Las Vegas'ta insan uçuşunun inanılmaz hissini yaşayın. Güçlü bir dikey rüzgar tüneli, saatte 280 km'ye varan rüzgar üreterek sizi zahmetsizce havaya kaldırır ve gerçekçi bir serbest düşüş deneyimi sunar. Deneyim gerekmez — sertifikalı eğitmenler her anınızda size rehberlik eder. 3 yaşından 103 yaşına kadar herkes için güvenlidir; aileler, heyecan arayanlar ve uçmanın nasıl bir his olduğunu merak edenler için idealdir."
+      },
+      "category": "adventure",
+      "price": 89,
+      "duration": "1-1.5 hours",
+      "groupSize": "1-10",
+      "icon": "🪂",
+      "featured": true,
+      "meetingPoint": {
+        "en": "iFLY Las Vegas, 200 Convention Center Dr",
+        "tr": "iFLY Las Vegas, 200 Convention Center Dr"
+      },
+      "included": [
+        { "en": "Two flight sessions", "tr": "İki uçuş seansı" },
+        { "en": "Flight suit, helmet, and goggles", "tr": "Uçuş kıyafeti, kask ve gözlük" },
+        { "en": "Personalized flight certificate", "tr": "Kişiye özel uçuş sertifikası" }
+      ],
+      "highlights": [
+        { "en": "Feel the thrill of freefall in a safe indoor environment", "tr": "Güvenli kapalı ortamda serbest düşüş heyecanını yaşayın" },
+        { "en": "No experience needed — suitable for all ages", "tr": "Deneyim gerekmez — her yaş için uygundur" }
+      ]
+    },
+    {
+      "slug": "machine-guns-vegas",
+      "name": {
+        "en": "Machine Guns Vegas - Shooting Range",
+        "tr": "Machine Guns Vegas - Atış Poligonu"
+      },
+      "description": {
+        "en": "Fire real machine guns and exotic firearms at Las Vegas's most exciting indoor shooting range.",
+        "tr": "Las Vegas'ın en heyecan verici kapalı atış poligonunda gerçek makineli tüfekler ve egzotik silahlarla atış yapın."
+      },
+      "longDescription": {
+        "en": "Step into the action at Machine Guns Vegas, the city's premier luxury shooting range. Choose from an incredible arsenal including M16s, AK-47s, sniper rifles, and even a minigun. Expert Range Safety Officers provide one-on-one instruction, making it perfect for first-timers and experienced shooters alike. The VIP experience includes a private range, custom firearm selection, and complimentary beverages. It's an only-in-Vegas adrenaline rush you won't find anywhere else.",
+        "tr": "Las Vegas'ın en prestijli lüks atış poligonu Machine Guns Vegas'ta aksiyonun içine adım atın. M16, AK-47, keskin nişancı tüfekleri ve hatta minigun dahil inanılmaz bir cephanelikten seçim yapın. Uzman Atış Güvenlik Görevlileri birebir eğitim verir, bu da deneyimi hem yeni başlayanlar hem de tecrübeli atıcılar için mükemmel kılar. VIP deneyimi özel atış alanı, kişiye özel silah seçimi ve ücretsiz içecekleri kapsar. Bu, başka hiçbir yerde bulamayacağınız, sadece Vegas'a özgü bir adrenalin patlamasıdır."
+      },
+      "category": "adventure",
+      "price": 199,
+      "duration": "1-2 hours",
+      "groupSize": "1-8",
+      "icon": "🎯",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Machine Guns Vegas, 3501 Aldebaran Ave",
+        "tr": "Machine Guns Vegas, 3501 Aldebaran Ave"
+      },
+      "included": [
+        { "en": "Range Safety Officer instruction", "tr": "Atış Güvenlik Görevlisi eğitimi" },
+        { "en": "All ammunition included", "tr": "Tüm mühimmat dahildir" },
+        { "en": "Eye and ear protection", "tr": "Göz ve kulak koruyucusu" }
+      ],
+      "highlights": [
+        { "en": "Fire iconic firearms including M16, AK-47, and more", "tr": "M16, AK-47 ve daha fazlası dahil ikonik silahlarla atış yapın" },
+        { "en": "Professional one-on-one instruction for all skill levels", "tr": "Tüm seviyeler için profesyonel birebir eğitim" }
+      ]
+    },
+    {
+      "slug": "atv-desert-adventure",
+      "name": {
+        "en": "ATV Desert Adventure",
+        "tr": "ATV Çöl Macerası"
+      },
+      "description": {
+        "en": "Tear through the Mojave Desert on a powerful ATV and explore rugged trails with breathtaking scenery.",
+        "tr": "Güçlü bir ATV ile Mojave Çölü'nde hız yapın ve nefes kesen manzaralarla dolu engebeli parkurlarda keşfe çıkın."
+      },
+      "longDescription": {
+        "en": "Escape the Strip and discover the raw beauty of the Nevada desert on a thrilling ATV adventure. Ride through sandy washes, rocky trails, and open desert terrain with panoramic mountain views. Your experienced guide leads you through the best trails of the Mojave, with stops at scenic overlooks for unforgettable photo opportunities. No prior ATV experience is required — full training is provided before hitting the trail.",
+        "tr": "Strip'ten uzaklaşın ve heyecan verici bir ATV macerası ile Nevada çölünün doğal güzelliğini keşfedin. Kumlu vadiler, kayalık patikalar ve panoramik dağ manzaralı açık çöl arazisinde sürüş yapın. Deneyimli rehberiniz sizi Mojave'nin en güzel parkurlarına götürür ve unutulmaz fotoğraf fırsatları için manzara noktalarında durur. Önceden ATV deneyimi gerekmez — parkura çıkmadan önce tam eğitim verilir."
+      },
+      "category": "adventure",
+      "price": 189,
+      "duration": "3-4 hours",
+      "groupSize": "2-12",
+      "icon": "🏍️",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "ATV rental, helmet, and goggles", "tr": "ATV kiralama, kask ve gözlük" },
+        { "en": "Bottled water and snacks", "tr": "Su ve atıştırmalık ikramı" }
+      ],
+      "highlights": [
+        { "en": "Explore rugged Mojave Desert trails on a powerful ATV", "tr": "Güçlü bir ATV ile engebeli Mojave Çölü parkurlarını keşfedin" },
+        { "en": "Stunning desert panoramas and photo opportunities", "tr": "Muhteşem çöl panoramaları ve fotoğraf fırsatları" }
+      ]
+    },
+    {
+      "slug": "flylinq-zipline",
+      "name": {
+        "en": "FlyLINQ Zipline",
+        "tr": "FlyLINQ Zipline Deneyimi"
+      },
+      "description": {
+        "en": "Zip 12 stories above the LINQ Promenade on the Strip's most exciting zipline experience.",
+        "tr": "Strip'in en heyecan verici zipline deneyiminde LINQ Promenade üzerinde 12 kat yükseklikten süzülün."
+      },
+      "longDescription": {
+        "en": "Launch yourself 12 stories above the famous LINQ Promenade and fly at speeds up to 35 mph on one of the most thrilling attractions on the Strip. The 1,121-foot zipline sends you soaring over restaurants, bars, and shops while taking in incredible views of the Las Vegas skyline. Choose to fly Superman-style (facing down) or seated for a more relaxed ride. Either way, it's an unforgettable rush right in the heart of Las Vegas.",
+        "tr": "Ünlü LINQ Promenade'ın 12 kat üzerinden kendinizi fırlatın ve Strip'in en heyecan verici cazibe merkezlerinden birinde saatte 55 km hıza ulaşarak uçun. 340 metrelik zipline sizi restoranlar, barlar ve mağazaların üzerinden Las Vegas silüetinin muhteşem manzarasını izlerken süzülmeye götürür. Superman tarzında (yüzüstü) veya daha rahat bir sürüş için oturarak uçmayı seçebilirsiniz. Her iki şekilde de Las Vegas'ın kalbinde unutulmaz bir heyecan yaşarsınız."
+      },
+      "category": "adventure",
+      "price": 49,
+      "duration": "30-45 minutes",
+      "groupSize": "1-2",
+      "icon": "🪢",
+      "featured": false,
+      "meetingPoint": {
+        "en": "The LINQ Promenade, 3545 Las Vegas Blvd S",
+        "tr": "The LINQ Promenade, 3545 Las Vegas Blvd S"
+      },
+      "included": [
+        { "en": "Full safety harness and equipment", "tr": "Tam güvenlik kemeri ve ekipman" },
+        { "en": "GoPro video option available", "tr": "GoPro video seçeneği mevcuttur" }
+      ],
+      "highlights": [
+        { "en": "Soar 12 stories above the famous LINQ Promenade", "tr": "Ünlü LINQ Promenade'ın 12 kat üzerinde süzülün" },
+        { "en": "Choose Superman-style or seated riding position", "tr": "Superman tarzı veya oturarak uçuş pozisyonu seçin" }
+      ]
+    },
+    {
+      "slug": "tank-driving-experience",
+      "name": {
+        "en": "Tank Driving Experience",
+        "tr": "Tank Sürüş Deneyimi"
+      },
+      "description": {
+        "en": "Drive a real military tank through a rugged desert course and crush cars under 70 tons of steel.",
+        "tr": "Gerçek bir askeri tankı engebeli çöl parkurunda sürün ve 70 ton çeliğin altında arabaları ezin."
+      },
+      "longDescription": {
+        "en": "Ever wanted to drive a tank? Now you can. This one-of-a-kind Las Vegas experience puts you behind the controls of a genuine military tank — including the legendary British Chieftain and FV433 Abbott. Navigate a purpose-built desert course, tackle obstacles, and for the ultimate thrill, crush a real car beneath your treads. Your experienced military crew guides you through every step. This is one of the most unique experiences available anywhere in the world.",
+        "tr": "Hiç tank kullanmak istediniz mi? Artık yapabilirsiniz. Bu eşsiz Las Vegas deneyimi, efsanevi İngiliz Chieftain ve FV433 Abbott dahil gerçek bir askeri tankın kontrollerini size teslim eder. Özel olarak hazırlanmış çöl parkurunda ilerleyin, engelleri aşın ve en büyük heyecan için paletlerinizin altında gerçek bir arabayı ezin. Deneyimli askeri ekibiniz her adımda size rehberlik eder. Bu, dünyanın herhangi bir yerinde bulabileceğiniz en benzersiz deneyimlerden biridir."
+      },
+      "category": "adventure",
+      "price": 499,
+      "duration": "2-3 hours",
+      "groupSize": "1-4",
+      "icon": "🪖",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Battlefield Vegas (hotel pickup available)",
+        "tr": "Battlefield Vegas (otel transferi mevcuttur)"
+      },
+      "included": [
+        { "en": "Tank driving session with instructor", "tr": "Eğitmenli tank sürüş seansı" },
+        { "en": "Car crushing experience", "tr": "Araba ezme deneyimi" },
+        { "en": "Photos and video of your experience", "tr": "Deneyiminizin fotoğraf ve videosu" }
+      ],
+      "highlights": [
+        { "en": "Drive a real British Chieftain military tank", "tr": "Gerçek bir İngiliz Chieftain askeri tankını kullanın" },
+        { "en": "Crush a real car under 70 tons of armored steel", "tr": "70 ton zırhlı çeliğin altında gerçek bir arabayı ezin" }
+      ]
+    },
+    {
+      "slug": "dune-buggy-desert-tour",
+      "name": {
+        "en": "Dune Buggy Desert Tour",
+        "tr": "Dune Buggy Çöl Turu"
+      },
+      "description": {
+        "en": "Race through the Nevada desert in a high-performance dune buggy on an adrenaline-packed off-road adventure.",
+        "tr": "Adrenalin dolu bir arazi macerasında yüksek performanslı bir dune buggy ile Nevada çölünde yarışın."
+      },
+      "longDescription": {
+        "en": "Strap in and get ready for the off-road adventure of a lifetime. Pilot a powerful dune buggy through the scenic Nevada desert, tackling sand dunes, dry lake beds, and winding desert trails. Your experienced guide leads the way through some of the most spectacular terrain outside Las Vegas. With top-of-the-line safety equipment and expert instruction, this tour is perfect for both beginners and experienced off-roaders looking for an unforgettable desert rush.",
+        "tr": "Kemerlerinizi bağlayın ve hayatınızın arazi macerasına hazırlanın. Güçlü bir dune buggy ile Nevada çölünün muhteşem manzaralarında kum tepelerini, kuru göl yataklarını ve kıvrımlı çöl patikalarını aşın. Deneyimli rehberiniz sizi Las Vegas dışındaki en görkemli arazilerde yönlendirir. Birinci sınıf güvenlik ekipmanı ve uzman eğitimi ile bu tur, hem yeni başlayanlar hem de unutulmaz bir çöl heyecanı arayan deneyimli arazi tutkunları için mükemmeldir."
+      },
+      "category": "adventure",
+      "price": 259,
+      "duration": "3-4 hours",
+      "groupSize": "1-8",
+      "icon": "🏜️",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "Dune buggy, helmet, and safety gear", "tr": "Dune buggy, kask ve güvenlik ekipmanı" },
+        { "en": "Water and refreshments", "tr": "Su ve serinletici içecekler" }
+      ],
+      "highlights": [
+        { "en": "Navigate sand dunes and desert trails in a high-powered buggy", "tr": "Yüksek güçlü bir buggy ile kum tepelerinde ve çöl patikalarında ilerleyin" },
+        { "en": "Spectacular desert scenery and photo stops", "tr": "Muhteşem çöl manzaraları ve fotoğraf durakları" }
+      ]
+    },
+    {
+      "slug": "skydiving-over-las-vegas",
+      "name": {
+        "en": "Skydiving Over Las Vegas",
+        "tr": "Las Vegas Üzerinde Yamaç Paraşütü"
+      },
+      "description": {
+        "en": "Leap from 15,000 feet and freefall over the stunning Las Vegas desert landscape with a tandem instructor.",
+        "tr": "4.500 metreden atlayın ve tandem eğitmeninizle birlikte Las Vegas çölünün muhteşem manzarası üzerinde serbest düşüş yapın."
+      },
+      "longDescription": {
+        "en": "Take the ultimate leap of faith with a tandem skydive over the breathtaking Las Vegas valley. Jump from 15,000 feet and experience up to 60 seconds of pure freefall at 120 mph before your parachute opens to reveal sweeping views of the Strip, Red Rock Canyon, and the surrounding desert. Your USPA-certified tandem instructor handles everything — all you have to do is enjoy the ride. This is the most thrilling experience Las Vegas has to offer.",
+        "tr": "Las Vegas vadisinin nefes kesen manzarası üzerinde tandem skydiving ile cesaretin sınırlarını zorlayın. 4.500 metreden atlayın ve paraşütünüz açılarak Strip, Red Rock Canyon ve çevredeki çölün geniş manzarasını gözler önüne sermeden önce saatte 200 km hızla 60 saniyeye kadar saf serbest düşüş yaşayın. USPA sertifikalı tandem eğitmeniniz her şeyi halleder — sizin tek yapmanız gereken keyfini çıkarmaktır. Bu, Las Vegas'ın sunduğu en heyecan verici deneyimdir."
+      },
+      "category": "adventure",
+      "price": 299,
+      "duration": "3-4 hours",
+      "groupSize": "1-6",
+      "icon": "🪂",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Skydive Las Vegas center (hotel pickup available)",
+        "tr": "Skydive Las Vegas merkezi (otel transferi mevcuttur)"
+      },
+      "included": [
+        { "en": "Tandem jump with certified instructor", "tr": "Sertifikalı eğitmenle tandem atlayış" },
+        { "en": "All skydiving equipment", "tr": "Tüm skydiving ekipmanı" },
+        { "en": "Certificate of completion", "tr": "Tamamlama sertifikası" }
+      ],
+      "highlights": [
+        { "en": "60 seconds of freefall from 15,000 feet", "tr": "4.500 metreden 60 saniyelik serbest düşüş" },
+        { "en": "Panoramic views of the Strip and desert under canopy", "tr": "Paraşüt altında Strip ve çölün panoramik manzarası" }
+      ]
+    },
+    {
+      "slug": "cirque-du-soleil-o",
+      "name": {
+        "en": "Cirque du Soleil - O",
+        "tr": "Cirque du Soleil - O"
+      },
+      "description": {
+        "en": "Be mesmerized by Cirque du Soleil's aquatic masterpiece 'O' at the Bellagio, featuring world-class acrobatics and water artistry.",
+        "tr": "Bellagio'daki Cirque du Soleil'in su başyapıtı 'O' ile büyülenin; dünya standartlarında akrobasi ve su sanatını izleyin."
+      },
+      "longDescription": {
+        "en": "Cirque du Soleil's 'O' is widely regarded as the crown jewel of Las Vegas entertainment. Set in and around a 1.5-million-gallon pool at the Bellagio, this breathtaking spectacle weaves together synchronized swimming, diving, acrobatics, and aerial performance into a dreamlike celebration of water and art. The custom-built theater features a stage that transforms seamlessly between solid ground and deep water. It's an experience that transcends language and leaves audiences spellbound.",
+        "tr": "Cirque du Soleil'in 'O' gösterisi, Las Vegas eğlencesinin tacı olarak kabul edilir. Bellagio'daki 5.7 milyon litrelik bir havuzda sahnelenen bu nefes kesen gösteri, senkronize yüzme, dalış, akrobasi ve hava performansını su ve sanatın rüya gibi bir kutlamasında bir araya getirir. Özel olarak inşa edilen tiyatro, katı zemin ile derin su arasında sorunsuz geçiş yapan bir sahneye sahiptir. Dil engellerini aşan ve izleyicileri büyüleyen eşsiz bir deneyimdir."
+      },
+      "category": "entertainment",
+      "price": 189,
+      "duration": "1.5 hours",
+      "groupSize": "1-10",
+      "icon": "🎪",
+      "featured": true,
+      "meetingPoint": {
+        "en": "Bellagio Hotel & Casino, O Theatre",
+        "tr": "Bellagio Hotel & Casino, O Tiyatrosu"
+      },
+      "included": [
+        { "en": "Premium seating ticket", "tr": "Premium koltuk bileti" },
+        { "en": "Pre-show drink voucher", "tr": "Gösteri öncesi içecek kuponu" }
+      ],
+      "highlights": [
+        { "en": "World-famous aquatic show at the iconic Bellagio", "tr": "İkonik Bellagio'daki dünyaca ünlü su gösterisi" },
+        { "en": "Stunning acrobatics, diving, and aerial performances", "tr": "Etkileyici akrobasi, dalış ve hava performansları" },
+        { "en": "A theatrical experience unlike anything else on Earth", "tr": "Dünyada başka hiçbir yerde bulunmayan bir tiyatro deneyimi" }
+      ]
+    },
+    {
+      "slug": "cirque-du-soleil-mystere",
+      "name": {
+        "en": "Cirque du Soleil - Mystere",
+        "tr": "Cirque du Soleil - Mystere"
+      },
+      "description": {
+        "en": "Enjoy the original Cirque du Soleil Las Vegas show, a timeless blend of acrobatics, music, and theatrical wonder.",
+        "tr": "Cirque du Soleil'in Las Vegas'taki ilk gösterisi Mystere'nin zamansız akrobasi, müzik ve tiyatro harikasının tadını çıkarın."
+      },
+      "longDescription": {
+        "en": "Mystere is the show that started it all — the original Cirque du Soleil production in Las Vegas and still one of the best. At Treasure Island, this high-energy spectacular features incredible feats of strength, agility, and artistry set to a powerful live soundtrack. From the mesmerizing Chinese poles to the breathtaking aerial silk performances, every moment pulses with energy and beauty. It's a celebration of the human body and imagination that continues to thrill audiences after three decades.",
+        "tr": "Mystere, her şeyi başlatan gösteri — Las Vegas'taki orijinal Cirque du Soleil yapımı ve hâlâ en iyilerinden biri. Treasure Island'da sahnelenen bu yüksek enerjili gösteri, güçlü bir canlı müzik eşliğinde inanılmaz güç, çeviklik ve sanat gösterileri sunar. Büyüleyici Çin direklerinden nefes kesen hava ipek performanslarına kadar her an enerji ve güzellikle doludur. Otuz yılı aşkın süredir izleyicileri heyecanlandırmaya devam eden insan bedeni ve hayal gücünün bir kutlamasıdır."
+      },
+      "category": "entertainment",
+      "price": 109,
+      "duration": "1.5 hours",
+      "groupSize": "1-10",
+      "icon": "🎪",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Treasure Island Hotel, Mystere Theatre",
+        "tr": "Treasure Island Hotel, Mystere Tiyatrosu"
+      },
+      "included": [
+        { "en": "Show ticket with assigned seating", "tr": "Numaralı koltuklu gösteri bileti" },
+        { "en": "Access to pre-show lobby entertainment", "tr": "Gösteri öncesi lobi eğlencesine erişim" }
+      ],
+      "highlights": [
+        { "en": "The original Cirque du Soleil Las Vegas experience", "tr": "Las Vegas'taki orijinal Cirque du Soleil deneyimi" },
+        { "en": "Jaw-dropping acrobatics and live musical performance", "tr": "Ağız açık bırakan akrobasi ve canlı müzik performansı" }
+      ]
+    },
+    {
+      "slug": "cirque-du-soleil-ka",
+      "name": {
+        "en": "Cirque du Soleil - KA",
+        "tr": "Cirque du Soleil - KA"
+      },
+      "description": {
+        "en": "Witness the epic cinematic spectacle of KA at the MGM Grand, featuring martial arts, acrobatics, and a revolutionary stage.",
+        "tr": "MGM Grand'daki KA'nın destansı sinematik gösterisine tanık olun; dövüş sanatları, akrobasi ve devrim niteliğinde bir sahne sizi bekliyor."
+      },
+      "longDescription": {
+        "en": "KA is unlike any other Cirque du Soleil show. Performed on a massive rotating stage that tilts, rises, and transforms, this epic production tells the story of twin siblings separated by fate, battling to reunite across a mythical landscape. Combining martial arts, pyrotechnics, puppetry, and breathtaking aerial stunts, KA pushes the boundaries of live performance. The $165-million stage is an engineering marvel, and every scene unfolds like a blockbuster movie before your eyes.",
+        "tr": "KA, diğer Cirque du Soleil gösterilerinden farklıdır. Eğilen, yükselen ve dönüşen devasa bir döner sahnede sergilenen bu destansı yapım, kader tarafından ayrılmış ikiz kardeşlerin efsanevi bir coğrafyada yeniden bir araya gelmek için verdikleri mücadeleyi anlatır. Dövüş sanatları, piroteknik, kukla sanatı ve nefes kesen hava gösterilerini bir araya getiren KA, canlı performansın sınırlarını zorlar. 165 milyon dolarlık sahne bir mühendislik harikasıdır ve her sahne gözlerinizin önünde bir gişe rekorları kıran film gibi canlanır."
+      },
+      "category": "entertainment",
+      "price": 149,
+      "duration": "1.5 hours",
+      "groupSize": "1-10",
+      "icon": "🎭",
+      "featured": true,
+      "meetingPoint": {
+        "en": "MGM Grand, KA Theatre",
+        "tr": "MGM Grand, KA Tiyatrosu"
+      },
+      "included": [
+        { "en": "Premium seating ticket", "tr": "Premium koltuk bileti" },
+        { "en": "Complimentary show program", "tr": "Ücretsiz gösteri programı" }
+      ],
+      "highlights": [
+        { "en": "Revolutionary $165-million rotating stage", "tr": "Devrim niteliğinde 165 milyon dolarlık döner sahne" },
+        { "en": "Epic storyline with martial arts and aerial acrobatics", "tr": "Dövüş sanatları ve hava akrobasisinin yer aldığı destansı hikaye" },
+        { "en": "A cinematic live experience at the MGM Grand", "tr": "MGM Grand'da sinematik bir canlı deneyim" }
+      ]
+    },
+    {
+      "slug": "david-copperfield-magic-show",
+      "name": {
+        "en": "David Copperfield Magic Show",
+        "tr": "David Copperfield Sihir Gösterisi"
+      },
+      "description": {
+        "en": "See the world's greatest magician live at the MGM Grand in an intimate, mind-blowing performance.",
+        "tr": "Dünyanın en büyük sihirbazını MGM Grand'da yakından izleyin, akıl almaz bir performansa tanık olun."
+      },
+      "longDescription": {
+        "en": "David Copperfield has been hailed as the greatest illusionist of our time, and his Las Vegas residency at the MGM Grand proves why. In an intimate 740-seat theater, Copperfield performs feats that defy belief — from making audience members vanish to transporting himself across the room in the blink of an eye. His storytelling transforms magic tricks into emotional journeys. Whether you're a lifelong magic fan or a complete skeptic, you'll leave questioning everything you thought you knew.",
+        "tr": "David Copperfield, çağımızın en büyük illüzyonisti olarak anılır ve MGM Grand'daki Las Vegas gösterileri bunun nedenini kanıtlar. 740 kişilik samimi bir tiyatroda Copperfield, izleyicileri ortadan kaydetmekten göz açıp kapayıncaya kadar kendini odanın diğer ucuna ışınlamaya kadar inanılması güç numaralar sergiler. Hikaye anlatımı, sihir numaralarını duygusal yolculuklara dönüştürür. İster ömür boyu sihir hayranı olun ister tam bir şüpheci, bildiğinizi sandığınız her şeyi sorgulayarak ayrılırsınız."
+      },
+      "category": "entertainment",
+      "price": 159,
+      "duration": "1.5 hours",
+      "groupSize": "1-8",
+      "icon": "🪄",
+      "featured": true,
+      "meetingPoint": {
+        "en": "MGM Grand, David Copperfield Theater",
+        "tr": "MGM Grand, David Copperfield Tiyatrosu"
+      },
+      "included": [
+        { "en": "Show ticket with premium seating options", "tr": "Premium koltuk seçenekli gösteri bileti" },
+        { "en": "Post-show meet & greet opportunity (select dates)", "tr": "Gösteri sonrası buluşma fırsatı (belirli tarihler)" }
+      ],
+      "highlights": [
+        { "en": "See the world's most famous magician perform live", "tr": "Dünyanın en ünlü sihirbazını canlı izleyin" },
+        { "en": "Intimate 740-seat theater for an up-close experience", "tr": "Yakından izleme deneyimi için 740 kişilik samimi tiyatro" }
+      ]
+    },
+    {
+      "slug": "blue-man-group",
+      "name": {
+        "en": "Blue Man Group",
+        "tr": "Blue Man Group"
+      },
+      "description": {
+        "en": "Experience the wildly creative and hilariously entertaining Blue Man Group at the Luxor Hotel.",
+        "tr": "Luxor Hotel'deki son derece yaratıcı ve eğlenceli Blue Man Group gösterisini deneyimleyin."
+      },
+      "longDescription": {
+        "en": "Blue Man Group is a sensory feast that combines music, comedy, and multimedia art into one of Las Vegas's most unique shows. Three enigmatic blue-painted performers create an electrifying atmosphere using custom-built instruments, splashing paint, and audience interaction that keeps everyone on the edge of their seats. The show at the Luxor is a perfect mix of thoughtful and hilarious, making it ideal for all ages and backgrounds. You don't need to speak English to love it — it's a universal language of fun.",
+        "tr": "Blue Man Group; müzik, komedi ve multimedya sanatını Las Vegas'ın en benzersiz gösterilerinden birinde buluşturan görsel bir şölendir. Üç gizemli mavi boyalı sanatçı, özel yapım enstrümanlar, sıçrayan boyalar ve izleyicileri koltuğunun kenarında tutan seyirci katılımıyla elektrikli bir atmosfer yaratır. Luxor'daki gösteri düşündürücü ve eğlenceli bir karışım olup her yaş ve kültürden izleyici için idealdir. Sevmek için İngilizce bilmenize gerek yok — eğlencenin evrensel dilini konuşur."
+      },
+      "category": "entertainment",
+      "price": 89,
+      "duration": "1.5 hours",
+      "groupSize": "1-10",
+      "icon": "🔵",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Luxor Hotel & Casino, Blue Man Group Theater",
+        "tr": "Luxor Hotel & Casino, Blue Man Group Tiyatrosu"
+      },
+      "included": [
+        { "en": "Show ticket with assigned seating", "tr": "Numaralı koltuklu gösteri bileti" },
+        { "en": "Poncho for splash zone seats (if applicable)", "tr": "Sıçrama bölgesi koltukları için panço (geçerliyse)" }
+      ],
+      "highlights": [
+        { "en": "A unique blend of music, comedy, and art", "tr": "Müzik, komedi ve sanatın eşsiz birleşimi" },
+        { "en": "Interactive, language-free show perfect for international visitors", "tr": "Uluslararası ziyaretçiler için mükemmel, dil engeli olmayan interaktif gösteri" }
+      ]
+    },
+    {
+      "slug": "penn-and-teller",
+      "name": {
+        "en": "Penn & Teller",
+        "tr": "Penn & Teller"
+      },
+      "description": {
+        "en": "Laugh and gasp at the legendary comedy-magic duo Penn & Teller at the Rio Hotel.",
+        "tr": "Rio Hotel'deki efsanevi komedi-sihir ikilisi Penn & Teller ile gülün ve nefesleriniz kesilsin."
+      },
+      "longDescription": {
+        "en": "Penn & Teller have been performing together for over 45 years, and their Las Vegas show at the Rio remains one of the hottest tickets in town. The tall, talkative Penn Jillette and the silent, mysterious Teller deliver a show that masterfully blends mind-bending illusions with sharp comedy and surprising audience participation. What sets them apart is their willingness to reveal how some tricks work — only to leave you more amazed than before. After the show, both performers meet fans in the lobby for photos.",
+        "tr": "Penn & Teller 45 yılı aşkın süredir birlikte sahne alıyor ve Rio'daki Las Vegas gösterileri şehrin en çok talep edilen biletlerinden biri olmaya devam ediyor. Uzun boylu, konuşkan Penn Jillette ve sessiz, gizemli Teller, akıl bükücü illüzyonları keskin komedi ve şaşırtıcı seyirci katılımıyla ustalıkla harmanlayan bir gösteri sunar. Onları farklı kılan, bazı numaraların nasıl yapıldığını açıklama isteklilikleridir — ancak sizi öncekinden daha fazla şaşırtırlar. Gösteri sonrası her iki sanatçı da lobide hayranlarıyla fotoğraf için buluşur."
+      },
+      "category": "entertainment",
+      "price": 99,
+      "duration": "1.5 hours",
+      "groupSize": "1-10",
+      "icon": "🃏",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Rio All-Suite Hotel & Casino, Penn & Teller Theater",
+        "tr": "Rio All-Suite Hotel & Casino, Penn & Teller Tiyatrosu"
+      },
+      "included": [
+        { "en": "Show ticket with assigned seating", "tr": "Numaralı koltuklu gösteri bileti" },
+        { "en": "Post-show meet & greet with Penn & Teller", "tr": "Gösteri sonrası Penn & Teller ile buluşma" }
+      ],
+      "highlights": [
+        { "en": "Over 45 years of legendary comedy-magic partnership", "tr": "45 yılı aşan efsanevi komedi-sihir ortaklığı" },
+        { "en": "Meet both performers after the show for free", "tr": "Gösteri sonrası her iki sanatçıyla ücretsiz buluşma" }
+      ]
+    },
+    {
+      "slug": "ufc-fight-night",
+      "name": {
+        "en": "UFC Fight Night Experience",
+        "tr": "UFC Dövüş Gecesi Deneyimi"
+      },
+      "description": {
+        "en": "Witness the raw energy of a live UFC fight night at the iconic T-Mobile Arena on the Las Vegas Strip.",
+        "tr": "Las Vegas Strip'teki ikonik T-Mobile Arena'da canlı bir UFC dövüş gecesinin ham enerjisine tanık olun."
+      },
+      "longDescription": {
+        "en": "Las Vegas is the fight capital of the world, and there's nothing like experiencing a UFC event live. Feel the electricity as the crowd roars, the lights flash, and two elite fighters step into the octagon at the world-famous T-Mobile Arena. Our VIP packages include premium seating close to the action, pre-fight hospitality, and exclusive merchandise. Whether it's a championship bout or a stacked fight card, a UFC night in Vegas is an unforgettable rush of pure adrenaline.",
+        "tr": "Las Vegas, dünyanın dövüş başkentidir ve bir UFC etkinliğini canlı izlemek kadar heyecan verici çok az şey vardır. Kalabalık kükrediğinde, ışıklar yandığında ve iki seçkin dövüşçü dünyaca ünlü T-Mobile Arena'daki oktogona çıktığında elektriği hissedin. VIP paketlerimiz aksiyona yakın premium koltuklar, dövüş öncesi ağırlama ve özel ürünleri içerir. İster bir şampiyonluk maçı ister dolu bir dövüş kartı olsun, Vegas'ta bir UFC gecesi saf adrenalinin unutulmaz bir patlamasıdır."
+      },
+      "category": "entertainment",
+      "price": null,
+      "duration": "4-5 hours",
+      "groupSize": "1-8",
+      "icon": "🥊",
+      "featured": true,
+      "meetingPoint": {
+        "en": "T-Mobile Arena, 3780 Las Vegas Blvd S",
+        "tr": "T-Mobile Arena, 3780 Las Vegas Blvd S"
+      },
+      "included": [
+        { "en": "Event ticket with premium seating", "tr": "Premium koltuklu etkinlik bileti" },
+        { "en": "Pre-fight hospitality lounge access", "tr": "Dövüş öncesi VIP lounge erişimi" },
+        { "en": "Exclusive UFC merchandise", "tr": "Özel UFC ürünleri" }
+      ],
+      "highlights": [
+        { "en": "Live UFC action at the world-famous T-Mobile Arena", "tr": "Dünyaca ünlü T-Mobile Arena'da canlı UFC aksiyonu" },
+        { "en": "The fight capital of the world — an authentic Vegas experience", "tr": "Dünyanın dövüş başkenti — otantik bir Vegas deneyimi" }
+      ]
+    },
+    {
+      "slug": "nba-game-experience",
+      "name": {
+        "en": "NBA Game Experience",
+        "tr": "NBA Maç Deneyimi"
+      },
+      "description": {
+        "en": "Cheer courtside at an NBA game in Las Vegas and soak in the electric atmosphere of American basketball.",
+        "tr": "Las Vegas'ta bir NBA maçında saha kenarından tezahürat yapın ve Amerikan basketbolunun elektrikli atmosferini yaşayın."
+      },
+      "longDescription": {
+        "en": "Experience the thrill of live NBA basketball in Las Vegas. Whether it's a regular season game, Summer League, or a special showcase event, the energy inside the arena is absolutely electric. Our packages offer premium seating with excellent sightlines, giving you the full courtside experience. Watch the world's best athletes compete up close, enjoy arena dining and entertainment, and immerse yourself in one of America's most beloved sports traditions.",
+        "tr": "Las Vegas'ta canlı NBA basketbolunun heyecanını yaşayın. İster normal sezon maçı, ister Yaz Ligi veya özel bir gösteri etkinliği olsun, arena içindeki enerji kesinlikle elektrikleyicidir. Paketlerimiz mükemmel görüş açılı premium koltuklar sunarak size tam bir saha kenarı deneyimi yaşatır. Dünyanın en iyi sporcularının yakından mücadelesini izleyin, arena yemek ve eğlencesinin keyfini çıkarın ve Amerika'nın en sevilen spor geleneklerinden birine kendinizi kaptırın."
+      },
+      "category": "entertainment",
+      "price": null,
+      "duration": "3-4 hours",
+      "groupSize": "1-10",
+      "icon": "🏀",
+      "featured": false,
+      "meetingPoint": {
+        "en": "T-Mobile Arena or Thomas & Mack Center",
+        "tr": "T-Mobile Arena veya Thomas & Mack Center"
+      },
+      "included": [
+        { "en": "Game ticket with premium seating", "tr": "Premium koltuklu maç bileti" },
+        { "en": "Complimentary game-day program", "tr": "Ücretsiz maç günü programı" }
+      ],
+      "highlights": [
+        { "en": "Watch world-class NBA basketball up close", "tr": "Dünya standartlarında NBA basketbolunu yakından izleyin" },
+        { "en": "Electric arena atmosphere and premium hospitality", "tr": "Elektrikleyici arena atmosferi ve premium ağırlama" }
+      ]
+    },
+    {
+      "slug": "vegas-club-crawl-nightlife",
+      "name": {
+        "en": "Vegas Club Crawl & Nightlife Tour",
+        "tr": "Vegas Gece Kulübü Turu"
+      },
+      "description": {
+        "en": "Skip the lines and party at Las Vegas's hottest nightclubs with VIP access, free drinks, and a party host.",
+        "tr": "Sıra beklemeden Las Vegas'ın en popüler gece kulüplerine VIP erişim, ücretsiz içecekler ve parti sunucusuyla katılın."
+      },
+      "longDescription": {
+        "en": "Las Vegas nightlife is legendary, and this club crawl gives you the ultimate insider experience. Your professional party host leads you to 3-4 of the Strip's most exclusive nightclubs with guaranteed VIP skip-the-line entry. Enjoy complimentary drinks at each stop, exclusive drink specials, and a party bus transportation between venues. From world-famous DJs to dazzling dance floors, this is the way Vegas was meant to be experienced after dark.",
+        "tr": "Las Vegas gece hayatı efsanevidir ve bu gece kulübü turu size en üst düzey bir içeriden deneyim sunar. Profesyonel parti sunucunuz sizi Strip'in en ayrıcalıklı 3-4 gece kulübüne garantili VIP sıra atlatma girişiyle götürür. Her durakta ücretsiz içecekler, özel içecek fırsatları ve mekanlar arası parti otobüsü ulaşımının tadını çıkarın. Dünyaca ünlü DJ'lerden göz kamaştıran dans pistlerine kadar Vegas'ın gece karanlığında yaşanması gereken deneyim budur."
+      },
+      "category": "entertainment",
+      "price": 89,
+      "duration": "4-5 hours",
+      "groupSize": "2-20",
+      "icon": "🎉",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Designated meeting point on the Strip (varies by night)",
+        "tr": "Strip üzerinde belirlenen buluşma noktası (geceye göre değişir)"
+      },
+      "included": [
+        { "en": "VIP entry to 3-4 nightclubs (no cover charge)", "tr": "3-4 gece kulübüne VIP giriş (kapı ücreti yok)" },
+        { "en": "Complimentary drinks at each venue", "tr": "Her mekanda ücretsiz içecekler" },
+        { "en": "Party bus transportation between clubs", "tr": "Kulüpler arası parti otobüsü ulaşımı" }
+      ],
+      "highlights": [
+        { "en": "Skip the line at the Strip's hottest nightclubs", "tr": "Strip'in en popüler gece kulüplerinde sıra beklemeden girin" },
+        { "en": "Professional party host and group atmosphere", "tr": "Profesyonel parti sunucusu ve grup atmosferi" }
+      ]
+    },
+    {
+      "slug": "topgolf-las-vegas",
+      "name": {
+        "en": "Topgolf Las Vegas",
+        "tr": "Topgolf Las Vegas"
+      },
+      "description": {
+        "en": "Tee off at Topgolf's flagship Vegas location with stunning Strip views, great food, and a lively atmosphere.",
+        "tr": "Muhteşem Strip manzarası, lezzetli yemekler ve canlı atmosferle Topgolf'un amiral gemisi Vegas lokasyonunda atışa geçin."
+      },
+      "longDescription": {
+        "en": "Topgolf Las Vegas is far more than a driving range — it's a premier entertainment destination right on the Strip. Spread across four levels with over 100 climate-controlled hitting bays, you can play interactive golf games while enjoying a full menu of delicious food and craft cocktails. The rooftop terrace offers one of the best views of the Strip, and the energy is always buzzing with music and fun. No golf experience necessary — it's designed for everyone to enjoy.",
+        "tr": "Topgolf Las Vegas, sıradan bir golf alanından çok daha fazlasıdır — Strip üzerinde birinci sınıf bir eğlence mekanıdır. Dört katta 100'den fazla klimalı atış bölmesiyle interaktif golf oyunları oynarken lezzetli yemek ve özel kokteyl menüsünün keyfini çıkarabilirsiniz. Çatı terası Strip'in en güzel manzaralarından birini sunar ve ortam her zaman müzik ve eğlenceyle canlıdır. Golf deneyimi gerekmez — herkesin eğlenmesi için tasarlanmıştır."
+      },
+      "category": "entertainment",
+      "price": 55,
+      "duration": "2-3 hours",
+      "groupSize": "2-6",
+      "icon": "⛳",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Topgolf Las Vegas, 4627 Koval Ln",
+        "tr": "Topgolf Las Vegas, 4627 Koval Ln"
+      },
+      "included": [
+        { "en": "Bay rental with golf equipment", "tr": "Golf ekipmanı dahil atış bölmesi kiralama" },
+        { "en": "Welcome drink included", "tr": "Karşılama içeceği dahildir" }
+      ],
+      "highlights": [
+        { "en": "Four-level entertainment complex with stunning Strip views", "tr": "Muhteşem Strip manzaralı dört katlı eğlence kompleksi" },
+        { "en": "Interactive golf games, great food, and craft cocktails", "tr": "İnteraktif golf oyunları, lezzetli yemekler ve özel kokteyller" }
+      ]
+    },
+    {
+      "slug": "tournament-of-kings-dinner-show",
+      "name": {
+        "en": "Tournament of Kings Dinner Show",
+        "tr": "Kralların Turnuvası Akşam Yemeği Gösterisi"
+      },
+      "description": {
+        "en": "Feast like royalty while watching knights joust and battle in this immersive medieval dinner show at Excalibur.",
+        "tr": "Excalibur'daki bu sürükleyici ortaçağ akşam yemeği gösterisinde şövalyelerin mızrak dövüşünü izlerken kraliyet gibi ziyafet çekin."
+      },
+      "longDescription": {
+        "en": "Step back in time to an era of kings, knights, and honor at the Tournament of Kings. This dinner-and-a-show experience at the Excalibur Hotel features a full course meal served while armored knights on horseback compete in jousting, sword fighting, and spectacular stunts just feet away from your table. Cheer for your champion, feast with your hands (as was the custom), and enjoy fire dancers, pyrotechnics, and a thrilling storyline. It's family-friendly entertainment at its most immersive.",
+        "tr": "Kralların Turnuvası'nda krallar, şövalyeler ve onur çağına geri adım atın. Excalibur Hotel'deki bu yemek-ve-gösteri deneyiminde, zırhlı şövalyeler atlarıyla masanızın birkaç metre yakınında mızrak dövüşü, kılıç savaşı ve muhteşem gösteriler sergilerken tam bir yemek servisi yapılır. Şampiyonunuzu tezahüratla destekleyin, elleriyle yemek yeme geleneğiyle sofradan tadın ve ateş dansçıları, piroteknik efektler ve heyecan verici bir hikayenin keyfini çıkarın. En sürükleyici haliyle aile dostu eğlencedir."
+      },
+      "category": "entertainment",
+      "price": 79,
+      "duration": "2 hours",
+      "groupSize": "2-10",
+      "icon": "⚔️",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Excalibur Hotel & Casino, Tournament of Kings Arena",
+        "tr": "Excalibur Hotel & Casino, Kralların Turnuvası Arenası"
+      },
+      "included": [
+        { "en": "Three-course dinner", "tr": "Üç çeşit yemek" },
+        { "en": "Show ticket with arena seating", "tr": "Arena koltuklu gösteri bileti" },
+        { "en": "Complimentary soft drink", "tr": "Ücretsiz alkolsüz içecek" }
+      ],
+      "highlights": [
+        { "en": "Immersive medieval jousting and live combat performances", "tr": "Sürükleyici ortaçağ mızrak dövüşü ve canlı savaş performansları" },
+        { "en": "Full dinner served while you watch the show", "tr": "Gösteriyi izlerken servis edilen tam yemek" }
+      ]
+    },
+    {
+      "slug": "grand-canyon-south-rim",
+      "name": {
+        "en": "Grand Canyon South Rim Day Tour",
+        "tr": "Grand Canyon Güney Kıyısı Günübirlik Turu"
+      },
+      "description": {
+        "en": "Visit the most iconic viewpoints of the Grand Canyon South Rim on a full-day guided tour from Las Vegas.",
+        "tr": "Las Vegas'tan tam günlük rehberli bir turla Grand Canyon Güney Kıyısı'nın en ikonik manzara noktalarını ziyaret edin."
+      },
+      "longDescription": {
+        "en": "The Grand Canyon South Rim is one of the most awe-inspiring natural wonders on Earth, and this full-day tour takes you there in comfort and style. Travel through the Arizona desert and stop at legendary viewpoints including Mather Point, Bright Angel Trail, and the Yavapai Observation Station. Your knowledgeable guide shares the canyon's geological history spanning two billion years. A stop in the historic town of Williams adds charm to the journey. Lunch is included, making this a complete, hassle-free experience.",
+        "tr": "Grand Canyon Güney Kıyısı, dünyanın en hayranlık uyandırıcı doğa harikalarından biridir ve bu tam günlük tur sizi konfor ve tarzla oraya götürür. Arizona çölünden geçerek Mather Point, Bright Angel Trail ve Yavapai Gözlem İstasyonu dahil efsanevi manzara noktalarında durun. Bilgili rehberiniz, kanyonun iki milyar yılı kapsayan jeolojik tarihini paylaşır. Tarihi Williams kasabasındaki durak yolculuğa ayrı bir cazibe katar. Öğle yemeği dahil olduğundan, bu eksiksiz ve zahmetsiz bir deneyimdir."
+      },
+      "category": "sightseeing",
+      "price": 199,
+      "duration": "14-15 hours",
+      "groupSize": "2-14",
+      "icon": "🏞️",
+      "featured": true,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "National Park entrance fee", "tr": "Milli Park giriş ücreti" },
+        { "en": "Boxed lunch and bottled water", "tr": "Paket öğle yemeği ve su" }
+      ],
+      "highlights": [
+        { "en": "Visit iconic viewpoints: Mather Point, Bright Angel Trail", "tr": "İkonik manzara noktalarını ziyaret edin: Mather Point, Bright Angel Trail" },
+        { "en": "Learn about 2 billion years of geological history", "tr": "2 milyar yıllık jeolojik tarihi öğrenin" },
+        { "en": "Comfortable luxury coach with professional guide", "tr": "Profesyonel rehberli konforlu lüks otobüs" }
+      ]
+    },
+    {
+      "slug": "grand-canyon-west-rim-skywalk",
+      "name": {
+        "en": "Grand Canyon West Rim + Skywalk",
+        "tr": "Grand Canyon Batı Kıyısı + Skywalk"
+      },
+      "description": {
+        "en": "Walk on the glass-bottomed Skywalk 4,000 feet above the canyon floor at Grand Canyon West.",
+        "tr": "Grand Canyon Batı'da kanyon tabanından 1.200 metre yüksekteki cam tabanlı Skywalk'ta yürüyün."
+      },
+      "longDescription": {
+        "en": "Grand Canyon West is the closest canyon rim to Las Vegas and home to the world-famous Skywalk — a horseshoe-shaped glass bridge extending 70 feet over the canyon edge with a transparent floor 4,000 feet above the Colorado River. This tour includes the Skywalk experience, a visit to Eagle Point and Guano Point, and an optional helicopter ride to the canyon floor. On Hualapai tribal land, you'll also learn about the culture and history of the canyon's original inhabitants.",
+        "tr": "Grand Canyon Batı, Las Vegas'a en yakın kanyon kıyısıdır ve dünyaca ünlü Skywalk'a ev sahipliği yapar — kanyon kenarından 21 metre uzanan, Colorado Nehri'nden 1.200 metre yükseklikte şeffaf tabanlı at nalı şeklinde cam köprü. Bu tur Skywalk deneyimi, Eagle Point ve Guano Point ziyareti ve isteğe bağlı kanyon tabanına helikopter turu içerir. Hualapai kabile topraklarında ayrıca kanyonun asıl sakinlerinin kültürü ve tarihini öğrenirsiniz."
+      },
+      "category": "sightseeing",
+      "price": 249,
+      "duration": "10-12 hours",
+      "groupSize": "2-14",
+      "icon": "🌉",
+      "featured": true,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "Skywalk admission ticket", "tr": "Skywalk giriş bileti" },
+        { "en": "Lunch at the canyon", "tr": "Kanyonda öğle yemeği" }
+      ],
+      "highlights": [
+        { "en": "Walk on the glass-bottomed Skywalk 4,000 feet above the canyon", "tr": "Kanyonun 1.200 metre üzerindeki cam tabanlı Skywalk'ta yürüyün" },
+        { "en": "Visit Eagle Point and Guano Point scenic overlooks", "tr": "Eagle Point ve Guano Point manzara noktalarını ziyaret edin" },
+        { "en": "Learn about Hualapai tribal culture and history", "tr": "Hualapai kabile kültürü ve tarihini öğrenin" }
+      ]
+    },
+    {
+      "slug": "hoover-dam-tour",
+      "name": {
+        "en": "Hoover Dam Tour",
+        "tr": "Hoover Barajı Turu"
+      },
+      "description": {
+        "en": "Explore the engineering marvel of Hoover Dam with a guided tour just 30 minutes from the Las Vegas Strip.",
+        "tr": "Las Vegas Strip'e sadece 30 dakika mesafedeki Hoover Barajı mühendislik harikasını rehberli bir turla keşfedin."
+      },
+      "longDescription": {
+        "en": "Hoover Dam is one of America's most impressive engineering achievements, and this guided tour reveals its incredible story. Built during the Great Depression, this massive concrete structure tames the mighty Colorado River and created Lake Mead, the largest reservoir in the United States. Walk along the dam's crest with stunning views of the canyon below, visit the power plant to see the massive generators, and cross the Mike O'Callaghan-Pat Tillman Memorial Bridge for a panoramic photo opportunity. It's a must-see for anyone visiting Las Vegas.",
+        "tr": "Hoover Barajı, Amerika'nın en etkileyici mühendislik başarılarından biridir ve bu rehberli tur inanılmaz hikayesini gözler önüne serer. Büyük Buhran döneminde inşa edilen bu devasa beton yapı, güçlü Colorado Nehri'ni kontrol altına almış ve Amerika Birleşik Devletleri'nin en büyük baraj gölü olan Lake Mead'i oluşturmuştur. Aşağıdaki kanyonun muhteşem manzarası eşliğinde barajın tepesinde yürüyün, devasa jeneratörleri görmek için elektrik santralini ziyaret edin ve panoramik fotoğraf fırsatı için Mike O'Callaghan-Pat Tillman Anıt Köprüsü'nü geçin. Las Vegas'ı ziyaret eden herkesin mutlaka görmesi gereken bir yerdir."
+      },
+      "category": "sightseeing",
+      "price": 69,
+      "duration": "4-5 hours",
+      "groupSize": "2-14",
+      "icon": "🏗️",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "Guided dam tour with power plant access", "tr": "Elektrik santrali erişimli rehberli baraj turu" },
+        { "en": "Bottled water", "tr": "Su ikramı" }
+      ],
+      "highlights": [
+        { "en": "Explore the interior of this iconic engineering marvel", "tr": "Bu ikonik mühendislik harikasının iç kısmını keşfedin" },
+        { "en": "Stunning views of Lake Mead and Black Canyon", "tr": "Lake Mead ve Black Canyon'un muhteşem manzarası" }
+      ]
+    },
+    {
+      "slug": "red-rock-canyon-tour",
+      "name": {
+        "en": "Red Rock Canyon Tour",
+        "tr": "Red Rock Canyon Turu"
+      },
+      "description": {
+        "en": "Discover the stunning red sandstone formations of Red Rock Canyon, just 20 minutes from the Las Vegas Strip.",
+        "tr": "Las Vegas Strip'e sadece 20 dakika mesafedeki Red Rock Canyon'un muhteşem kırmızı kumtaşı oluşumlarını keşfedin."
+      },
+      "longDescription": {
+        "en": "Escape the neon lights for a morning of natural beauty at Red Rock Canyon National Conservation Area. The 13-mile scenic drive winds through towering red and cream sandstone formations that are 600 million years old. Stop at multiple overlooks for photography, take a short hike along one of the scenic trails, and learn about the area's geology, wildlife, and Native American history from your expert guide. It's a perfect half-day tour that shows you a completely different side of Las Vegas.",
+        "tr": "Neon ışıklarından kaçarak Red Rock Canyon Ulusal Koruma Alanı'nda bir sabah doğal güzellikler arasında geçirin. 21 kilometrelik manzaralı yol, 600 milyon yıllık devasa kırmızı ve krem rengi kumtaşı oluşumlarının arasından kıvrılarak geçer. Fotoğraf için birçok manzara noktasında durun, doğa yürüyüşü parkurlarından birinde kısa bir yürüyüş yapın ve uzman rehberinizden bölgenin jeolojisi, vahşi yaşamı ve Yerli Amerikan tarihi hakkında bilgi alın. Las Vegas'ın tamamen farklı bir yüzünü gösteren mükemmel bir yarım günlük turdur."
+      },
+      "category": "sightseeing",
+      "price": 79,
+      "duration": "4-5 hours",
+      "groupSize": "2-12",
+      "icon": "🪨",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "National Conservation Area entrance fee", "tr": "Ulusal Koruma Alanı giriş ücreti" },
+        { "en": "Bottled water and light snacks", "tr": "Su ve hafif atıştırmalık" }
+      ],
+      "highlights": [
+        { "en": "600-million-year-old red sandstone formations", "tr": "600 milyon yıllık kırmızı kumtaşı oluşumları" },
+        { "en": "Scenic 13-mile drive with photo stops", "tr": "Fotoğraf durakları ile 21 kilometrelik manzaralı sürüş" }
+      ]
+    },
+    {
+      "slug": "valley-of-fire-state-park",
+      "name": {
+        "en": "Valley of Fire State Park Tour",
+        "tr": "Ateş Vadisi Eyalet Parkı Turu"
+      },
+      "description": {
+        "en": "Explore Nevada's oldest and largest state park, famous for its fiery red rock formations and ancient petroglyphs.",
+        "tr": "Ateşli kırmızı kaya oluşumları ve antik petrogliflerle ünlü Nevada'nın en eski ve en büyük eyalet parkını keşfedin."
+      },
+      "longDescription": {
+        "en": "Valley of Fire State Park is Nevada's oldest state park and one of the American Southwest's most spectacular landscapes. Named for the brilliant red Aztec sandstone formations that appear to be on fire when reflecting the sun, this 46,000-acre park features 3,000-year-old petroglyphs, petrified trees, and dramatic rock arches. Your guided tour includes stops at the most photogenic locations including Fire Wave, Elephant Rock, and the famous Rainbow Vista. It's a photographer's paradise and a nature lover's dream.",
+        "tr": "Ateş Vadisi Eyalet Parkı, Nevada'nın en eski eyalet parkı ve Amerikan Güneybatısı'nın en muhteşem manzaralarından biridir. Güneşi yansıttığında yanıyor gibi görünen parlak kırmızı Aztek kumtaşı oluşumlarından adını alır. 18.600 hektarlık bu park, 3.000 yıllık petroglifler, taşlaşmış ağaçlar ve dramatik kaya kemerleri barındırır. Rehberli turunuz Fire Wave, Elephant Rock ve ünlü Rainbow Vista dahil en fotoğrafik lokasyonlarda duraklar içerir. Fotoğrafçılar için bir cennet, doğa severler için bir rüyadır."
+      },
+      "category": "sightseeing",
+      "price": 109,
+      "duration": "5-6 hours",
+      "groupSize": "2-12",
+      "icon": "🔥",
+      "featured": true,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "Park entrance fee", "tr": "Park giriş ücreti" },
+        { "en": "Water and snacks", "tr": "Su ve atıştırmalık" }
+      ],
+      "highlights": [
+        { "en": "Fiery red sandstone formations and ancient petroglyphs", "tr": "Ateşli kırmızı kumtaşı oluşumları ve antik petroglifler" },
+        { "en": "Visit Fire Wave, Elephant Rock, and Rainbow Vista", "tr": "Fire Wave, Elephant Rock ve Rainbow Vista'yı ziyaret edin" }
+      ]
+    },
+    {
+      "slug": "death-valley-day-tour",
+      "name": {
+        "en": "Death Valley Day Tour",
+        "tr": "Ölüm Vadisi Günübirlik Turu"
+      },
+      "description": {
+        "en": "Journey to the hottest, driest, and lowest point in North America — the surreal landscapes of Death Valley.",
+        "tr": "Kuzey Amerika'nın en sıcak, en kurak ve en alçak noktasına yolculuk yapın — Ölüm Vadisi'nin gerçeküstü manzaraları."
+      },
+      "longDescription": {
+        "en": "Death Valley National Park is a land of extremes and otherworldly beauty. This full-day tour from Las Vegas takes you to Badwater Basin (282 feet below sea level), the lowest point in North America. Explore the surreal salt flats, marvel at the colorful rock layers of Artist's Palette, and stand atop Dante's View for a panoramic vista that stretches to infinity. Your guide shares fascinating stories about the park's history, geology, and the resilient life that thrives here. It's a journey to one of the most extraordinary places on Earth.",
+        "tr": "Ölüm Vadisi Ulusal Parkı, aşırılıkların ve dünya dışı güzelliklerin diyarıdır. Las Vegas'tan bu tam günlük tur, sizi Kuzey Amerika'nın en alçak noktası olan Badwater Havzası'na (deniz seviyesinin 86 metre altında) götürür. Gerçeküstü tuz düzlüklerini keşfedin, Artist's Palette'in renkli kaya katmanlarına hayran kalın ve sonsuzluğa uzanan panoramik bir manzara için Dante's View'in tepesine çıkın. Rehberiniz parkın tarihi, jeolojisi ve burada yaşamaya direnen yaşam hakkında büyüleyici hikayeler paylaşır. Dünyadaki en olağanüstü yerlerden birine yapılan bir yolculuktur."
+      },
+      "category": "sightseeing",
+      "price": 169,
+      "duration": "11-12 hours",
+      "groupSize": "2-14",
+      "icon": "🌵",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "National Park entrance fee", "tr": "Ulusal Park giriş ücreti" },
+        { "en": "Lunch, water, and snacks", "tr": "Öğle yemeği, su ve atıştırmalık" }
+      ],
+      "highlights": [
+        { "en": "Stand at Badwater Basin — 282 feet below sea level", "tr": "Deniz seviyesinin 86 metre altında Badwater Havzası'nda durun" },
+        { "en": "Explore Artist's Palette and Dante's View", "tr": "Artist's Palette ve Dante's View'i keşfedin" }
+      ]
+    },
+    {
+      "slug": "antelope-canyon-horseshoe-bend",
+      "name": {
+        "en": "Antelope Canyon + Horseshoe Bend Tour",
+        "tr": "Antelope Kanyonu + Horseshoe Bend Turu"
+      },
+      "description": {
+        "en": "Witness the magical light beams of Antelope Canyon and the breathtaking Horseshoe Bend overlook.",
+        "tr": "Antelope Kanyonu'nun büyülü ışık hüzmelerini ve nefes kesen Horseshoe Bend manzarasını görün."
+      },
+      "longDescription": {
+        "en": "This unforgettable day trip takes you to two of the American Southwest's most photographed natural wonders. Enter the narrow, swirling sandstone corridors of Antelope Canyon, where beams of sunlight create an ethereal dance of light and shadow. A Navajo guide leads you through the sacred slot canyon, sharing its cultural significance. Then visit Horseshoe Bend, where the Colorado River makes a dramatic 270-degree turn 1,000 feet below a sheer cliff edge. These are bucket-list experiences you'll remember forever.",
+        "tr": "Bu unutulmaz günübirlik gezi sizi Amerikan Güneybatısı'nın en çok fotoğraflanan iki doğa harikasına götürür. Antelope Kanyonu'nun dar, kıvrımlı kumtaşı koridorlarına girin; güneş ışınlarının ışık ve gölgenin ruhani bir dansı oluşturduğu yere. Navajo rehberiniz sizi kutsal yarık kanyonda gezdirirken kültürel önemini paylaşır. Ardından, Colorado Nehri'nin dik uçurum kenarından 300 metre aşağıda dramatik bir 270 derecelik dönüş yaptığı Horseshoe Bend'i ziyaret edin. Bunlar ömür boyu hatırlayacağınız yapılacaklar listesi deneyimleridir."
+      },
+      "category": "sightseeing",
+      "price": 249,
+      "duration": "13-14 hours",
+      "groupSize": "2-14",
+      "icon": "📸",
+      "featured": true,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "Antelope Canyon Navajo-guided tour", "tr": "Navajo rehberli Antelope Kanyonu turu" },
+        { "en": "Lunch and bottled water", "tr": "Öğle yemeği ve su" }
+      ],
+      "highlights": [
+        { "en": "Walk through the magical light beams of Antelope Canyon", "tr": "Antelope Kanyonu'nun büyülü ışık hüzmelerinin arasından yürüyün" },
+        { "en": "See the iconic Horseshoe Bend from the canyon rim", "tr": "İkonik Horseshoe Bend'i kanyon kenarından görün" },
+        { "en": "Navajo-guided cultural experience", "tr": "Navajo rehberli kültürel deneyim" }
+      ]
+    },
+    {
+      "slug": "zion-national-park",
+      "name": {
+        "en": "Zion National Park Day Tour",
+        "tr": "Zion Ulusal Parkı Günübirlik Turu"
+      },
+      "description": {
+        "en": "Explore the towering red cliffs and emerald canyons of Utah's stunning Zion National Park.",
+        "tr": "Utah'ın muhteşem Zion Ulusal Parkı'nın yükselen kırmızı kayalıkları ve zümrüt kanyonlarını keşfedin."
+      },
+      "longDescription": {
+        "en": "Zion National Park is a paradise of towering sandstone cliffs, narrow slot canyons, and the crystal-clear Virgin River winding through it all. This full-day tour from Las Vegas takes you deep into the park with stops at the most spectacular viewpoints and trailheads. Walk along the Riverside Walk, gaze up at Angels Landing and the Great White Throne, and take in the beauty of the Zion-Mt. Carmel Highway with its famous tunnels and switchbacks. It's one of America's most beautiful national parks and an absolute must-see.",
+        "tr": "Zion Ulusal Parkı, yükselen kumtaşı kayalıkları, dar yarık kanyonları ve tüm bunların arasından kıvrılarak geçen berrak Virgin Nehri ile bir cennettir. Las Vegas'tan bu tam günlük tur sizi parkın derinliklerine götürerek en muhteşem manzara noktaları ve parkur başlarında durur. Riverside Walk boyunca yürüyün, Angels Landing ve Great White Throne'a bakın ve ünlü tünelleri ve virajlarıyla Zion-Mt. Carmel Otoyolu'nun güzelliğini içinize çekin. Amerika'nın en güzel ulusal parklarından biridir ve kesinlikle görülmesi gerekenler listesinde olmalıdır."
+      },
+      "category": "sightseeing",
+      "price": 179,
+      "duration": "12-13 hours",
+      "groupSize": "2-14",
+      "icon": "⛰️",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "National Park entrance fee", "tr": "Ulusal Park giriş ücreti" },
+        { "en": "Lunch and bottled water", "tr": "Öğle yemeği ve su" }
+      ],
+      "highlights": [
+        { "en": "Towering red cliffs and the emerald Virgin River canyon", "tr": "Yükselen kırmızı kayalıklar ve zümrüt Virgin Nehri kanyonu" },
+        { "en": "Walk the Riverside Walk and see Angels Landing", "tr": "Riverside Walk'ta yürüyün ve Angels Landing'i görün" }
+      ]
+    },
+    {
+      "slug": "bryce-canyon-day-tour",
+      "name": {
+        "en": "Bryce Canyon Day Tour",
+        "tr": "Bryce Kanyonu Günübirlik Turu"
+      },
+      "description": {
+        "en": "Marvel at the otherworldly hoodoo rock spires of Bryce Canyon, one of nature's most unique creations.",
+        "tr": "Doğanın en benzersiz yaratımlarından biri olan Bryce Kanyonu'nun dünya dışı hoodoo kaya sivri kulelere hayran kalın."
+      },
+      "longDescription": {
+        "en": "Bryce Canyon is unlike anywhere else on Earth. The park's famous hoodoos — tall, thin rock spires formed by millions of years of erosion — create a surreal landscape that looks like it belongs on another planet. This full-day tour from Las Vegas takes you to the canyon's most spectacular viewpoints including Sunrise Point, Sunset Point, and Inspiration Point. Descend into the canyon on the Queen's Garden Trail for an up-close encounter with these extraordinary formations. The colors shift with the light, making every moment a photographer's dream.",
+        "tr": "Bryce Kanyonu, dünyada başka hiçbir yere benzemeyen bir yerdir. Parkın ünlü hoodoo'ları — milyonlarca yıllık erozyonla oluşmuş uzun, ince kaya sivrileri — başka bir gezegene aitmiş gibi görünen gerçeküstü bir manzara yaratır. Las Vegas'tan bu tam günlük tur, sizi Sunrise Point, Sunset Point ve Inspiration Point dahil kanyonun en muhteşem manzara noktalarına götürür. Bu olağanüstü oluşumlarla yakından tanışmak için Queen's Garden Trail'den kanyonun içine inin. Renkler ışıkla birlikte değişerek her anı bir fotoğrafçının rüyası haline getirir."
+      },
+      "category": "sightseeing",
+      "price": 189,
+      "duration": "13-14 hours",
+      "groupSize": "2-14",
+      "icon": "🏔️",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "National Park entrance fee", "tr": "Ulusal Park giriş ücreti" },
+        { "en": "Lunch and bottled water", "tr": "Öğle yemeği ve su" }
+      ],
+      "highlights": [
+        { "en": "See the otherworldly hoodoo rock formations up close", "tr": "Dünya dışı hoodoo kaya oluşumlarını yakından görün" },
+        { "en": "Visit Sunrise Point, Sunset Point, and Inspiration Point", "tr": "Sunrise Point, Sunset Point ve Inspiration Point'i ziyaret edin" }
+      ]
+    },
+    {
+      "slug": "area-51-extraterrestrial-highway",
+      "name": {
+        "en": "Area 51 & Extraterrestrial Highway Tour",
+        "tr": "Area 51 ve Uzaylı Otoyolu Turu"
+      },
+      "description": {
+        "en": "Journey along the mysterious Extraterrestrial Highway to the gates of Area 51, America's most secretive military base.",
+        "tr": "Gizemli Uzaylı Otoyolu boyunca Amerika'nın en gizli askeri üssü Area 51'in kapılarına kadar yolculuk yapın."
+      },
+      "longDescription": {
+        "en": "For decades, Area 51 has been at the center of UFO lore and government conspiracy theories, and now you can visit the edge of this top-secret military installation. Travel the infamous Extraterrestrial Highway (State Route 375) through the vast Nevada desert, stop at the quirky Little A'Le'Inn in Rachel — the closest town to Area 51 — and photograph the iconic Area 51 gate and warning signs. Your guide shares declassified information, famous UFO sighting stories, and the real history behind the base. It's a fascinating adventure for anyone curious about the unknown.",
+        "tr": "Onlarca yıldır Area 51, UFO efsanelerinin ve hükümet komplo teorilerinin merkezinde olmuştur ve artık bu çok gizli askeri tesise kadar gidebilirsiniz. Uçsuz bucaksız Nevada çölünden geçen ünlü Uzaylı Otoyolu'nda (State Route 375) ilerleyin, Area 51'e en yakın kasaba olan Rachel'daki ilginç Little A'Le'Inn'de durun ve ikonik Area 51 kapısını ve uyarı tabelalarını fotoğraflayın. Rehberiniz gizlilik derecesi kaldırılmış bilgileri, ünlü UFO gözlem hikayelerini ve üssün arkasındaki gerçek tarihi paylaşır. Bilinmeyene meraklı herkes için büyüleyici bir macera."
+      },
+      "category": "sightseeing",
+      "price": 149,
+      "duration": "8-10 hours",
+      "groupSize": "2-12",
+      "icon": "👽",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "Stop at Little A'Le'Inn in Rachel", "tr": "Rachel'daki Little A'Le'Inn'de mola" },
+        { "en": "Bottled water and snacks", "tr": "Su ve atıştırmalık" }
+      ],
+      "highlights": [
+        { "en": "Drive the famous Extraterrestrial Highway (Route 375)", "tr": "Ünlü Uzaylı Otoyolu'nda (Route 375) ilerleyin" },
+        { "en": "Photograph the iconic Area 51 gate and warning signs", "tr": "İkonik Area 51 kapısını ve uyarı tabelalarını fotoğraflayın" }
+      ]
+    },
+    {
+      "slug": "las-vegas-city-tour",
+      "name": {
+        "en": "Las Vegas City Tour",
+        "tr": "Las Vegas Şehir Turu"
+      },
+      "description": {
+        "en": "Discover the history, landmarks, and hidden gems of Las Vegas on a comprehensive guided city tour.",
+        "tr": "Kapsamlı bir rehberli şehir turuyla Las Vegas'ın tarihini, simge yapılarını ve gizli hazinelerini keşfedin."
+      },
+      "longDescription": {
+        "en": "See Las Vegas beyond the casino floors on this comprehensive guided city tour. Visit the iconic Welcome to Fabulous Las Vegas sign, explore the historic Fremont Street Experience in Downtown, and discover the architectural marvels of the world-famous Strip. Your knowledgeable guide shares fascinating stories about the city's transformation from a dusty railroad town to the Entertainment Capital of the World. The tour includes stops at the most Instagram-worthy locations and hidden gems that most tourists never find on their own.",
+        "tr": "Bu kapsamlı rehberli şehir turuyla Las Vegas'ı kumarhane katlarının ötesinde görün. İkonik Welcome to Fabulous Las Vegas tabelasını ziyaret edin, Downtown'daki tarihi Fremont Street Experience'ı keşfedin ve dünyaca ünlü Strip'in mimari harikalarını inceleyin. Bilgili rehberiniz, şehrin tozlu bir demiryolu kasabasından Dünyanın Eğlence Başkentine dönüşümü hakkında büyüleyici hikayeler paylaşır. Tur, en çok Instagram'a uygun lokasyonları ve çoğu turistin kendi başlarına asla bulamayacağı gizli hazinelerde durakları içerir."
+      },
+      "category": "sightseeing",
+      "price": 59,
+      "duration": "3-4 hours",
+      "groupSize": "2-14",
+      "icon": "🎰",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup included",
+        "tr": "Otel lobisinden alım dahildir"
+      },
+      "included": [
+        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
+        { "en": "Professional English/Turkish speaking guide", "tr": "Profesyonel İngilizce/Türkçe bilen rehber" },
+        { "en": "Photo stops at iconic landmarks", "tr": "İkonik simge yapılarda fotoğraf durakları" }
+      ],
+      "highlights": [
+        { "en": "Visit the famous 'Welcome to Fabulous Las Vegas' sign", "tr": "Ünlü 'Welcome to Fabulous Las Vegas' tabelasını ziyaret edin" },
+        { "en": "Explore historic Fremont Street and the modern Strip", "tr": "Tarihi Fremont Caddesi'ni ve modern Strip'i keşfedin" }
+      ]
+    },
+    {
+      "slug": "gordon-ramsay-hells-kitchen",
+      "name": {
+        "en": "Gordon Ramsay Hell's Kitchen Dining",
+        "tr": "Gordon Ramsay Hell's Kitchen Yemek Deneyimi"
+      },
+      "description": {
+        "en": "Dine at celebrity chef Gordon Ramsay's iconic Hell's Kitchen restaurant at Caesars Palace.",
+        "tr": "Ünlü şef Gordon Ramsay'in Caesars Palace'taki ikonik Hell's Kitchen restoranında yemek yiyin."
+      },
+      "longDescription": {
+        "en": "Step into the world of Gordon Ramsay at Hell's Kitchen Las Vegas, the restaurant inspired by the hit TV show. Located at Caesars Palace, this stunning restaurant is divided into the red and blue kitchen teams just like the show. Enjoy Ramsay's signature dishes including the famous Beef Wellington, pan-seared scallops, and the legendary sticky toffee pudding. Our VIP reservation service guarantees you a premium table without the typical weeks-long waitlist. It's a culinary experience worthy of Las Vegas's finest dining scene.",
+        "tr": "Hit TV programından ilham alan Hell's Kitchen Las Vegas'ta Gordon Ramsay'in dünyasına adım atın. Caesars Palace'ta bulunan bu muhteşem restoran, tıpkı programdaki gibi kırmızı ve mavi mutfak takımlarına ayrılmıştır. Ünlü Beef Wellington, tavada sote deniz tarağı ve efsanevi yapışkan toffee pudingi dahil Ramsay'in imza lezzetlerinin tadını çıkarın. VIP rezervasyon hizmetimiz, haftalarca süren tipik bekleme listesi olmadan premium bir masa garantisi sunar. Las Vegas'ın en seçkin yemek sahnesine yakışan bir mutfak deneyimidir."
+      },
+      "category": "dining",
+      "price": 195,
+      "duration": "2-3 hours",
+      "groupSize": "2-8",
+      "icon": "👨‍🍳",
+      "featured": true,
+      "meetingPoint": {
+        "en": "Caesars Palace, Hell's Kitchen Restaurant",
+        "tr": "Caesars Palace, Hell's Kitchen Restoranı"
+      },
+      "included": [
+        { "en": "VIP reservation (no waitlist)", "tr": "VIP rezervasyon (bekleme listesi yok)" },
+        { "en": "Three-course signature dinner", "tr": "Üç çeşit imza yemeği" },
+        { "en": "Welcome cocktail", "tr": "Karşılama kokteyli" }
+      ],
+      "highlights": [
+        { "en": "Dine in the iconic red and blue kitchen setting", "tr": "İkonik kırmızı ve mavi mutfak ortamında yemek yiyin" },
+        { "en": "Taste Gordon Ramsay's legendary Beef Wellington", "tr": "Gordon Ramsay'in efsanevi Beef Wellington'ını tadın" },
+        { "en": "VIP table guaranteed at Caesars Palace", "tr": "Caesars Palace'ta VIP masa garantisi" }
+      ]
+    },
+    {
+      "slug": "las-vegas-food-tour",
+      "name": {
+        "en": "Las Vegas Food Tour",
+        "tr": "Las Vegas Yemek Turu"
+      },
+      "description": {
+        "en": "Taste your way through Las Vegas's best restaurants and hidden culinary gems on a guided food tour.",
+        "tr": "Rehberli bir yemek turuyla Las Vegas'ın en iyi restoranlarını ve gizli mutfak hazinelerini tadarak keşfedin."
+      },
+      "longDescription": {
+        "en": "Las Vegas has quietly become one of America's greatest food cities, and this guided food tour proves it. Sample dishes from 5-6 handpicked restaurants ranging from world-famous celebrity chef spots to beloved local favorites that only insiders know about. Taste everything from gourmet tacos and artisan pizza to decadent desserts and craft cocktails. Your food-expert guide shares the stories behind each restaurant and the culinary revolution that transformed Vegas from a buffet town to a fine-dining destination.",
+        "tr": "Las Vegas sessiz sedasız Amerika'nın en büyük yemek şehirlerinden biri haline geldi ve bu rehberli yemek turu bunu kanıtlıyor. Dünyaca ünlü şef mekanlarından sadece yerlilerin bildiği sevilen lokal favorilere kadar özenle seçilmiş 5-6 restorandan lezzetler tadın. Gurme tacos ve zanaatkar pizzadan görkemli tatlılara ve özel kokteyllere kadar her şeyi deneyin. Yemek uzmanı rehberiniz her restoranın arkasındaki hikayeleri ve Vegas'ı bir büfe şehrinden fine-dining destinasyonuna dönüştüren mutfak devrimini paylaşır."
+      },
+      "category": "dining",
+      "price": 149,
+      "duration": "3-4 hours",
+      "groupSize": "2-12",
+      "icon": "🍽️",
+      "featured": true,
+      "meetingPoint": {
+        "en": "Designated meeting point on the Strip",
+        "tr": "Strip üzerinde belirlenen buluşma noktası"
+      },
+      "included": [
+        { "en": "Food tastings at 5-6 restaurants", "tr": "5-6 restoranda yemek tadımı" },
+        { "en": "Expert food guide", "tr": "Uzman yemek rehberi" },
+        { "en": "One craft cocktail or beverage", "tr": "Bir özel kokteyl veya içecek" }
+      ],
+      "highlights": [
+        { "en": "Sample dishes from celebrity chef restaurants", "tr": "Ünlü şef restoranlarından lezzetler tadın" },
+        { "en": "Discover hidden local favorites most tourists miss", "tr": "Çoğu turistin kaçırdığı gizli yerel favorileri keşfedin" }
+      ]
+    },
+    {
+      "slug": "wine-tasting-experience",
+      "name": {
+        "en": "Wine Tasting Experience",
+        "tr": "Şarap Tadımı Deneyimi"
+      },
+      "description": {
+        "en": "Savor premium wines from world-renowned vineyards at an exclusive Las Vegas wine tasting event.",
+        "tr": "Las Vegas'taki özel bir şarap tadımı etkinliğinde dünyaca ünlü bağ evlerinin premium şaraplarını tadın."
+      },
+      "longDescription": {
+        "en": "Elevate your Las Vegas experience with a sophisticated wine tasting journey through some of the world's finest vintages. Hosted in an elegant private setting, a certified sommelier guides you through a curated selection of 6-8 premium wines from renowned regions including Napa Valley, Bordeaux, and Tuscany. Learn about tasting techniques, food pairings, and the fascinating stories behind each bottle. Paired with an artisan cheese and charcuterie board, this is a refined evening perfect for wine lovers and curious beginners alike.",
+        "tr": "Dünyanın en seçkin şarap yıllarından bazılarıyla sofistike bir şarap tadımı yolculuğu yaparak Las Vegas deneyiminizi bir üst seviyeye taşıyın. Zarif özel bir ortamda düzenlenen etkinlikte, sertifikalı bir sommelier Napa Valley, Bordeaux ve Toskana gibi ünlü bölgelerden özenle seçilmiş 6-8 premium şarabı size tanıtır. Tadım teknikleri, yemek eşleştirmeleri ve her şişenin arkasındaki büyüleyici hikayeler hakkında bilgi edinin. Zanaatkar peynir ve şarküteri tabağıyla eşleştirilen bu etkinlik, şarap severler ve meraklı yeni başlayanlar için mükemmel, rafine bir akşamdır."
+      },
+      "category": "dining",
+      "price": 129,
+      "duration": "2 hours",
+      "groupSize": "2-10",
+      "icon": "🍷",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Private wine lounge (location provided upon booking)",
+        "tr": "Özel şarap salonu (rezervasyon sonrası konum bildirilir)"
+      },
+      "included": [
+        { "en": "Tasting of 6-8 premium wines", "tr": "6-8 premium şarap tadımı" },
+        { "en": "Artisan cheese and charcuterie board", "tr": "Zanaatkar peynir ve şarküteri tabağı" },
+        { "en": "Certified sommelier guidance", "tr": "Sertifikalı sommelier rehberliği" }
+      ],
+      "highlights": [
+        { "en": "Taste wines from Napa Valley, Bordeaux, and Tuscany", "tr": "Napa Valley, Bordeaux ve Toskana şaraplarını tadın" },
+        { "en": "Learn tasting techniques from a certified sommelier", "tr": "Sertifikalı bir sommelierden tadım tekniklerini öğrenin" }
+      ]
+    },
+    {
+      "slug": "high-roller-observation-wheel",
+      "name": {
+        "en": "High Roller Observation Wheel",
+        "tr": "High Roller Gözlem Çarkı"
+      },
+      "description": {
+        "en": "Ride the world's tallest observation wheel for 360-degree views of the Las Vegas Strip and surrounding mountains.",
+        "tr": "Dünyanın en yüksek gözlem çarkında Las Vegas Strip ve çevredeki dağların 360 derece manzarasının keyfini çıkarın."
+      },
+      "longDescription": {
+        "en": "Standing 550 feet tall at the LINQ Promenade, the High Roller is the world's tallest observation wheel and one of Las Vegas's most iconic attractions. Each spacious cabin holds up to 40 guests and makes one complete revolution in 30 minutes, giving you plenty of time to take in breathtaking 360-degree views of the Strip, the surrounding desert, and the distant mountains. The experience is especially magical at night when the Strip lights up below. Upgrade to the Happy Half Hour cabin for an open bar with a bartender during your ride.",
+        "tr": "LINQ Promenade'da 167 metre yüksekliğe sahip High Roller, dünyanın en yüksek gözlem çarkı ve Las Vegas'ın en ikonik cazibe merkezlerinden biridir. Her geniş kabin 40 kişiye kadar misafir alır ve 30 dakikada bir tam tur tamamlayarak Strip, çevre çöl ve uzaktaki dağların nefes kesen 360 derece manzarasını izlemeniz için bolca zaman tanır. Özellikle gece Strip aşağıda aydınlandığında deneyim büyülüdür. Yolculuğunuz sırasında barmen eşliğinde açık bar için Happy Half Hour kabinine yükseltme yapabilirsiniz."
+      },
+      "category": "dining",
+      "price": 37,
+      "duration": "30-45 minutes",
+      "groupSize": "1-40",
+      "icon": "🎡",
+      "featured": false,
+      "meetingPoint": {
+        "en": "The LINQ Promenade, 3545 Las Vegas Blvd S",
+        "tr": "The LINQ Promenade, 3545 Las Vegas Blvd S"
+      },
+      "included": [
+        { "en": "One full revolution on the High Roller", "tr": "High Roller'da bir tam tur" },
+        { "en": "Open bar option available (Happy Half Hour upgrade)", "tr": "Açık bar seçeneği mevcut (Happy Half Hour yükseltmesi)" }
+      ],
+      "highlights": [
+        { "en": "360-degree views from 550 feet above the Strip", "tr": "Strip'in 167 metre üzerinden 360 derece manzara" },
+        { "en": "Especially spectacular at night with the city lights", "tr": "Şehir ışıklarıyla gece özellikle muhteşem" }
+      ]
+    },
+    {
+      "slug": "vip-pool-party",
+      "name": {
+        "en": "VIP Pool Party Experience",
+        "tr": "VIP Havuz Partisi Deneyimi"
+      },
+      "description": {
+        "en": "Live the ultimate Vegas lifestyle at the Strip's hottest pool parties with VIP daybed access and bottle service.",
+        "tr": "VIP şezlong erişimi ve şişe servisiyle Strip'in en ateşli havuz partilerinde nihai Vegas yaşam tarzını yaşayın."
+      },
+      "longDescription": {
+        "en": "Las Vegas pool parties are legendary, and our VIP package puts you in the heart of the action at venues like Encore Beach Club, Wet Republic, and Marquee Dayclub. Relax on a premium daybed or cabana with dedicated cocktail service while world-famous DJs spin under the desert sun. Our VIP host handles everything — skip-the-line entry, reserved seating, and bottle service are all included. This is the quintessential Vegas daytime experience, where every moment feels like a music video.",
+        "tr": "Las Vegas havuz partileri efsanevidir ve VIP paketimiz sizi Encore Beach Club, Wet Republic ve Marquee Dayclub gibi mekanlarda aksiyonun merkezine koyar. Dünyaca ünlü DJ'ler çöl güneşi altında müzik yaparken premium şezlong veya kabanada özel kokteyl servisiyle rahatlayın. VIP sunucumuz her şeyi halleder — sıra atlatma girişi, ayrılmış oturma ve şişe servisi hepsi dahildir. Bu, her anın bir müzik videosu gibi hissettirdiği, Las Vegas'ın özünü temsil eden gündüz deneyimidir."
+      },
+      "category": "dining",
+      "price": 299,
+      "duration": "4-6 hours",
+      "groupSize": "2-10",
+      "icon": "🏊",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Pool venue entrance (varies by event)",
+        "tr": "Havuz mekanı girişi (etkinliğe göre değişir)"
+      },
+      "included": [
+        { "en": "VIP skip-the-line entry", "tr": "VIP sıra atlatma girişi" },
+        { "en": "Premium daybed or cabana reservation", "tr": "Premium şezlong veya kabana rezervasyonu" },
+        { "en": "One bottle of premium spirits", "tr": "Bir şişe premium içki" }
+      ],
+      "highlights": [
+        { "en": "VIP access to the Strip's hottest pool parties", "tr": "Strip'in en popüler havuz partilerine VIP erişim" },
+        { "en": "World-famous DJs and electric party atmosphere", "tr": "Dünyaca ünlü DJ'ler ve elektrikli parti atmosferi" }
+      ]
+    },
+    {
+      "slug": "luxury-spa-package",
+      "name": {
+        "en": "Luxury Spa Package",
+        "tr": "Lüks Spa Paketi"
+      },
+      "description": {
+        "en": "Indulge in a world-class spa experience at one of Las Vegas's finest resort spas with premium treatments.",
+        "tr": "Las Vegas'ın en seçkin resort spalarından birinde premium bakımlarla dünya standartlarında bir spa deneyiminin tadını çıkarın."
+      },
+      "longDescription": {
+        "en": "Recharge and rejuvenate at one of Las Vegas's most luxurious resort spas. Our curated spa package includes your choice of signature treatments at top-rated spas like the Spa at Encore, Canyon Ranch at The Venetian, or ARIA Spa & Salon. Enjoy a relaxing massage, rejuvenating facial, and full access to premium amenities including saunas, steam rooms, hot tubs, and relaxation lounges. It's the perfect way to balance the excitement of Vegas with pure relaxation and self-care.",
+        "tr": "Las Vegas'ın en lüks resort spalarından birinde yenilenin ve kendinize gelin. Özenle hazırlanmış spa paketimiz, Encore Spa, The Venetian'daki Canyon Ranch veya ARIA Spa & Salon gibi en yüksek puanlı spalarda imza bakımlarınız arasından seçim yapmanızı sağlar. Rahatlatıcı bir masaj, gençleştirici yüz bakımı ve sauna, buhar odası, jakuzi ve dinlenme salonları dahil premium olanaklara tam erişimin keyfini çıkarın. Vegas'ın heyecanını saf rahatlama ve öz bakımla dengelemenin mükemmel yoludur."
+      },
+      "category": "dining",
+      "price": 349,
+      "duration": "3-4 hours",
+      "groupSize": "1-4",
+      "icon": "💆",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Selected resort spa (confirmed upon booking)",
+        "tr": "Seçilen resort spa (rezervasyon sonrası onaylanır)"
+      },
+      "included": [
+        { "en": "Signature massage or body treatment", "tr": "İmza masajı veya vücut bakımı" },
+        { "en": "Rejuvenating facial treatment", "tr": "Gençleştirici yüz bakımı" },
+        { "en": "Full access to spa amenities", "tr": "Spa olanaklarına tam erişim" }
+      ],
+      "highlights": [
+        { "en": "Premium treatments at Las Vegas's top resort spas", "tr": "Las Vegas'ın en iyi resort spalarında premium bakımlar" },
+        { "en": "Complete relaxation with sauna, steam room, and lounge access", "tr": "Sauna, buhar odası ve dinlenme salonu erişimiyle tam rahatlama" }
+      ]
+    },
+    {
+      "slug": "las-vegas-wedding-package",
+      "name": {
+        "en": "Las Vegas Wedding Package",
+        "tr": "Las Vegas Düğün Paketi"
+      },
+      "description": {
+        "en": "Say 'I do' in the Wedding Capital of the World with a complete Las Vegas wedding package.",
+        "tr": "Dünyanın Düğün Başkenti'nde eksiksiz bir Las Vegas düğün paketiyle 'Evet' deyin."
+      },
+      "longDescription": {
+        "en": "Las Vegas is the Wedding Capital of the World, and our complete wedding package makes your dream ceremony a reality. Choose from a variety of stunning venues — from classic chapels to outdoor settings with Strip views. Our package includes the marriage ceremony, an ordained minister, professional photography, a beautiful floral bouquet and boutonniere, and all the necessary legal coordination. Whether it's an intimate elopement or a renewal of vows, we handle every detail so you can focus on the most important moment of your life.",
+        "tr": "Las Vegas, Dünyanın Düğün Başkenti'dir ve eksiksiz düğün paketimiz hayalinizdeki töreni gerçeğe dönüştürür. Klasik şapellerden Strip manzaralı açık hava mekanlarına kadar çeşitli muhteşem mekanlar arasından seçim yapın. Paketimiz nikah töreni, yetkili nikah memuru, profesyonel fotoğrafçılık, güzel çiçek buketi ve yaka çiçeği ile tüm gerekli yasal koordinasyonu içerir. İster samimi bir kaçamak düğün ister yemin yenileme olsun, hayatınızın en önemli anına odaklanabilmeniz için her detayı biz hallederiz."
+      },
+      "category": "dining",
+      "price": 399,
+      "duration": "2-3 hours",
+      "groupSize": "2-20",
+      "icon": "💒",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Selected chapel or venue (confirmed upon booking)",
+        "tr": "Seçilen şapel veya mekan (rezervasyon sonrası onaylanır)"
+      },
+      "included": [
+        { "en": "Marriage ceremony with ordained minister", "tr": "Yetkili nikah memuru ile nikah töreni" },
+        { "en": "Professional photography package", "tr": "Profesyonel fotoğrafçılık paketi" },
+        { "en": "Floral bouquet and boutonniere", "tr": "Çiçek buketi ve yaka çiçeği" }
+      ],
+      "highlights": [
+        { "en": "Get married in the Wedding Capital of the World", "tr": "Dünyanın Düğün Başkenti'nde evlenin" },
+        { "en": "Multiple venue options from chapels to outdoor settings", "tr": "Şapellerden açık hava mekanlarına birçok mekan seçeneği" }
+      ]
+    },
+    {
+      "slug": "vip-nightclub-package",
+      "name": {
+        "en": "VIP Nightclub Package",
+        "tr": "VIP Gece Kulübü Paketi"
+      },
+      "description": {
+        "en": "Experience Las Vegas nightlife like a celebrity with VIP table service at the Strip's most exclusive nightclubs.",
+        "tr": "Strip'in en ayrıcalıklı gece kulüplerinde VIP masa servisiyle bir ünlü gibi Las Vegas gece hayatını deneyimleyin."
+      },
+      "longDescription": {
+        "en": "Skip the velvet rope and step into Las Vegas's most exclusive nightclubs like a true VIP. Our premium nightclub package includes reserved table or booth at top venues like Hakkasan, XS, Omnia, or Zouk, complete with bottle service and a dedicated VIP host. Enjoy priority skip-the-line entry, premium spirits, and the best views of the dance floor and world-famous DJ performances. Whether you're celebrating a birthday, bachelor party, or just living your best life, this is nightlife done the Vegas way.",
+        "tr": "Kadife ipi atlayın ve gerçek bir VIP gibi Las Vegas'ın en ayrıcalıklı gece kulüplerine adım atın. Premium gece kulübü paketimiz Hakkasan, XS, Omnia veya Zouk gibi en iyi mekanlarda ayrılmış masa veya bölme, şişe servisi ve özel VIP sunucu içerir. Öncelikli sıra atlatma girişi, premium içkiler ve dans pisti ile dünyaca ünlü DJ performanslarının en iyi manzarasının keyfini çıkarın. İster doğum günü, ister bekarlığa veda partisi veya sadece hayatınızın en iyisini yaşıyor olun, bu gece hayatının Vegas tarzıdır."
+      },
+      "category": "dining",
+      "price": 399,
+      "duration": "4-6 hours",
+      "groupSize": "2-10",
+      "icon": "🥂",
+      "featured": false,
+      "meetingPoint": {
+        "en": "Nightclub entrance (venue confirmed upon booking)",
+        "tr": "Gece kulübü girişi (mekan rezervasyon sonrası onaylanır)"
+      },
+      "included": [
+        { "en": "VIP table or booth reservation", "tr": "VIP masa veya bölme rezervasyonu" },
+        { "en": "Two bottles of premium spirits", "tr": "İki şişe premium içki" },
+        { "en": "Dedicated VIP host and skip-the-line entry", "tr": "Özel VIP sunucu ve sıra atlatma girişi" }
+      ],
+      "highlights": [
+        { "en": "VIP access to the Strip's most exclusive nightclubs", "tr": "Strip'in en ayrıcalıklı gece kulüplerine VIP erişim" },
+        { "en": "Premium table service with dedicated VIP host", "tr": "Özel VIP sunucu eşliğinde premium masa servisi" }
+      ]
+    },
+    {
+      "slug": "luxury-limo-strip-tour",
+      "name": {
+        "en": "Luxury Limo Strip Tour",
+        "tr": "Lüks Limuzin Strip Turu"
+      },
+      "description": {
+        "en": "Cruise the legendary Las Vegas Strip in a stretch limousine with champagne, music, and VIP treatment.",
+        "tr": "Şampanya, müzik ve VIP ağırlama ile efsanevi Las Vegas Strip'te streç limuzinle gezin."
+      },
+      "longDescription": {
+        "en": "See Las Vegas in ultimate style aboard a luxury stretch limousine. Cruise the entire length of the legendary Strip while sipping champagne and enjoying the neon-lit spectacle through panoramic windows. Your professional chauffeur takes you past every iconic landmark — from the Bellagio fountains to the towering Luxor pyramid — while you relax in leather-appointed comfort with a premium sound system. Includes photo stops at the most picturesque locations. Perfect for celebrations, date nights, or simply experiencing Vegas at its most glamorous.",
+        "tr": "Lüks streç limuzinle Las Vegas'ı en üst düzey tarzda görün. Efsanevi Strip'in tüm uzunluğunda şampanya yudumlayarak ve panoramik pencerelerden neon ışıklı gösteriyi izleyerek gezin. Profesyonel şoförünüz, Bellagio süs havuzlarından yükselen Luxor piramidine kadar her ikonik simge yapının önünden geçerken siz premium ses sistemiyle deri döşemeli konforda rahatlayın. En pitoresk lokasyonlarda fotoğraf durakları dahildir. Kutlamalar, romantik akşamlar veya sadece Vegas'ı en görkemli haliyle deneyimlemek için mükemmeldir."
+      },
+      "category": "dining",
+      "price": 199,
+      "duration": "2-3 hours",
+      "groupSize": "2-10",
+      "icon": "🚙",
+      "featured": true,
+      "meetingPoint": {
+        "en": "Hotel lobby pickup",
+        "tr": "Otel lobisinden alım"
+      },
+      "included": [
+        { "en": "Luxury stretch limousine for 2-3 hours", "tr": "2-3 saatlik lüks streç limuzin" },
+        { "en": "Champagne and premium beverages", "tr": "Şampanya ve premium içecekler" },
+        { "en": "Professional chauffeur and VIP treatment", "tr": "Profesyonel şoför ve VIP ağırlama" }
+      ],
+      "highlights": [
+        { "en": "Cruise the entire Strip in a luxury stretch limousine", "tr": "Lüks streç limuzinle tüm Strip boyunca gezin" },
+        { "en": "Champagne toast with panoramic Strip views", "tr": "Panoramik Strip manzarası eşliğinde şampanya kadeh kaldırma" },
+        { "en": "Photo stops at the most iconic Vegas landmarks", "tr": "En ikonik Vegas simge yapılarında fotoğraf durakları" }
+      ]
+    }
+  ]
+}

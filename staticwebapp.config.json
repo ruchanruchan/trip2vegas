@@ -1,0 +1,66 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "/assets/*",
+      "/data/*",
+      "/components/*",
+      "*.css",
+      "*.js",
+      "*.json",
+      "*.png",
+      "*.jpg",
+      "*.webp",
+      "*.svg",
+      "*.ico",
+      "*.xml",
+      "*.txt"
+    ]
+  },
+  "routes": [
+    {
+      "route": "/tours",
+      "rewrite": "/pages/tours/index.html"
+    },
+    {
+      "route": "/tours/",
+      "rewrite": "/pages/tours/index.html"
+    },
+    {
+      "route": "/tours/*",
+      "rewrite": "/pages/tours/detail.html"
+    },
+    {
+      "route": "/about",
+      "rewrite": "/pages/about/index.html"
+    },
+    {
+      "route": "/about/",
+      "rewrite": "/pages/about/index.html"
+    },
+    {
+      "route": "/contact",
+      "rewrite": "/pages/contact/index.html"
+    },
+    {
+      "route": "/contact/",
+      "rewrite": "/pages/contact/index.html"
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html"
+    }
+  },
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1; mode=block",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+  },
+  "mimeTypes": {
+    ".json": "application/json",
+    ".webp": "image/webp"
+  }
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse 40+ Las Vegas tours and experiences. Helicopter tours, Cirque du Soleil, Grand Canyon excursions, fine dining and more.">
+  <title>Tours & Experiences | Trip2Vegas</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../assets/css/vegas-theme.css">
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <link rel="stylesheet" href="../../assets/css/responsive.css">
+</head>
+<body class="page-loading">
+  <div id="header-placeholder"></div>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <div class="breadcrumb" style="justify-content: center;">
+        <a href="../../">
+          <span data-lang-en>Home</span>
+          <span data-lang-tr>Ana Sayfa</span>
+        </a>
+        <span class="breadcrumb__separator">›</span>
+        <span>
+          <span data-lang-en>Tours & Experiences</span>
+          <span data-lang-tr>Turlar & Deneyimler</span>
+        </span>
+      </div>
+      <h1>
+        <span data-lang-en>Tours & <span class="text-gold">Experiences</span></span>
+        <span data-lang-tr>Turlar & <span class="text-gold">Deneyimler</span></span>
+      </h1>
+      <p class="section-subtitle">
+        <span data-lang-en>Discover 40+ curated Las Vegas experiences. From thrilling adventures to world-class entertainment.</span>
+        <span data-lang-tr>40'tan fazla özenle seçilmiş Las Vegas deneyimini keşfedin. Heyecan verici maceralardan dünya standartlarında eğlenceye.</span>
+      </p>
+    </div>
+  </div>
+
+  <section class="section section--dark">
+    <div class="container">
+      <!-- Search Bar -->
+      <div class="search-bar fade-in">
+        <span class="search-bar__icon">🔍</span>
+        <input
+          type="text"
+          class="search-bar__input"
+          data-lang-en-placeholder="Search tours..."
+          data-lang-tr-placeholder="Tur ara..."
+          placeholder="Search tours..."
+          aria-label="Search tours"
+        >
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs fade-in">
+        <button class="filter-tab active" data-category="all">
+          <span data-lang-en>All</span>
+          <span data-lang-tr>Tümü</span>
+          (<span id="tours-count">0</span>)
+        </button>
+        <button class="filter-tab" data-category="adventure">
+          <span data-lang-en>🚁 Adventure</span>
+          <span data-lang-tr>🚁 Macera</span>
+        </button>
+        <button class="filter-tab" data-category="entertainment">
+          <span data-lang-en>🎭 Entertainment</span>
+          <span data-lang-tr>🎭 Eğlence</span>
+        </button>
+        <button class="filter-tab" data-category="sightseeing">
+          <span data-lang-en>🏜️ Sightseeing</span>
+          <span data-lang-tr>🏜️ Gezi</span>
+        </button>
+        <button class="filter-tab" data-category="dining">
+          <span data-lang-en>🍽️ Dining</span>
+          <span data-lang-tr>🍽️ Yeme & İçme</span>
+        </button>
+      </div>
+
+      <!-- Tours Grid -->
+      <div class="grid grid--3" id="tours-grid">
+        <!-- Populated by tours.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner fade-in">
+    <div class="cta-banner__bg"></div>
+    <div class="cta-banner__content">
+      <h2>
+        <span data-lang-en>Can't find what you're looking for?</span>
+        <span data-lang-tr>Aradığınızı bulamıyor musunuz?</span>
+      </h2>
+      <p>
+        <span data-lang-en>We create custom packages for groups, families, and special occasions. Contact us with your dream itinerary.</span>
+        <span data-lang-tr>Gruplar, aileler ve özel günler için özel paketler oluşturuyoruz. Hayalinizdeki programla bize ulaşın.</span>
+      </p>
+      <a href="../contact/" class="btn btn--gold btn--lg">
+        <span data-lang-en>Contact Us</span>
+        <span data-lang-tr>Bize Ulaşın</span>
+      </a>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="../../assets/js/language.js"></script>
+  <script src="../../assets/js/components.js"></script>
+  <script src="../../assets/js/main.js"></script>
+  <script src="../../assets/js/tours.js"></script>
+
+  <!-- Handle category from URL param -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const cat = params.get('cat');
+      if (cat) {
+        // Wait a tick for tours.js to initialize
+        setTimeout(() => {
+          const tab = document.querySelector(`.filter-tab[data-category="${cat}"]`);
+          if (tab) tab.click();
+        }, 500);
+      }
+
+      // Update search placeholder on language change
+      window.addEventListener('languageChange', (e) => {
+        const input = document.querySelector('.search-bar__input');
+        if (input) {
+          input.placeholder = e.detail.lang === 'tr' ? 'Tur ara...' : 'Search tours...';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
