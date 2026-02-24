@@ -23,10 +23,6 @@
       "rewrite": "/pages/tours/index.html"
     },
     {
-      "route": "/tours/",
-      "rewrite": "/pages/tours/index.html"
-    },
-    {
       "route": "/tours/*",
       "rewrite": "/pages/tours/detail.html"
     },
@@ -35,15 +31,7 @@
       "rewrite": "/pages/about/index.html"
     },
     {
-      "route": "/about/",
-      "rewrite": "/pages/about/index.html"
-    },
-    {
       "route": "/contact",
-      "rewrite": "/pages/contact/index.html"
-    },
-    {
-      "route": "/contact/",
       "rewrite": "/pages/contact/index.html"
     }
   ],
