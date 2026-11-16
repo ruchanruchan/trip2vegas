@@ -85,6 +85,7 @@ HERO = {
     "page-header": ("dev", 1920, 640, "dark elegant abstract background of golden bokeh city lights at night, out of focus, black and gold, luxurious, wide panorama"),
     "cta-banner": ("dev", 1920, 640, "a desert highway leading toward a distant glowing city skyline at twilight, deep red and gold sunset sky, wide panorama"),
     "about": ("dev", 1280, 800, "a small group of happy tourists with a friendly guide at a scenic desert canyon overlook at golden hour, seen from behind, warm light"),
+    "about-story": ("dev", 1024, 768, "a friendly professional tour guide welcoming a smiling couple of travelers beside a luxury black SUV in front of a grand illuminated resort hotel with palm trees and fountains at dusk, warm golden light, candid moment"),
     "cat-adventure": ("dev", 1024, 768, "a helicopter and an off-road buggy in a dramatic red desert canyon landscape at golden hour, sense of adventure"),
     "cat-entertainment": ("dev", 1024, 768, "a grand theater stage with acrobats in mid-air under dramatic purple and gold spotlights, audience silhouettes"),
     "cat-sightseeing": ("dev", 1024, 768, "majestic layered red rock canyon panorama at sunset with a winding river, vast and serene"),
