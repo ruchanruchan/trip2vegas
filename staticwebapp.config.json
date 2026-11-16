@@ -1,22 +1,4 @@
 {
-  "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": [
-      "/assets/*",
-      "/data/*",
-      "/components/*",
-      "*.css",
-      "*.js",
-      "*.json",
-      "*.png",
-      "*.jpg",
-      "*.webp",
-      "*.svg",
-      "*.ico",
-      "*.xml",
-      "*.txt"
-    ]
-  },
   "routes": [
     {
       "route": "/tours",
@@ -37,7 +19,8 @@
   ],
   "responseOverrides": {
     "404": {
-      "rewrite": "/index.html"
+      "rewrite": "/404.html",
+      "statusCode": 404
     }
   },
   "globalHeaders": {
@@ -50,5 +33,8 @@
   "mimeTypes": {
     ".json": "application/json",
     ".webp": "image/webp"
+  },
+  "platform": {
+    "apiRuntime": "dotnet-isolated:8.0"
   }
 }

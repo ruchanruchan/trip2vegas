@@ -1,11 +1,12 @@
 /* ============================================================
    CONTACT MODULE - Contact Form Handling
-   Validates and submits form via Formspree (Phase 1)
-   or Azure Functions API (Phase 2+).
+   Validates and submits the form to the Azure Functions API,
+   which emails it via Azure Communication Services.
    ============================================================ */
 
 const Contact = (() => {
-  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xpznqkdl'; // Replace with actual Formspree ID
+  const ENDPOINT = '/api/contact'; // Azure Function (api/ContactFunction.cs)
+  const loadedAt = Date.now();     // used by the server as a simple bot check
 
   /**
    * Initialize the contact form.
@@ -62,12 +63,15 @@ const Contact = (() => {
     }
 
     try {
-      const formData = new FormData(form);
+      // "website" is a hidden honeypot field; elapsedMs lets the server reject instant bot posts
+      const payload = Object.fromEntries(new FormData(form).entries());
+      payload.elapsedMs = Date.now() - loadedAt;
+      payload.lang = typeof Language !== 'undefined' ? Language.get() : 'en';
 
-      const resp = await fetch(FORMSPREE_ENDPOINT, {
+      const resp = await fetch(ENDPOINT, {
         method: 'POST',
-        body: formData,
-        headers: { Accept: 'application/json' },
+        body: JSON.stringify(payload),
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
       });
 
       if (resp.ok) {

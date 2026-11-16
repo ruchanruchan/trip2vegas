@@ -1348,3 +1348,24 @@ select.form-control {
   transform: translateY(-50%);
   color: var(--color-gray);
 }
+
+/* --- Line icons (assets/images/icons.svg sprite) --- */
+.icon {
+  width: 1em;
+  height: 1em;
+  fill: none;
+  stroke: var(--color-gold);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: middle;
+}
+
+/* --- Contact form honeypot (spam trap, hidden from people) --- */
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

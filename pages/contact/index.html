@@ -5,6 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Contact Trip2Vegas for Las Vegas tour bookings, custom packages, and inquiries. Available 24/7 via WhatsApp, email, and phone.">
   <title>Contact Us | Trip2Vegas</title>
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/assets/images/logos/favicon.svg">
+  <link rel="apple-touch-icon" href="/assets/images/logos/apple-touch-icon.png">
+  <link rel="canonical" href="https://trip2vegas.com/pages/contact/">
+  <link rel="alternate" hreflang="en" href="https://trip2vegas.com/pages/contact/">
+  <link rel="alternate" hreflang="tr" href="https://trip2vegas.com/pages/contact/">
+  <link rel="alternate" hreflang="x-default" href="https://trip2vegas.com/pages/contact/">
+  <meta property="og:title" content="Contact Us | Trip2Vegas">
+  <meta property="og:description" content="Contact Trip2Vegas for Las Vegas tour bookings, custom packages, and inquiries. Available 24/7 via WhatsApp, email, and phone.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://trip2vegas.com/pages/contact/">
+  <meta property="og:image" content="https://trip2vegas.com/assets/images/hero/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +62,7 @@
       <!-- Contact Info Cards -->
       <div class="grid grid--3 fade-in" style="margin-bottom: var(--space-12);">
         <div class="contact-info-card">
-          <div class="contact-info-card__icon">📧</div>
+          <div class="contact-info-card__icon"><svg class="icon" aria-hidden="true"><use href="/assets/images/icons.svg#i-mail"></use></svg></div>
           <div>
             <h3 class="contact-info-card__title">
               <span data-lang-en>Email</span>
@@ -60,7 +75,7 @@
         </div>
 
         <div class="contact-info-card">
-          <div class="contact-info-card__icon">💬</div>
+          <div class="contact-info-card__icon"><svg class="icon" aria-hidden="true"><use href="/assets/images/icons.svg#i-chat"></use></svg></div>
           <div>
             <h3 class="contact-info-card__title">WhatsApp</h3>
             <p class="contact-info-card__text">
@@ -75,7 +90,7 @@
         </div>
 
         <div class="contact-info-card">
-          <div class="contact-info-card__icon">📍</div>
+          <div class="contact-info-card__icon"><svg class="icon" aria-hidden="true"><use href="/assets/images/icons.svg#i-pin"></use></svg></div>
           <div>
             <h3 class="contact-info-card__title">
               <span data-lang-en>Location</span>
@@ -160,6 +175,12 @@
               </label>
               <textarea id="message" name="message" class="form-control" required rows="6"
                 placeholder="Tell us about your dream Las Vegas experience..."></textarea>
+            </div>
+
+            <!-- Honeypot: hidden from people, bots fill it in and get rejected -->
+            <div class="hp-field" aria-hidden="true">
+              <label for="website">Website</label>
+              <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
             </div>
 
             <button type="submit" class="btn btn--gold btn--lg">

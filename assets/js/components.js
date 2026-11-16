@@ -10,13 +10,8 @@ const Components = (() => {
    * Pages in /pages/tours/: '../../'
    */
   function getBasePath() {
-    const path = window.location.pathname;
-    // Count depth from root
-    const segments = path.split('/').filter(s => s && !s.includes('.'));
-    // If on Azure SWA, paths may be rewritten — check for /pages/ prefix
-    if (segments.length >= 2) return '../../';
-    if (segments.length === 1) return '../';
-    return '';
+    // The site is served from the domain root, so root-relative paths work at any depth
+    return '/';
   }
 
   /**

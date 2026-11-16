@@ -231,8 +231,12 @@ const Tours = (() => {
       return;
     }
 
-    // Set page title
+    // Set page title, description and canonical URL for this tour
     document.title = `${tour.name.en} | Trip2Vegas`;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', tour.description.en);
+    const canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) canonical.setAttribute('href', `https://trip2vegas.com/pages/tours/detail.html?slug=${tour.slug}`);
 
     // Hero background photo
     const heroBg = document.getElementById('tour-hero-bg');
@@ -310,11 +314,18 @@ const Tours = (() => {
     // Render sidebar
     const sidebar = document.getElementById('tour-sidebar');
     if (sidebar) {
+      // Most tours are priced per person; a tour can override with "priceUnit"
+      const priceUnits = {
+        person: { en: 'per person', tr: 'kişi başı' },
+        couple: { en: 'per couple', tr: 'çift başı' },
+        vehicle: { en: 'per vehicle', tr: 'araç başı' },
+      };
+      const unit = priceUnits[tour.priceUnit] || priceUnits.person;
       const priceHtml = tour.price
         ? `<span class="card__price" style="font-size: var(--text-3xl);">$${tour.price}</span>
            <span class="card__price-label">
-             <span data-lang-en>per person</span>
-             <span data-lang-tr>kişi başı</span>
+             <span data-lang-en>${unit.en}</span>
+             <span data-lang-tr>${unit.tr}</span>
            </span>`
         : `<span class="card__price" style="font-size: var(--text-2xl);">
              <span data-lang-en>Request Quote</span>

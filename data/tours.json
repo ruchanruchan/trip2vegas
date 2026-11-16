@@ -25,14 +25,32 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "Champagne toast at canyon floor", "tr": "Kanyon tabanında şampanya ikramı" },
-        { "en": "Commemorative flight certificate", "tr": "Hatıra uçuş sertifikası" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "Champagne toast at canyon floor",
+          "tr": "Kanyon tabanında şampanya ikramı"
+        },
+        {
+          "en": "Commemorative flight certificate",
+          "tr": "Hatıra uçuş sertifikası"
+        }
       ],
       "highlights": [
-        { "en": "Land 4,000 feet below the rim on the canyon floor", "tr": "Kanyonun tabanına 1.200 metre inerek iniş yapın" },
-        { "en": "Fly over Hoover Dam and Lake Mead", "tr": "Hoover Barajı ve Lake Mead üzerinden uçun" },
-        { "en": "Panoramic views through wraparound windows", "tr": "Geniş pencerelerden panoramik manzara keyfi" }
+        {
+          "en": "Land 4,000 feet below the rim on the canyon floor",
+          "tr": "Kanyonun tabanına 1.200 metre inerek iniş yapın"
+        },
+        {
+          "en": "Fly over Hoover Dam and Lake Mead",
+          "tr": "Hoover Barajı ve Lake Mead üzerinden uçun"
+        },
+        {
+          "en": "Panoramic views through wraparound windows",
+          "tr": "Geniş pencerelerden panoramik manzara keyfi"
+        }
       ]
     },
     {
@@ -60,12 +78,24 @@
         "tr": "Helikopter terminali, otel transferi mevcuttur"
       },
       "included": [
-        { "en": "Round-trip hotel shuttle", "tr": "Gidiş-dönüş otel servisi" },
-        { "en": "Professional pilot narration", "tr": "Profesyonel pilot anlatımı" }
+        {
+          "en": "Round-trip hotel shuttle",
+          "tr": "Gidiş-dönüş otel servisi"
+        },
+        {
+          "en": "Professional pilot narration",
+          "tr": "Profesyonel pilot anlatımı"
+        }
       ],
       "highlights": [
-        { "en": "Stunning aerial views of the entire Las Vegas Strip", "tr": "Tüm Las Vegas Strip'in muhteşem hava manzarası" },
-        { "en": "See the Bellagio fountains and iconic landmarks from above", "tr": "Bellagio süs havuzlarını ve ikonik yapıları yukarıdan görün" }
+        {
+          "en": "Stunning aerial views of the entire Las Vegas Strip",
+          "tr": "Tüm Las Vegas Strip'in muhteşem hava manzarası"
+        },
+        {
+          "en": "See the Bellagio fountains and iconic landmarks from above",
+          "tr": "Bellagio süs havuzlarını ve ikonik yapıları yukarıdan görün"
+        }
       ]
     },
     {
@@ -93,13 +123,28 @@
         "tr": "Las Vegas Motor Speedway (servis mevcuttur)"
       },
       "included": [
-        { "en": "Professional racing instructor", "tr": "Profesyonel yarış eğitmeni" },
-        { "en": "In-car video recording", "tr": "Araç içi video kaydı" },
-        { "en": "Safety gear and helmet", "tr": "Güvenlik ekipmanı ve kask" }
+        {
+          "en": "Professional racing instructor",
+          "tr": "Profesyonel yarış eğitmeni"
+        },
+        {
+          "en": "In-car video recording",
+          "tr": "Araç içi video kaydı"
+        },
+        {
+          "en": "Safety gear and helmet",
+          "tr": "Güvenlik ekipmanı ve kask"
+        }
       ],
       "highlights": [
-        { "en": "Drive a real Ferrari on a professional racetrack", "tr": "Profesyonel bir pistte gerçek bir Ferrari kullanın" },
-        { "en": "Reach speeds over 130 mph with expert guidance", "tr": "Uzman rehberliğinde 200 km/s üzeri hıza ulaşın" }
+        {
+          "en": "Drive a real Ferrari on a professional racetrack",
+          "tr": "Profesyonel bir pistte gerçek bir Ferrari kullanın"
+        },
+        {
+          "en": "Reach speeds over 130 mph with expert guidance",
+          "tr": "Uzman rehberliğinde 200 km/s üzeri hıza ulaşın"
+        }
       ]
     },
     {
@@ -127,13 +172,28 @@
         "tr": "Las Vegas Motor Speedway (servis mevcuttur)"
       },
       "included": [
-        { "en": "Professional racing instructor", "tr": "Profesyonel yarış eğitmeni" },
-        { "en": "In-car video recording", "tr": "Araç içi video kaydı" },
-        { "en": "Safety briefing and equipment", "tr": "Güvenlik bilgilendirmesi ve ekipman" }
+        {
+          "en": "Professional racing instructor",
+          "tr": "Profesyonel yarış eğitmeni"
+        },
+        {
+          "en": "In-car video recording",
+          "tr": "Araç içi video kaydı"
+        },
+        {
+          "en": "Safety briefing and equipment",
+          "tr": "Güvenlik bilgilendirmesi ve ekipman"
+        }
       ],
       "highlights": [
-        { "en": "Drive a Lamborghini Huracán or Aventador", "tr": "Lamborghini Huracán veya Aventador kullanın" },
-        { "en": "Feel 600+ horsepower on a professional circuit", "tr": "Profesyonel bir pistte 600+ beygir gücünü hissedin" }
+        {
+          "en": "Drive a Lamborghini Huracán or Aventador",
+          "tr": "Lamborghini Huracán veya Aventador kullanın"
+        },
+        {
+          "en": "Feel 600+ horsepower on a professional circuit",
+          "tr": "Profesyonel bir pistte 600+ beygir gücünü hissedin"
+        }
       ]
     },
     {
@@ -161,13 +221,28 @@
         "tr": "iFLY Las Vegas, 200 Convention Center Dr"
       },
       "included": [
-        { "en": "Two flight sessions", "tr": "İki uçuş seansı" },
-        { "en": "Flight suit, helmet, and goggles", "tr": "Uçuş kıyafeti, kask ve gözlük" },
-        { "en": "Personalized flight certificate", "tr": "Kişiye özel uçuş sertifikası" }
+        {
+          "en": "Two flight sessions",
+          "tr": "İki uçuş seansı"
+        },
+        {
+          "en": "Flight suit, helmet, and goggles",
+          "tr": "Uçuş kıyafeti, kask ve gözlük"
+        },
+        {
+          "en": "Personalized flight certificate",
+          "tr": "Kişiye özel uçuş sertifikası"
+        }
       ],
       "highlights": [
-        { "en": "Feel the thrill of freefall in a safe indoor environment", "tr": "Güvenli kapalı ortamda serbest düşüş heyecanını yaşayın" },
-        { "en": "No experience needed — suitable for all ages", "tr": "Deneyim gerekmez — her yaş için uygundur" }
+        {
+          "en": "Feel the thrill of freefall in a safe indoor environment",
+          "tr": "Güvenli kapalı ortamda serbest düşüş heyecanını yaşayın"
+        },
+        {
+          "en": "No experience needed — suitable for all ages",
+          "tr": "Deneyim gerekmez — her yaş için uygundur"
+        }
       ]
     },
     {
@@ -195,13 +270,28 @@
         "tr": "Machine Guns Vegas, 3501 Aldebaran Ave"
       },
       "included": [
-        { "en": "Range Safety Officer instruction", "tr": "Atış Güvenlik Görevlisi eğitimi" },
-        { "en": "All ammunition included", "tr": "Tüm mühimmat dahildir" },
-        { "en": "Eye and ear protection", "tr": "Göz ve kulak koruyucusu" }
+        {
+          "en": "Range Safety Officer instruction",
+          "tr": "Atış Güvenlik Görevlisi eğitimi"
+        },
+        {
+          "en": "All ammunition included",
+          "tr": "Tüm mühimmat dahildir"
+        },
+        {
+          "en": "Eye and ear protection",
+          "tr": "Göz ve kulak koruyucusu"
+        }
       ],
       "highlights": [
-        { "en": "Fire iconic firearms including M16, AK-47, and more", "tr": "M16, AK-47 ve daha fazlası dahil ikonik silahlarla atış yapın" },
-        { "en": "Professional one-on-one instruction for all skill levels", "tr": "Tüm seviyeler için profesyonel birebir eğitim" }
+        {
+          "en": "Fire iconic firearms including M16, AK-47, and more",
+          "tr": "M16, AK-47 ve daha fazlası dahil ikonik silahlarla atış yapın"
+        },
+        {
+          "en": "Professional one-on-one instruction for all skill levels",
+          "tr": "Tüm seviyeler için profesyonel birebir eğitim"
+        }
       ]
     },
     {
@@ -229,13 +319,28 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "ATV rental, helmet, and goggles", "tr": "ATV kiralama, kask ve gözlük" },
-        { "en": "Bottled water and snacks", "tr": "Su ve atıştırmalık ikramı" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "ATV rental, helmet, and goggles",
+          "tr": "ATV kiralama, kask ve gözlük"
+        },
+        {
+          "en": "Bottled water and snacks",
+          "tr": "Su ve atıştırmalık ikramı"
+        }
       ],
       "highlights": [
-        { "en": "Explore rugged Mojave Desert trails on a powerful ATV", "tr": "Güçlü bir ATV ile engebeli Mojave Çölü parkurlarını keşfedin" },
-        { "en": "Stunning desert panoramas and photo opportunities", "tr": "Muhteşem çöl panoramaları ve fotoğraf fırsatları" }
+        {
+          "en": "Explore rugged Mojave Desert trails on a powerful ATV",
+          "tr": "Güçlü bir ATV ile engebeli Mojave Çölü parkurlarını keşfedin"
+        },
+        {
+          "en": "Stunning desert panoramas and photo opportunities",
+          "tr": "Muhteşem çöl panoramaları ve fotoğraf fırsatları"
+        }
       ]
     },
     {
@@ -263,12 +368,24 @@
         "tr": "The LINQ Promenade, 3545 Las Vegas Blvd S"
       },
       "included": [
-        { "en": "Full safety harness and equipment", "tr": "Tam güvenlik kemeri ve ekipman" },
-        { "en": "GoPro video option available", "tr": "GoPro video seçeneği mevcuttur" }
+        {
+          "en": "Full safety harness and equipment",
+          "tr": "Tam güvenlik kemeri ve ekipman"
+        },
+        {
+          "en": "GoPro video option available",
+          "tr": "GoPro video seçeneği mevcuttur"
+        }
       ],
       "highlights": [
-        { "en": "Soar 12 stories above the famous LINQ Promenade", "tr": "Ünlü LINQ Promenade'ın 12 kat üzerinde süzülün" },
-        { "en": "Choose Superman-style or seated riding position", "tr": "Superman tarzı veya oturarak uçuş pozisyonu seçin" }
+        {
+          "en": "Soar 12 stories above the famous LINQ Promenade",
+          "tr": "Ünlü LINQ Promenade'ın 12 kat üzerinde süzülün"
+        },
+        {
+          "en": "Choose Superman-style or seated riding position",
+          "tr": "Superman tarzı veya oturarak uçuş pozisyonu seçin"
+        }
       ]
     },
     {
@@ -286,7 +403,7 @@
         "tr": "Hiç tank kullanmak istediniz mi? Artık yapabilirsiniz. Bu eşsiz Las Vegas deneyimi, efsanevi İngiliz Chieftain ve FV433 Abbott dahil gerçek bir askeri tankın kontrollerini size teslim eder. Özel olarak hazırlanmış çöl parkurunda ilerleyin, engelleri aşın ve en büyük heyecan için paletlerinizin altında gerçek bir arabayı ezin. Deneyimli askeri ekibiniz her adımda size rehberlik eder. Bu, dünyanın herhangi bir yerinde bulabileceğiniz en benzersiz deneyimlerden biridir."
       },
       "category": "adventure",
-      "price": 499,
+      "price": 599,
       "duration": "2-3 hours",
       "groupSize": "1-4",
       "icon": "🪖",
@@ -296,13 +413,28 @@
         "tr": "Battlefield Vegas (otel transferi mevcuttur)"
       },
       "included": [
-        { "en": "Tank driving session with instructor", "tr": "Eğitmenli tank sürüş seansı" },
-        { "en": "Car crushing experience", "tr": "Araba ezme deneyimi" },
-        { "en": "Photos and video of your experience", "tr": "Deneyiminizin fotoğraf ve videosu" }
+        {
+          "en": "Tank driving session with instructor",
+          "tr": "Eğitmenli tank sürüş seansı"
+        },
+        {
+          "en": "Car crushing experience",
+          "tr": "Araba ezme deneyimi"
+        },
+        {
+          "en": "Photos and video of your experience",
+          "tr": "Deneyiminizin fotoğraf ve videosu"
+        }
       ],
       "highlights": [
-        { "en": "Drive a real British Chieftain military tank", "tr": "Gerçek bir İngiliz Chieftain askeri tankını kullanın" },
-        { "en": "Crush a real car under 70 tons of armored steel", "tr": "70 ton zırhlı çeliğin altında gerçek bir arabayı ezin" }
+        {
+          "en": "Drive a real British Chieftain military tank",
+          "tr": "Gerçek bir İngiliz Chieftain askeri tankını kullanın"
+        },
+        {
+          "en": "Crush a real car under 70 tons of armored steel",
+          "tr": "70 ton zırhlı çeliğin altında gerçek bir arabayı ezin"
+        }
       ]
     },
     {
@@ -330,13 +462,28 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "Dune buggy, helmet, and safety gear", "tr": "Dune buggy, kask ve güvenlik ekipmanı" },
-        { "en": "Water and refreshments", "tr": "Su ve serinletici içecekler" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "Dune buggy, helmet, and safety gear",
+          "tr": "Dune buggy, kask ve güvenlik ekipmanı"
+        },
+        {
+          "en": "Water and refreshments",
+          "tr": "Su ve serinletici içecekler"
+        }
       ],
       "highlights": [
-        { "en": "Navigate sand dunes and desert trails in a high-powered buggy", "tr": "Yüksek güçlü bir buggy ile kum tepelerinde ve çöl patikalarında ilerleyin" },
-        { "en": "Spectacular desert scenery and photo stops", "tr": "Muhteşem çöl manzaraları ve fotoğraf durakları" }
+        {
+          "en": "Navigate sand dunes and desert trails in a high-powered buggy",
+          "tr": "Yüksek güçlü bir buggy ile kum tepelerinde ve çöl patikalarında ilerleyin"
+        },
+        {
+          "en": "Spectacular desert scenery and photo stops",
+          "tr": "Muhteşem çöl manzaraları ve fotoğraf durakları"
+        }
       ]
     },
     {
@@ -364,13 +511,28 @@
         "tr": "Skydive Las Vegas merkezi (otel transferi mevcuttur)"
       },
       "included": [
-        { "en": "Tandem jump with certified instructor", "tr": "Sertifikalı eğitmenle tandem atlayış" },
-        { "en": "All skydiving equipment", "tr": "Tüm skydiving ekipmanı" },
-        { "en": "Certificate of completion", "tr": "Tamamlama sertifikası" }
+        {
+          "en": "Tandem jump with certified instructor",
+          "tr": "Sertifikalı eğitmenle tandem atlayış"
+        },
+        {
+          "en": "All skydiving equipment",
+          "tr": "Tüm skydiving ekipmanı"
+        },
+        {
+          "en": "Certificate of completion",
+          "tr": "Tamamlama sertifikası"
+        }
       ],
       "highlights": [
-        { "en": "60 seconds of freefall from 15,000 feet", "tr": "4.500 metreden 60 saniyelik serbest düşüş" },
-        { "en": "Panoramic views of the Strip and desert under canopy", "tr": "Paraşüt altında Strip ve çölün panoramik manzarası" }
+        {
+          "en": "60 seconds of freefall from 15,000 feet",
+          "tr": "4.500 metreden 60 saniyelik serbest düşüş"
+        },
+        {
+          "en": "Panoramic views of the Strip and desert under canopy",
+          "tr": "Paraşüt altında Strip ve çölün panoramik manzarası"
+        }
       ]
     },
     {
@@ -398,13 +560,28 @@
         "tr": "Bellagio Hotel & Casino, O Tiyatrosu"
       },
       "included": [
-        { "en": "Premium seating ticket", "tr": "Premium koltuk bileti" },
-        { "en": "Pre-show drink voucher", "tr": "Gösteri öncesi içecek kuponu" }
+        {
+          "en": "Premium seating ticket",
+          "tr": "Premium koltuk bileti"
+        },
+        {
+          "en": "Pre-show drink voucher",
+          "tr": "Gösteri öncesi içecek kuponu"
+        }
       ],
       "highlights": [
-        { "en": "World-famous aquatic show at the iconic Bellagio", "tr": "İkonik Bellagio'daki dünyaca ünlü su gösterisi" },
-        { "en": "Stunning acrobatics, diving, and aerial performances", "tr": "Etkileyici akrobasi, dalış ve hava performansları" },
-        { "en": "A theatrical experience unlike anything else on Earth", "tr": "Dünyada başka hiçbir yerde bulunmayan bir tiyatro deneyimi" }
+        {
+          "en": "World-famous aquatic show at the iconic Bellagio",
+          "tr": "İkonik Bellagio'daki dünyaca ünlü su gösterisi"
+        },
+        {
+          "en": "Stunning acrobatics, diving, and aerial performances",
+          "tr": "Etkileyici akrobasi, dalış ve hava performansları"
+        },
+        {
+          "en": "A theatrical experience unlike anything else on Earth",
+          "tr": "Dünyada başka hiçbir yerde bulunmayan bir tiyatro deneyimi"
+        }
       ]
     },
     {
@@ -432,12 +609,24 @@
         "tr": "Treasure Island Hotel, Mystere Tiyatrosu"
       },
       "included": [
-        { "en": "Show ticket with assigned seating", "tr": "Numaralı koltuklu gösteri bileti" },
-        { "en": "Access to pre-show lobby entertainment", "tr": "Gösteri öncesi lobi eğlencesine erişim" }
+        {
+          "en": "Show ticket with assigned seating",
+          "tr": "Numaralı koltuklu gösteri bileti"
+        },
+        {
+          "en": "Access to pre-show lobby entertainment",
+          "tr": "Gösteri öncesi lobi eğlencesine erişim"
+        }
       ],
       "highlights": [
-        { "en": "The original Cirque du Soleil Las Vegas experience", "tr": "Las Vegas'taki orijinal Cirque du Soleil deneyimi" },
-        { "en": "Jaw-dropping acrobatics and live musical performance", "tr": "Ağız açık bırakan akrobasi ve canlı müzik performansı" }
+        {
+          "en": "The original Cirque du Soleil Las Vegas experience",
+          "tr": "Las Vegas'taki orijinal Cirque du Soleil deneyimi"
+        },
+        {
+          "en": "Jaw-dropping acrobatics and live musical performance",
+          "tr": "Ağız açık bırakan akrobasi ve canlı müzik performansı"
+        }
       ]
     },
     {
@@ -465,13 +654,28 @@
         "tr": "MGM Grand, KA Tiyatrosu"
       },
       "included": [
-        { "en": "Premium seating ticket", "tr": "Premium koltuk bileti" },
-        { "en": "Complimentary show program", "tr": "Ücretsiz gösteri programı" }
+        {
+          "en": "Premium seating ticket",
+          "tr": "Premium koltuk bileti"
+        },
+        {
+          "en": "Complimentary show program",
+          "tr": "Ücretsiz gösteri programı"
+        }
       ],
       "highlights": [
-        { "en": "Revolutionary $165-million rotating stage", "tr": "Devrim niteliğinde 165 milyon dolarlık döner sahne" },
-        { "en": "Epic storyline with martial arts and aerial acrobatics", "tr": "Dövüş sanatları ve hava akrobasisinin yer aldığı destansı hikaye" },
-        { "en": "A cinematic live experience at the MGM Grand", "tr": "MGM Grand'da sinematik bir canlı deneyim" }
+        {
+          "en": "Revolutionary $165-million rotating stage",
+          "tr": "Devrim niteliğinde 165 milyon dolarlık döner sahne"
+        },
+        {
+          "en": "Epic storyline with martial arts and aerial acrobatics",
+          "tr": "Dövüş sanatları ve hava akrobasisinin yer aldığı destansı hikaye"
+        },
+        {
+          "en": "A cinematic live experience at the MGM Grand",
+          "tr": "MGM Grand'da sinematik bir canlı deneyim"
+        }
       ]
     },
     {
@@ -499,12 +703,24 @@
         "tr": "MGM Grand, David Copperfield Tiyatrosu"
       },
       "included": [
-        { "en": "Show ticket with premium seating options", "tr": "Premium koltuk seçenekli gösteri bileti" },
-        { "en": "Post-show meet & greet opportunity (select dates)", "tr": "Gösteri sonrası buluşma fırsatı (belirli tarihler)" }
+        {
+          "en": "Show ticket with premium seating options",
+          "tr": "Premium koltuk seçenekli gösteri bileti"
+        },
+        {
+          "en": "Post-show meet & greet opportunity (select dates)",
+          "tr": "Gösteri sonrası buluşma fırsatı (belirli tarihler)"
+        }
       ],
       "highlights": [
-        { "en": "See the world's most famous magician perform live", "tr": "Dünyanın en ünlü sihirbazını canlı izleyin" },
-        { "en": "Intimate 740-seat theater for an up-close experience", "tr": "Yakından izleme deneyimi için 740 kişilik samimi tiyatro" }
+        {
+          "en": "See the world's most famous magician perform live",
+          "tr": "Dünyanın en ünlü sihirbazını canlı izleyin"
+        },
+        {
+          "en": "Intimate 740-seat theater for an up-close experience",
+          "tr": "Yakından izleme deneyimi için 740 kişilik samimi tiyatro"
+        }
       ]
     },
     {
@@ -532,12 +748,24 @@
         "tr": "Luxor Hotel & Casino, Blue Man Group Tiyatrosu"
       },
       "included": [
-        { "en": "Show ticket with assigned seating", "tr": "Numaralı koltuklu gösteri bileti" },
-        { "en": "Poncho for splash zone seats (if applicable)", "tr": "Sıçrama bölgesi koltukları için panço (geçerliyse)" }
+        {
+          "en": "Show ticket with assigned seating",
+          "tr": "Numaralı koltuklu gösteri bileti"
+        },
+        {
+          "en": "Poncho for splash zone seats (if applicable)",
+          "tr": "Sıçrama bölgesi koltukları için panço (geçerliyse)"
+        }
       ],
       "highlights": [
-        { "en": "A unique blend of music, comedy, and art", "tr": "Müzik, komedi ve sanatın eşsiz birleşimi" },
-        { "en": "Interactive, language-free show perfect for international visitors", "tr": "Uluslararası ziyaretçiler için mükemmel, dil engeli olmayan interaktif gösteri" }
+        {
+          "en": "A unique blend of music, comedy, and art",
+          "tr": "Müzik, komedi ve sanatın eşsiz birleşimi"
+        },
+        {
+          "en": "Interactive, language-free show perfect for international visitors",
+          "tr": "Uluslararası ziyaretçiler için mükemmel, dil engeli olmayan interaktif gösteri"
+        }
       ]
     },
     {
@@ -565,12 +793,24 @@
         "tr": "Rio All-Suite Hotel & Casino, Penn & Teller Tiyatrosu"
       },
       "included": [
-        { "en": "Show ticket with assigned seating", "tr": "Numaralı koltuklu gösteri bileti" },
-        { "en": "Post-show meet & greet with Penn & Teller", "tr": "Gösteri sonrası Penn & Teller ile buluşma" }
+        {
+          "en": "Show ticket with assigned seating",
+          "tr": "Numaralı koltuklu gösteri bileti"
+        },
+        {
+          "en": "Post-show meet & greet with Penn & Teller",
+          "tr": "Gösteri sonrası Penn & Teller ile buluşma"
+        }
       ],
       "highlights": [
-        { "en": "Over 45 years of legendary comedy-magic partnership", "tr": "45 yılı aşan efsanevi komedi-sihir ortaklığı" },
-        { "en": "Meet both performers after the show for free", "tr": "Gösteri sonrası her iki sanatçıyla ücretsiz buluşma" }
+        {
+          "en": "Over 45 years of legendary comedy-magic partnership",
+          "tr": "45 yılı aşan efsanevi komedi-sihir ortaklığı"
+        },
+        {
+          "en": "Meet both performers after the show for free",
+          "tr": "Gösteri sonrası her iki sanatçıyla ücretsiz buluşma"
+        }
       ]
     },
     {
@@ -598,13 +838,28 @@
         "tr": "T-Mobile Arena, 3780 Las Vegas Blvd S"
       },
       "included": [
-        { "en": "Event ticket with premium seating", "tr": "Premium koltuklu etkinlik bileti" },
-        { "en": "Pre-fight hospitality lounge access", "tr": "Dövüş öncesi VIP lounge erişimi" },
-        { "en": "Exclusive UFC merchandise", "tr": "Özel UFC ürünleri" }
+        {
+          "en": "Event ticket with premium seating",
+          "tr": "Premium koltuklu etkinlik bileti"
+        },
+        {
+          "en": "Pre-fight hospitality lounge access",
+          "tr": "Dövüş öncesi VIP lounge erişimi"
+        },
+        {
+          "en": "Exclusive UFC merchandise",
+          "tr": "Özel UFC ürünleri"
+        }
       ],
       "highlights": [
-        { "en": "Live UFC action at the world-famous T-Mobile Arena", "tr": "Dünyaca ünlü T-Mobile Arena'da canlı UFC aksiyonu" },
-        { "en": "The fight capital of the world — an authentic Vegas experience", "tr": "Dünyanın dövüş başkenti — otantik bir Vegas deneyimi" }
+        {
+          "en": "Live UFC action at the world-famous T-Mobile Arena",
+          "tr": "Dünyaca ünlü T-Mobile Arena'da canlı UFC aksiyonu"
+        },
+        {
+          "en": "The fight capital of the world — an authentic Vegas experience",
+          "tr": "Dünyanın dövüş başkenti — otantik bir Vegas deneyimi"
+        }
       ]
     },
     {
@@ -632,12 +887,24 @@
         "tr": "T-Mobile Arena veya Thomas & Mack Center"
       },
       "included": [
-        { "en": "Game ticket with premium seating", "tr": "Premium koltuklu maç bileti" },
-        { "en": "Complimentary game-day program", "tr": "Ücretsiz maç günü programı" }
+        {
+          "en": "Game ticket with premium seating",
+          "tr": "Premium koltuklu maç bileti"
+        },
+        {
+          "en": "Complimentary game-day program",
+          "tr": "Ücretsiz maç günü programı"
+        }
       ],
       "highlights": [
-        { "en": "Watch world-class NBA basketball up close", "tr": "Dünya standartlarında NBA basketbolunu yakından izleyin" },
-        { "en": "Electric arena atmosphere and premium hospitality", "tr": "Elektrikleyici arena atmosferi ve premium ağırlama" }
+        {
+          "en": "Watch world-class NBA basketball up close",
+          "tr": "Dünya standartlarında NBA basketbolunu yakından izleyin"
+        },
+        {
+          "en": "Electric arena atmosphere and premium hospitality",
+          "tr": "Elektrikleyici arena atmosferi ve premium ağırlama"
+        }
       ]
     },
     {
@@ -665,13 +932,28 @@
         "tr": "Strip üzerinde belirlenen buluşma noktası (geceye göre değişir)"
       },
       "included": [
-        { "en": "VIP entry to 3-4 nightclubs (no cover charge)", "tr": "3-4 gece kulübüne VIP giriş (kapı ücreti yok)" },
-        { "en": "Complimentary drinks at each venue", "tr": "Her mekanda ücretsiz içecekler" },
-        { "en": "Party bus transportation between clubs", "tr": "Kulüpler arası parti otobüsü ulaşımı" }
+        {
+          "en": "VIP entry to 3-4 nightclubs (no cover charge)",
+          "tr": "3-4 gece kulübüne VIP giriş (kapı ücreti yok)"
+        },
+        {
+          "en": "Complimentary drinks at each venue",
+          "tr": "Her mekanda ücretsiz içecekler"
+        },
+        {
+          "en": "Party bus transportation between clubs",
+          "tr": "Kulüpler arası parti otobüsü ulaşımı"
+        }
       ],
       "highlights": [
-        { "en": "Skip the line at the Strip's hottest nightclubs", "tr": "Strip'in en popüler gece kulüplerinde sıra beklemeden girin" },
-        { "en": "Professional party host and group atmosphere", "tr": "Profesyonel parti sunucusu ve grup atmosferi" }
+        {
+          "en": "Skip the line at the Strip's hottest nightclubs",
+          "tr": "Strip'in en popüler gece kulüplerinde sıra beklemeden girin"
+        },
+        {
+          "en": "Professional party host and group atmosphere",
+          "tr": "Profesyonel parti sunucusu ve grup atmosferi"
+        }
       ]
     },
     {
@@ -699,12 +981,24 @@
         "tr": "Topgolf Las Vegas, 4627 Koval Ln"
       },
       "included": [
-        { "en": "Bay rental with golf equipment", "tr": "Golf ekipmanı dahil atış bölmesi kiralama" },
-        { "en": "Welcome drink included", "tr": "Karşılama içeceği dahildir" }
+        {
+          "en": "Bay rental with golf equipment",
+          "tr": "Golf ekipmanı dahil atış bölmesi kiralama"
+        },
+        {
+          "en": "Welcome drink included",
+          "tr": "Karşılama içeceği dahildir"
+        }
       ],
       "highlights": [
-        { "en": "Four-level entertainment complex with stunning Strip views", "tr": "Muhteşem Strip manzaralı dört katlı eğlence kompleksi" },
-        { "en": "Interactive golf games, great food, and craft cocktails", "tr": "İnteraktif golf oyunları, lezzetli yemekler ve özel kokteyller" }
+        {
+          "en": "Four-level entertainment complex with stunning Strip views",
+          "tr": "Muhteşem Strip manzaralı dört katlı eğlence kompleksi"
+        },
+        {
+          "en": "Interactive golf games, great food, and craft cocktails",
+          "tr": "İnteraktif golf oyunları, lezzetli yemekler ve özel kokteyller"
+        }
       ]
     },
     {
@@ -732,13 +1026,28 @@
         "tr": "Excalibur Hotel & Casino, Kralların Turnuvası Arenası"
       },
       "included": [
-        { "en": "Three-course dinner", "tr": "Üç çeşit yemek" },
-        { "en": "Show ticket with arena seating", "tr": "Arena koltuklu gösteri bileti" },
-        { "en": "Complimentary soft drink", "tr": "Ücretsiz alkolsüz içecek" }
+        {
+          "en": "Three-course dinner",
+          "tr": "Üç çeşit yemek"
+        },
+        {
+          "en": "Show ticket with arena seating",
+          "tr": "Arena koltuklu gösteri bileti"
+        },
+        {
+          "en": "Complimentary soft drink",
+          "tr": "Ücretsiz alkolsüz içecek"
+        }
       ],
       "highlights": [
-        { "en": "Immersive medieval jousting and live combat performances", "tr": "Sürükleyici ortaçağ mızrak dövüşü ve canlı savaş performansları" },
-        { "en": "Full dinner served while you watch the show", "tr": "Gösteriyi izlerken servis edilen tam yemek" }
+        {
+          "en": "Immersive medieval jousting and live combat performances",
+          "tr": "Sürükleyici ortaçağ mızrak dövüşü ve canlı savaş performansları"
+        },
+        {
+          "en": "Full dinner served while you watch the show",
+          "tr": "Gösteriyi izlerken servis edilen tam yemek"
+        }
       ]
     },
     {
@@ -766,14 +1075,32 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "National Park entrance fee", "tr": "Milli Park giriş ücreti" },
-        { "en": "Boxed lunch and bottled water", "tr": "Paket öğle yemeği ve su" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "National Park entrance fee",
+          "tr": "Milli Park giriş ücreti"
+        },
+        {
+          "en": "Boxed lunch and bottled water",
+          "tr": "Paket öğle yemeği ve su"
+        }
       ],
       "highlights": [
-        { "en": "Visit iconic viewpoints: Mather Point, Bright Angel Trail", "tr": "İkonik manzara noktalarını ziyaret edin: Mather Point, Bright Angel Trail" },
-        { "en": "Learn about 2 billion years of geological history", "tr": "2 milyar yıllık jeolojik tarihi öğrenin" },
-        { "en": "Comfortable luxury coach with professional guide", "tr": "Profesyonel rehberli konforlu lüks otobüs" }
+        {
+          "en": "Visit iconic viewpoints: Mather Point, Bright Angel Trail",
+          "tr": "İkonik manzara noktalarını ziyaret edin: Mather Point, Bright Angel Trail"
+        },
+        {
+          "en": "Learn about 2 billion years of geological history",
+          "tr": "2 milyar yıllık jeolojik tarihi öğrenin"
+        },
+        {
+          "en": "Comfortable luxury coach with professional guide",
+          "tr": "Profesyonel rehberli konforlu lüks otobüs"
+        }
       ]
     },
     {
@@ -801,14 +1128,32 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "Skywalk admission ticket", "tr": "Skywalk giriş bileti" },
-        { "en": "Lunch at the canyon", "tr": "Kanyonda öğle yemeği" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "Skywalk admission ticket",
+          "tr": "Skywalk giriş bileti"
+        },
+        {
+          "en": "Lunch at the canyon",
+          "tr": "Kanyonda öğle yemeği"
+        }
       ],
       "highlights": [
-        { "en": "Walk on the glass-bottomed Skywalk 4,000 feet above the canyon", "tr": "Kanyonun 1.200 metre üzerindeki cam tabanlı Skywalk'ta yürüyün" },
-        { "en": "Visit Eagle Point and Guano Point scenic overlooks", "tr": "Eagle Point ve Guano Point manzara noktalarını ziyaret edin" },
-        { "en": "Learn about Hualapai tribal culture and history", "tr": "Hualapai kabile kültürü ve tarihini öğrenin" }
+        {
+          "en": "Walk on the glass-bottomed Skywalk 4,000 feet above the canyon",
+          "tr": "Kanyonun 1.200 metre üzerindeki cam tabanlı Skywalk'ta yürüyün"
+        },
+        {
+          "en": "Visit Eagle Point and Guano Point scenic overlooks",
+          "tr": "Eagle Point ve Guano Point manzara noktalarını ziyaret edin"
+        },
+        {
+          "en": "Learn about Hualapai tribal culture and history",
+          "tr": "Hualapai kabile kültürü ve tarihini öğrenin"
+        }
       ]
     },
     {
@@ -836,13 +1181,28 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "Guided dam tour with power plant access", "tr": "Elektrik santrali erişimli rehberli baraj turu" },
-        { "en": "Bottled water", "tr": "Su ikramı" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "Guided dam tour with power plant access",
+          "tr": "Elektrik santrali erişimli rehberli baraj turu"
+        },
+        {
+          "en": "Bottled water",
+          "tr": "Su ikramı"
+        }
       ],
       "highlights": [
-        { "en": "Explore the interior of this iconic engineering marvel", "tr": "Bu ikonik mühendislik harikasının iç kısmını keşfedin" },
-        { "en": "Stunning views of Lake Mead and Black Canyon", "tr": "Lake Mead ve Black Canyon'un muhteşem manzarası" }
+        {
+          "en": "Explore the interior of this iconic engineering marvel",
+          "tr": "Bu ikonik mühendislik harikasının iç kısmını keşfedin"
+        },
+        {
+          "en": "Stunning views of Lake Mead and Black Canyon",
+          "tr": "Lake Mead ve Black Canyon'un muhteşem manzarası"
+        }
       ]
     },
     {
@@ -870,13 +1230,28 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "National Conservation Area entrance fee", "tr": "Ulusal Koruma Alanı giriş ücreti" },
-        { "en": "Bottled water and light snacks", "tr": "Su ve hafif atıştırmalık" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "National Conservation Area entrance fee",
+          "tr": "Ulusal Koruma Alanı giriş ücreti"
+        },
+        {
+          "en": "Bottled water and light snacks",
+          "tr": "Su ve hafif atıştırmalık"
+        }
       ],
       "highlights": [
-        { "en": "600-million-year-old red sandstone formations", "tr": "600 milyon yıllık kırmızı kumtaşı oluşumları" },
-        { "en": "Scenic 13-mile drive with photo stops", "tr": "Fotoğraf durakları ile 21 kilometrelik manzaralı sürüş" }
+        {
+          "en": "600-million-year-old red sandstone formations",
+          "tr": "600 milyon yıllık kırmızı kumtaşı oluşumları"
+        },
+        {
+          "en": "Scenic 13-mile drive with photo stops",
+          "tr": "Fotoğraf durakları ile 21 kilometrelik manzaralı sürüş"
+        }
       ]
     },
     {
@@ -904,13 +1279,28 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "Park entrance fee", "tr": "Park giriş ücreti" },
-        { "en": "Water and snacks", "tr": "Su ve atıştırmalık" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "Park entrance fee",
+          "tr": "Park giriş ücreti"
+        },
+        {
+          "en": "Water and snacks",
+          "tr": "Su ve atıştırmalık"
+        }
       ],
       "highlights": [
-        { "en": "Fiery red sandstone formations and ancient petroglyphs", "tr": "Ateşli kırmızı kumtaşı oluşumları ve antik petroglifler" },
-        { "en": "Visit Fire Wave, Elephant Rock, and Rainbow Vista", "tr": "Fire Wave, Elephant Rock ve Rainbow Vista'yı ziyaret edin" }
+        {
+          "en": "Fiery red sandstone formations and ancient petroglyphs",
+          "tr": "Ateşli kırmızı kumtaşı oluşumları ve antik petroglifler"
+        },
+        {
+          "en": "Visit Fire Wave, Elephant Rock, and Rainbow Vista",
+          "tr": "Fire Wave, Elephant Rock ve Rainbow Vista'yı ziyaret edin"
+        }
       ]
     },
     {
@@ -928,7 +1318,7 @@
         "tr": "Ölüm Vadisi Ulusal Parkı, aşırılıkların ve dünya dışı güzelliklerin diyarıdır. Las Vegas'tan bu tam günlük tur, sizi Kuzey Amerika'nın en alçak noktası olan Badwater Havzası'na (deniz seviyesinin 86 metre altında) götürür. Gerçeküstü tuz düzlüklerini keşfedin, Artist's Palette'in renkli kaya katmanlarına hayran kalın ve sonsuzluğa uzanan panoramik bir manzara için Dante's View'in tepesine çıkın. Rehberiniz parkın tarihi, jeolojisi ve burada yaşamaya direnen yaşam hakkında büyüleyici hikayeler paylaşır. Dünyadaki en olağanüstü yerlerden birine yapılan bir yolculuktur."
       },
       "category": "sightseeing",
-      "price": 169,
+      "price": 219,
       "duration": "11-12 hours",
       "groupSize": "2-14",
       "icon": "🌵",
@@ -938,13 +1328,28 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "National Park entrance fee", "tr": "Ulusal Park giriş ücreti" },
-        { "en": "Lunch, water, and snacks", "tr": "Öğle yemeği, su ve atıştırmalık" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "National Park entrance fee",
+          "tr": "Ulusal Park giriş ücreti"
+        },
+        {
+          "en": "Lunch, water, and snacks",
+          "tr": "Öğle yemeği, su ve atıştırmalık"
+        }
       ],
       "highlights": [
-        { "en": "Stand at Badwater Basin — 282 feet below sea level", "tr": "Deniz seviyesinin 86 metre altında Badwater Havzası'nda durun" },
-        { "en": "Explore Artist's Palette and Dante's View", "tr": "Artist's Palette ve Dante's View'i keşfedin" }
+        {
+          "en": "Stand at Badwater Basin — 282 feet below sea level",
+          "tr": "Deniz seviyesinin 86 metre altında Badwater Havzası'nda durun"
+        },
+        {
+          "en": "Explore Artist's Palette and Dante's View",
+          "tr": "Artist's Palette ve Dante's View'i keşfedin"
+        }
       ]
     },
     {
@@ -972,14 +1377,32 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "Antelope Canyon Navajo-guided tour", "tr": "Navajo rehberli Antelope Kanyonu turu" },
-        { "en": "Lunch and bottled water", "tr": "Öğle yemeği ve su" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "Antelope Canyon Navajo-guided tour",
+          "tr": "Navajo rehberli Antelope Kanyonu turu"
+        },
+        {
+          "en": "Lunch and bottled water",
+          "tr": "Öğle yemeği ve su"
+        }
       ],
       "highlights": [
-        { "en": "Walk through the magical light beams of Antelope Canyon", "tr": "Antelope Kanyonu'nun büyülü ışık hüzmelerinin arasından yürüyün" },
-        { "en": "See the iconic Horseshoe Bend from the canyon rim", "tr": "İkonik Horseshoe Bend'i kanyon kenarından görün" },
-        { "en": "Navajo-guided cultural experience", "tr": "Navajo rehberli kültürel deneyim" }
+        {
+          "en": "Walk through the magical light beams of Antelope Canyon",
+          "tr": "Antelope Kanyonu'nun büyülü ışık hüzmelerinin arasından yürüyün"
+        },
+        {
+          "en": "See the iconic Horseshoe Bend from the canyon rim",
+          "tr": "İkonik Horseshoe Bend'i kanyon kenarından görün"
+        },
+        {
+          "en": "Navajo-guided cultural experience",
+          "tr": "Navajo rehberli kültürel deneyim"
+        }
       ]
     },
     {
@@ -997,7 +1420,7 @@
         "tr": "Zion Ulusal Parkı, yükselen kumtaşı kayalıkları, dar yarık kanyonları ve tüm bunların arasından kıvrılarak geçen berrak Virgin Nehri ile bir cennettir. Las Vegas'tan bu tam günlük tur sizi parkın derinliklerine götürerek en muhteşem manzara noktaları ve parkur başlarında durur. Riverside Walk boyunca yürüyün, Angels Landing ve Great White Throne'a bakın ve ünlü tünelleri ve virajlarıyla Zion-Mt. Carmel Otoyolu'nun güzelliğini içinize çekin. Amerika'nın en güzel ulusal parklarından biridir ve kesinlikle görülmesi gerekenler listesinde olmalıdır."
       },
       "category": "sightseeing",
-      "price": 179,
+      "price": 199,
       "duration": "12-13 hours",
       "groupSize": "2-14",
       "icon": "⛰️",
@@ -1007,13 +1430,28 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "National Park entrance fee", "tr": "Ulusal Park giriş ücreti" },
-        { "en": "Lunch and bottled water", "tr": "Öğle yemeği ve su" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "National Park entrance fee",
+          "tr": "Ulusal Park giriş ücreti"
+        },
+        {
+          "en": "Lunch and bottled water",
+          "tr": "Öğle yemeği ve su"
+        }
       ],
       "highlights": [
-        { "en": "Towering red cliffs and the emerald Virgin River canyon", "tr": "Yükselen kırmızı kayalıklar ve zümrüt Virgin Nehri kanyonu" },
-        { "en": "Walk the Riverside Walk and see Angels Landing", "tr": "Riverside Walk'ta yürüyün ve Angels Landing'i görün" }
+        {
+          "en": "Towering red cliffs and the emerald Virgin River canyon",
+          "tr": "Yükselen kırmızı kayalıklar ve zümrüt Virgin Nehri kanyonu"
+        },
+        {
+          "en": "Walk the Riverside Walk and see Angels Landing",
+          "tr": "Riverside Walk'ta yürüyün ve Angels Landing'i görün"
+        }
       ]
     },
     {
@@ -1031,7 +1469,7 @@
         "tr": "Bryce Kanyonu, dünyada başka hiçbir yere benzemeyen bir yerdir. Parkın ünlü hoodoo'ları — milyonlarca yıllık erozyonla oluşmuş uzun, ince kaya sivrileri — başka bir gezegene aitmiş gibi görünen gerçeküstü bir manzara yaratır. Las Vegas'tan bu tam günlük tur, sizi Sunrise Point, Sunset Point ve Inspiration Point dahil kanyonun en muhteşem manzara noktalarına götürür. Bu olağanüstü oluşumlarla yakından tanışmak için Queen's Garden Trail'den kanyonun içine inin. Renkler ışıkla birlikte değişerek her anı bir fotoğrafçının rüyası haline getirir."
       },
       "category": "sightseeing",
-      "price": 189,
+      "price": 219,
       "duration": "13-14 hours",
       "groupSize": "2-14",
       "icon": "🏔️",
@@ -1041,13 +1479,28 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "National Park entrance fee", "tr": "Ulusal Park giriş ücreti" },
-        { "en": "Lunch and bottled water", "tr": "Öğle yemeği ve su" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "National Park entrance fee",
+          "tr": "Ulusal Park giriş ücreti"
+        },
+        {
+          "en": "Lunch and bottled water",
+          "tr": "Öğle yemeği ve su"
+        }
       ],
       "highlights": [
-        { "en": "See the otherworldly hoodoo rock formations up close", "tr": "Dünya dışı hoodoo kaya oluşumlarını yakından görün" },
-        { "en": "Visit Sunrise Point, Sunset Point, and Inspiration Point", "tr": "Sunrise Point, Sunset Point ve Inspiration Point'i ziyaret edin" }
+        {
+          "en": "See the otherworldly hoodoo rock formations up close",
+          "tr": "Dünya dışı hoodoo kaya oluşumlarını yakından görün"
+        },
+        {
+          "en": "Visit Sunrise Point, Sunset Point, and Inspiration Point",
+          "tr": "Sunrise Point, Sunset Point ve Inspiration Point'i ziyaret edin"
+        }
       ]
     },
     {
@@ -1065,7 +1518,7 @@
         "tr": "Onlarca yıldır Area 51, UFO efsanelerinin ve hükümet komplo teorilerinin merkezinde olmuştur ve artık bu çok gizli askeri tesise kadar gidebilirsiniz. Uçsuz bucaksız Nevada çölünden geçen ünlü Uzaylı Otoyolu'nda (State Route 375) ilerleyin, Area 51'e en yakın kasaba olan Rachel'daki ilginç Little A'Le'Inn'de durun ve ikonik Area 51 kapısını ve uyarı tabelalarını fotoğraflayın. Rehberiniz gizlilik derecesi kaldırılmış bilgileri, ünlü UFO gözlem hikayelerini ve üssün arkasındaki gerçek tarihi paylaşır. Bilinmeyene meraklı herkes için büyüleyici bir macera."
       },
       "category": "sightseeing",
-      "price": 149,
+      "price": 199,
       "duration": "8-10 hours",
       "groupSize": "2-12",
       "icon": "👽",
@@ -1075,13 +1528,28 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "Stop at Little A'Le'Inn in Rachel", "tr": "Rachel'daki Little A'Le'Inn'de mola" },
-        { "en": "Bottled water and snacks", "tr": "Su ve atıştırmalık" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "Stop at Little A'Le'Inn in Rachel",
+          "tr": "Rachel'daki Little A'Le'Inn'de mola"
+        },
+        {
+          "en": "Bottled water and snacks",
+          "tr": "Su ve atıştırmalık"
+        }
       ],
       "highlights": [
-        { "en": "Drive the famous Extraterrestrial Highway (Route 375)", "tr": "Ünlü Uzaylı Otoyolu'nda (Route 375) ilerleyin" },
-        { "en": "Photograph the iconic Area 51 gate and warning signs", "tr": "İkonik Area 51 kapısını ve uyarı tabelalarını fotoğraflayın" }
+        {
+          "en": "Drive the famous Extraterrestrial Highway (Route 375)",
+          "tr": "Ünlü Uzaylı Otoyolu'nda (Route 375) ilerleyin"
+        },
+        {
+          "en": "Photograph the iconic Area 51 gate and warning signs",
+          "tr": "İkonik Area 51 kapısını ve uyarı tabelalarını fotoğraflayın"
+        }
       ]
     },
     {
@@ -1109,13 +1577,28 @@
         "tr": "Otel lobisinden alım dahildir"
       },
       "included": [
-        { "en": "Round-trip hotel transportation", "tr": "Gidiş-dönüş otel transferi" },
-        { "en": "Professional English/Turkish speaking guide", "tr": "Profesyonel İngilizce/Türkçe bilen rehber" },
-        { "en": "Photo stops at iconic landmarks", "tr": "İkonik simge yapılarda fotoğraf durakları" }
+        {
+          "en": "Round-trip hotel transportation",
+          "tr": "Gidiş-dönüş otel transferi"
+        },
+        {
+          "en": "Professional English/Turkish speaking guide",
+          "tr": "Profesyonel İngilizce/Türkçe bilen rehber"
+        },
+        {
+          "en": "Photo stops at iconic landmarks",
+          "tr": "İkonik simge yapılarda fotoğraf durakları"
+        }
       ],
       "highlights": [
-        { "en": "Visit the famous 'Welcome to Fabulous Las Vegas' sign", "tr": "Ünlü 'Welcome to Fabulous Las Vegas' tabelasını ziyaret edin" },
-        { "en": "Explore historic Fremont Street and the modern Strip", "tr": "Tarihi Fremont Caddesi'ni ve modern Strip'i keşfedin" }
+        {
+          "en": "Visit the famous 'Welcome to Fabulous Las Vegas' sign",
+          "tr": "Ünlü 'Welcome to Fabulous Las Vegas' tabelasını ziyaret edin"
+        },
+        {
+          "en": "Explore historic Fremont Street and the modern Strip",
+          "tr": "Tarihi Fremont Caddesi'ni ve modern Strip'i keşfedin"
+        }
       ]
     },
     {
@@ -1143,14 +1626,32 @@
         "tr": "Caesars Palace, Hell's Kitchen Restoranı"
       },
       "included": [
-        { "en": "VIP reservation (no waitlist)", "tr": "VIP rezervasyon (bekleme listesi yok)" },
-        { "en": "Three-course signature dinner", "tr": "Üç çeşit imza yemeği" },
-        { "en": "Welcome cocktail", "tr": "Karşılama kokteyli" }
+        {
+          "en": "VIP reservation (no waitlist)",
+          "tr": "VIP rezervasyon (bekleme listesi yok)"
+        },
+        {
+          "en": "Three-course signature dinner",
+          "tr": "Üç çeşit imza yemeği"
+        },
+        {
+          "en": "Welcome cocktail",
+          "tr": "Karşılama kokteyli"
+        }
       ],
       "highlights": [
-        { "en": "Dine in the iconic red and blue kitchen setting", "tr": "İkonik kırmızı ve mavi mutfak ortamında yemek yiyin" },
-        { "en": "Taste Gordon Ramsay's legendary Beef Wellington", "tr": "Gordon Ramsay'in efsanevi Beef Wellington'ını tadın" },
-        { "en": "VIP table guaranteed at Caesars Palace", "tr": "Caesars Palace'ta VIP masa garantisi" }
+        {
+          "en": "Dine in the iconic red and blue kitchen setting",
+          "tr": "İkonik kırmızı ve mavi mutfak ortamında yemek yiyin"
+        },
+        {
+          "en": "Taste Gordon Ramsay's legendary Beef Wellington",
+          "tr": "Gordon Ramsay'in efsanevi Beef Wellington'ını tadın"
+        },
+        {
+          "en": "VIP table guaranteed at Caesars Palace",
+          "tr": "Caesars Palace'ta VIP masa garantisi"
+        }
       ]
     },
     {
@@ -1178,13 +1679,28 @@
         "tr": "Strip üzerinde belirlenen buluşma noktası"
       },
       "included": [
-        { "en": "Food tastings at 5-6 restaurants", "tr": "5-6 restoranda yemek tadımı" },
-        { "en": "Expert food guide", "tr": "Uzman yemek rehberi" },
-        { "en": "One craft cocktail or beverage", "tr": "Bir özel kokteyl veya içecek" }
+        {
+          "en": "Food tastings at 5-6 restaurants",
+          "tr": "5-6 restoranda yemek tadımı"
+        },
+        {
+          "en": "Expert food guide",
+          "tr": "Uzman yemek rehberi"
+        },
+        {
+          "en": "One craft cocktail or beverage",
+          "tr": "Bir özel kokteyl veya içecek"
+        }
       ],
       "highlights": [
-        { "en": "Sample dishes from celebrity chef restaurants", "tr": "Ünlü şef restoranlarından lezzetler tadın" },
-        { "en": "Discover hidden local favorites most tourists miss", "tr": "Çoğu turistin kaçırdığı gizli yerel favorileri keşfedin" }
+        {
+          "en": "Sample dishes from celebrity chef restaurants",
+          "tr": "Ünlü şef restoranlarından lezzetler tadın"
+        },
+        {
+          "en": "Discover hidden local favorites most tourists miss",
+          "tr": "Çoğu turistin kaçırdığı gizli yerel favorileri keşfedin"
+        }
       ]
     },
     {
@@ -1212,13 +1728,28 @@
         "tr": "Özel şarap salonu (rezervasyon sonrası konum bildirilir)"
       },
       "included": [
-        { "en": "Tasting of 6-8 premium wines", "tr": "6-8 premium şarap tadımı" },
-        { "en": "Artisan cheese and charcuterie board", "tr": "Zanaatkar peynir ve şarküteri tabağı" },
-        { "en": "Certified sommelier guidance", "tr": "Sertifikalı sommelier rehberliği" }
+        {
+          "en": "Tasting of 6-8 premium wines",
+          "tr": "6-8 premium şarap tadımı"
+        },
+        {
+          "en": "Artisan cheese and charcuterie board",
+          "tr": "Zanaatkar peynir ve şarküteri tabağı"
+        },
+        {
+          "en": "Certified sommelier guidance",
+          "tr": "Sertifikalı sommelier rehberliği"
+        }
       ],
       "highlights": [
-        { "en": "Taste wines from Napa Valley, Bordeaux, and Tuscany", "tr": "Napa Valley, Bordeaux ve Toskana şaraplarını tadın" },
-        { "en": "Learn tasting techniques from a certified sommelier", "tr": "Sertifikalı bir sommelierden tadım tekniklerini öğrenin" }
+        {
+          "en": "Taste wines from Napa Valley, Bordeaux, and Tuscany",
+          "tr": "Napa Valley, Bordeaux ve Toskana şaraplarını tadın"
+        },
+        {
+          "en": "Learn tasting techniques from a certified sommelier",
+          "tr": "Sertifikalı bir sommelierden tadım tekniklerini öğrenin"
+        }
       ]
     },
     {
@@ -1246,12 +1777,24 @@
         "tr": "The LINQ Promenade, 3545 Las Vegas Blvd S"
       },
       "included": [
-        { "en": "One full revolution on the High Roller", "tr": "High Roller'da bir tam tur" },
-        { "en": "Open bar option available (Happy Half Hour upgrade)", "tr": "Açık bar seçeneği mevcut (Happy Half Hour yükseltmesi)" }
+        {
+          "en": "One full revolution on the High Roller",
+          "tr": "High Roller'da bir tam tur"
+        },
+        {
+          "en": "Open bar option available (Happy Half Hour upgrade)",
+          "tr": "Açık bar seçeneği mevcut (Happy Half Hour yükseltmesi)"
+        }
       ],
       "highlights": [
-        { "en": "360-degree views from 550 feet above the Strip", "tr": "Strip'in 167 metre üzerinden 360 derece manzara" },
-        { "en": "Especially spectacular at night with the city lights", "tr": "Şehir ışıklarıyla gece özellikle muhteşem" }
+        {
+          "en": "360-degree views from 550 feet above the Strip",
+          "tr": "Strip'in 167 metre üzerinden 360 derece manzara"
+        },
+        {
+          "en": "Especially spectacular at night with the city lights",
+          "tr": "Şehir ışıklarıyla gece özellikle muhteşem"
+        }
       ]
     },
     {
@@ -1279,13 +1822,28 @@
         "tr": "Havuz mekanı girişi (etkinliğe göre değişir)"
       },
       "included": [
-        { "en": "VIP skip-the-line entry", "tr": "VIP sıra atlatma girişi" },
-        { "en": "Premium daybed or cabana reservation", "tr": "Premium şezlong veya kabana rezervasyonu" },
-        { "en": "One bottle of premium spirits", "tr": "Bir şişe premium içki" }
+        {
+          "en": "VIP skip-the-line entry",
+          "tr": "VIP sıra atlatma girişi"
+        },
+        {
+          "en": "Premium daybed or cabana reservation",
+          "tr": "Premium şezlong veya kabana rezervasyonu"
+        },
+        {
+          "en": "One bottle of premium spirits",
+          "tr": "Bir şişe premium içki"
+        }
       ],
       "highlights": [
-        { "en": "VIP access to the Strip's hottest pool parties", "tr": "Strip'in en popüler havuz partilerine VIP erişim" },
-        { "en": "World-famous DJs and electric party atmosphere", "tr": "Dünyaca ünlü DJ'ler ve elektrikli parti atmosferi" }
+        {
+          "en": "VIP access to the Strip's hottest pool parties",
+          "tr": "Strip'in en popüler havuz partilerine VIP erişim"
+        },
+        {
+          "en": "World-famous DJs and electric party atmosphere",
+          "tr": "Dünyaca ünlü DJ'ler ve elektrikli parti atmosferi"
+        }
       ]
     },
     {
@@ -1313,13 +1871,28 @@
         "tr": "Seçilen resort spa (rezervasyon sonrası onaylanır)"
       },
       "included": [
-        { "en": "Signature massage or body treatment", "tr": "İmza masajı veya vücut bakımı" },
-        { "en": "Rejuvenating facial treatment", "tr": "Gençleştirici yüz bakımı" },
-        { "en": "Full access to spa amenities", "tr": "Spa olanaklarına tam erişim" }
+        {
+          "en": "Signature massage or body treatment",
+          "tr": "İmza masajı veya vücut bakımı"
+        },
+        {
+          "en": "Rejuvenating facial treatment",
+          "tr": "Gençleştirici yüz bakımı"
+        },
+        {
+          "en": "Full access to spa amenities",
+          "tr": "Spa olanaklarına tam erişim"
+        }
       ],
       "highlights": [
-        { "en": "Premium treatments at Las Vegas's top resort spas", "tr": "Las Vegas'ın en iyi resort spalarında premium bakımlar" },
-        { "en": "Complete relaxation with sauna, steam room, and lounge access", "tr": "Sauna, buhar odası ve dinlenme salonu erişimiyle tam rahatlama" }
+        {
+          "en": "Premium treatments at Las Vegas's top resort spas",
+          "tr": "Las Vegas'ın en iyi resort spalarında premium bakımlar"
+        },
+        {
+          "en": "Complete relaxation with sauna, steam room, and lounge access",
+          "tr": "Sauna, buhar odası ve dinlenme salonu erişimiyle tam rahatlama"
+        }
       ]
     },
     {
@@ -1347,14 +1920,30 @@
         "tr": "Seçilen şapel veya mekan (rezervasyon sonrası onaylanır)"
       },
       "included": [
-        { "en": "Marriage ceremony with ordained minister", "tr": "Yetkili nikah memuru ile nikah töreni" },
-        { "en": "Professional photography package", "tr": "Profesyonel fotoğrafçılık paketi" },
-        { "en": "Floral bouquet and boutonniere", "tr": "Çiçek buketi ve yaka çiçeği" }
+        {
+          "en": "Marriage ceremony with ordained minister",
+          "tr": "Yetkili nikah memuru ile nikah töreni"
+        },
+        {
+          "en": "Professional photography package",
+          "tr": "Profesyonel fotoğrafçılık paketi"
+        },
+        {
+          "en": "Floral bouquet and boutonniere",
+          "tr": "Çiçek buketi ve yaka çiçeği"
+        }
       ],
       "highlights": [
-        { "en": "Get married in the Wedding Capital of the World", "tr": "Dünyanın Düğün Başkenti'nde evlenin" },
-        { "en": "Multiple venue options from chapels to outdoor settings", "tr": "Şapellerden açık hava mekanlarına birçok mekan seçeneği" }
-      ]
+        {
+          "en": "Get married in the Wedding Capital of the World",
+          "tr": "Dünyanın Düğün Başkenti'nde evlenin"
+        },
+        {
+          "en": "Multiple venue options from chapels to outdoor settings",
+          "tr": "Şapellerden açık hava mekanlarına birçok mekan seçeneği"
+        }
+      ],
+      "priceUnit": "couple"
     },
     {
       "slug": "vip-nightclub-package",
@@ -1381,13 +1970,28 @@
         "tr": "Gece kulübü girişi (mekan rezervasyon sonrası onaylanır)"
       },
       "included": [
-        { "en": "VIP table or booth reservation", "tr": "VIP masa veya bölme rezervasyonu" },
-        { "en": "Two bottles of premium spirits", "tr": "İki şişe premium içki" },
-        { "en": "Dedicated VIP host and skip-the-line entry", "tr": "Özel VIP sunucu ve sıra atlatma girişi" }
+        {
+          "en": "VIP table or booth reservation",
+          "tr": "VIP masa veya bölme rezervasyonu"
+        },
+        {
+          "en": "Two bottles of premium spirits",
+          "tr": "İki şişe premium içki"
+        },
+        {
+          "en": "Dedicated VIP host and skip-the-line entry",
+          "tr": "Özel VIP sunucu ve sıra atlatma girişi"
+        }
       ],
       "highlights": [
-        { "en": "VIP access to the Strip's most exclusive nightclubs", "tr": "Strip'in en ayrıcalıklı gece kulüplerine VIP erişim" },
-        { "en": "Premium table service with dedicated VIP host", "tr": "Özel VIP sunucu eşliğinde premium masa servisi" }
+        {
+          "en": "VIP access to the Strip's most exclusive nightclubs",
+          "tr": "Strip'in en ayrıcalıklı gece kulüplerine VIP erişim"
+        },
+        {
+          "en": "Premium table service with dedicated VIP host",
+          "tr": "Özel VIP sunucu eşliğinde premium masa servisi"
+        }
       ]
     },
     {
@@ -1405,7 +2009,7 @@
         "tr": "Lüks streç limuzinle Las Vegas'ı en üst düzey tarzda görün. Efsanevi Strip'in tüm uzunluğunda şampanya yudumlayarak ve panoramik pencerelerden neon ışıklı gösteriyi izleyerek gezin. Profesyonel şoförünüz, Bellagio süs havuzlarından yükselen Luxor piramidine kadar her ikonik simge yapının önünden geçerken siz premium ses sistemiyle deri döşemeli konforda rahatlayın. En pitoresk lokasyonlarda fotoğraf durakları dahildir. Kutlamalar, romantik akşamlar veya sadece Vegas'ı en görkemli haliyle deneyimlemek için mükemmeldir."
       },
       "category": "dining",
-      "price": 199,
+      "price": 299,
       "duration": "2-3 hours",
       "groupSize": "2-10",
       "icon": "🚙",
@@ -1415,15 +2019,34 @@
         "tr": "Otel lobisinden alım"
       },
       "included": [
-        { "en": "Luxury stretch limousine for 2-3 hours", "tr": "2-3 saatlik lüks streç limuzin" },
-        { "en": "Champagne and premium beverages", "tr": "Şampanya ve premium içecekler" },
-        { "en": "Professional chauffeur and VIP treatment", "tr": "Profesyonel şoför ve VIP ağırlama" }
+        {
+          "en": "Luxury stretch limousine for 2-3 hours",
+          "tr": "2-3 saatlik lüks streç limuzin"
+        },
+        {
+          "en": "Champagne and premium beverages",
+          "tr": "Şampanya ve premium içecekler"
+        },
+        {
+          "en": "Professional chauffeur and VIP treatment",
+          "tr": "Profesyonel şoför ve VIP ağırlama"
+        }
       ],
       "highlights": [
-        { "en": "Cruise the entire Strip in a luxury stretch limousine", "tr": "Lüks streç limuzinle tüm Strip boyunca gezin" },
-        { "en": "Champagne toast with panoramic Strip views", "tr": "Panoramik Strip manzarası eşliğinde şampanya kadeh kaldırma" },
-        { "en": "Photo stops at the most iconic Vegas landmarks", "tr": "En ikonik Vegas simge yapılarında fotoğraf durakları" }
-      ]
+        {
+          "en": "Cruise the entire Strip in a luxury stretch limousine",
+          "tr": "Lüks streç limuzinle tüm Strip boyunca gezin"
+        },
+        {
+          "en": "Champagne toast with panoramic Strip views",
+          "tr": "Panoramik Strip manzarası eşliğinde şampanya kadeh kaldırma"
+        },
+        {
+          "en": "Photo stops at the most iconic Vegas landmarks",
+          "tr": "En ikonik Vegas simge yapılarında fotoğraf durakları"
+        }
+      ],
+      "priceUnit": "vehicle"
     }
   ]
 }
