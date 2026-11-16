@@ -12,6 +12,10 @@
   <meta property="og:description" content="40+ curated Las Vegas tours, shows, and experiences. Helicopter rides, Grand Canyon, Cirque du Soleil, and more.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://trip2vegas.com">
+  <meta property="og:image" content="https://trip2vegas.com/assets/images/hero/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
 
   <!-- Hreflang for bilingual SEO -->
   <link rel="alternate" hreflang="en" href="https://trip2vegas.com">
@@ -26,6 +30,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 
   <!-- Stylesheets -->
+  <link rel="preload" as="image" type="image/webp" href="assets/images/hero/hero-home-sm.webp" media="(max-width: 767px)">
+  <link rel="preload" as="image" type="image/webp" href="assets/images/hero/hero-home.webp" media="(min-width: 768px)">
   <link rel="stylesheet" href="assets/css/vegas-theme.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
@@ -186,7 +192,7 @@
 
       <div class="grid grid--4">
         <a href="pages/tours/?cat=adventure" class="category-card fade-in stagger-1">
-          <div class="category-card__bg" style="background: linear-gradient(135deg, #1a0a00, #2a1a0a);"></div>
+          <div class="category-card__bg category-card__bg--adventure"></div>
           <div class="category-card__overlay"></div>
           <div class="category-card__content">
             <div class="category-card__icon">🚁</div>
@@ -202,7 +208,7 @@
         </a>
 
         <a href="pages/tours/?cat=entertainment" class="category-card fade-in stagger-2">
-          <div class="category-card__bg" style="background: linear-gradient(135deg, #1a001a, #2a0a2a);"></div>
+          <div class="category-card__bg category-card__bg--entertainment"></div>
           <div class="category-card__overlay"></div>
           <div class="category-card__content">
             <div class="category-card__icon">🎭</div>
@@ -218,7 +224,7 @@
         </a>
 
         <a href="pages/tours/?cat=sightseeing" class="category-card fade-in stagger-3">
-          <div class="category-card__bg" style="background: linear-gradient(135deg, #001a1a, #0a2a2a);"></div>
+          <div class="category-card__bg category-card__bg--sightseeing"></div>
           <div class="category-card__overlay"></div>
           <div class="category-card__content">
             <div class="category-card__icon">🏜️</div>
@@ -234,7 +240,7 @@
         </a>
 
         <a href="pages/tours/?cat=dining" class="category-card fade-in stagger-4">
-          <div class="category-card__bg" style="background: linear-gradient(135deg, #1a0a00, #2a1500);"></div>
+          <div class="category-card__bg category-card__bg--dining"></div>
           <div class="category-card__overlay"></div>
           <div class="category-card__content">
             <div class="category-card__icon">🍽️</div>

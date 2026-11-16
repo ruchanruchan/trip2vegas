@@ -188,7 +188,13 @@
   width: 100%;
   aspect-ratio: 16 / 10;
   object-fit: cover;
+  display: block;
   background: var(--color-black-lighter);
+  transition: transform var(--transition-slow);
+}
+
+.card:hover .card__image {
+  transform: scale(1.05);
 }
 
 .card__body {
@@ -274,15 +280,20 @@
 .hero__bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    135deg,
-    var(--color-black) 0%,
-    #1a0a00 25%,
-    var(--color-black-light) 50%,
-    #0a0a1a 75%,
-    var(--color-black) 100%
-  );
+  background:
+    linear-gradient(to bottom, rgba(10, 10, 10, 0.7) 0%, rgba(10, 10, 10, 0.55) 45%, var(--color-black) 100%),
+    url('../images/hero/hero-home-sm.webp') center / cover no-repeat,
+    var(--color-black);
   z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .hero__bg {
+    background:
+      linear-gradient(to bottom, rgba(10, 10, 10, 0.7) 0%, rgba(10, 10, 10, 0.55) 45%, var(--color-black) 100%),
+      url('../images/hero/hero-home.webp') center / cover no-repeat,
+      var(--color-black);
+  }
 }
 
 .hero__bg::after {
@@ -682,6 +693,11 @@
   transition: transform var(--transition-slow);
 }
 
+.category-card__bg--adventure { background-image: url('../images/hero/cat-adventure.webp'); }
+.category-card__bg--entertainment { background-image: url('../images/hero/cat-entertainment.webp'); }
+.category-card__bg--sightseeing { background-image: url('../images/hero/cat-sightseeing.webp'); }
+.category-card__bg--dining { background-image: url('../images/hero/cat-dining.webp'); }
+
 .category-card:hover .category-card__bg {
   transform: scale(1.1);
 }
@@ -765,8 +781,10 @@
 .cta-banner__bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, var(--color-red-dark), var(--color-black), var(--color-red-dark));
-  opacity: 0.9;
+  background:
+    linear-gradient(135deg, rgba(139, 0, 0, 0.6), rgba(10, 10, 10, 0.75), rgba(139, 0, 0, 0.6)),
+    url('../images/hero/cta-banner.webp') center / cover no-repeat,
+    var(--color-black);
 }
 
 .cta-banner__content {
@@ -882,6 +900,7 @@ select.form-control {
 .tour-hero__bg {
   position: absolute;
   inset: 0;
+  background-color: var(--color-black-light);
   background-size: cover;
   background-position: center;
 }
@@ -889,7 +908,7 @@ select.form-control {
 .tour-hero__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, var(--color-black) 0%, transparent 60%);
+  background: linear-gradient(to top, var(--color-black) 0%, rgba(10, 10, 10, 0.35) 60%, rgba(10, 10, 10, 0.5) 100%);
 }
 
 .tour-hero__content {
@@ -972,7 +991,10 @@ select.form-control {
   position: relative;
   padding: calc(var(--header-height) + var(--space-16)) var(--container-padding) var(--space-16);
   text-align: center;
-  background: linear-gradient(135deg, var(--color-black-light), var(--color-black));
+  background:
+    linear-gradient(to bottom, rgba(10, 10, 10, 0.75), rgba(10, 10, 10, 0.9)),
+    url('../images/hero/about.webp') center 30% / cover no-repeat,
+    var(--color-black);
 }
 
 .about-section {
@@ -1247,7 +1269,10 @@ select.form-control {
 .page-header {
   padding: calc(var(--header-height) + var(--space-12)) var(--container-padding) var(--space-12);
   text-align: center;
-  background: linear-gradient(135deg, var(--color-black-light), var(--color-black));
+  background:
+    linear-gradient(to bottom, rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.9)),
+    url('../images/hero/page-header.webp') center / cover no-repeat,
+    var(--color-black);
   border-bottom: 1px solid rgba(255, 215, 0, 0.1);
 }
 

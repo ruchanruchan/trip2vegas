@@ -20,6 +20,7 @@ const Tours = (() => {
     if (catalog) {
       await loadTours();
       renderCatalog();
+      updateResultCount();
       initFilters();
       initSearch();
     }
@@ -46,6 +47,17 @@ const Tours = (() => {
       allTours = [];
       filteredTours = [];
     }
+  }
+
+  /**
+   * Build the image URL for a tour. Images live in assets/images/tours/
+   * as <slug>.webp (1280x800) and <slug>-sm.webp (640x400, for cards).
+   * A tour may override the default with an explicit "image" field.
+   */
+  function imageUrl(tour, small) {
+    const base = Components.getBasePath() + 'assets/images/tours/';
+    if (tour.image) return base + tour.image;
+    return base + tour.slug + (small ? '-sm' : '') + '.webp';
   }
 
   /**
@@ -104,9 +116,7 @@ const Tours = (() => {
 
     return `
       <div class="card fade-in stagger-${delay}">
-        <div class="card__image" style="background: linear-gradient(135deg, var(--color-black-lighter), var(--color-black-light)); display:flex; align-items:center; justify-content:center; font-size:3rem;">
-          ${tour.icon || '🎲'}
-        </div>
+        <img class="card__image" src="${imageUrl(tour, true)}" alt="${(tour.name[lang] || tour.name.en).replace(/"/g, '&quot;')}" width="640" height="400" loading="lazy" decoding="async">
         <div class="card__body">
           <span class="card__category">
             <span data-lang-en>${catLabel.en}</span>
@@ -223,6 +233,12 @@ const Tours = (() => {
 
     // Set page title
     document.title = `${tour.name.en} | Trip2Vegas`;
+
+    // Hero background photo
+    const heroBg = document.getElementById('tour-hero-bg');
+    if (heroBg) {
+      heroBg.style.backgroundImage = `url('${imageUrl(tour, false)}')`;
+    }
 
     // Render hero
     const heroContent = document.getElementById('tour-hero-content');
