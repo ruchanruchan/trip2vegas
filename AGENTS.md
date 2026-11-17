@@ -1,376 +1,119 @@
-# 🤖 Codex - Critical Context & Instructions
-
-**Last Updated**: January 5, 2026
-**Project**: Trip2Vegas - Las Vegas Travel Agency Website
-**Repository**: https://github.com/yourusername/trip2vegas (to be created)
-**Production**: https://trip2vegas.com
-**Existing Site**: https://trip2vegas.com (being redesigned)
-
----
-
-## ⚠️ CRITICAL - READ FIRST
-
-### 1. Project Overview
-
-**Business Type**: Premium Las Vegas travel agency
-**Services**: 40+ curated tours, shows, and experiences
-**Markets**: Turkish tourists (primary), International travelers
-**Technology**: Static website (HTML/CSS/JS)
-**Hosting**: GitHub Pages (FREE)
-
-### 2. Design System - Vegas Luxury Theme
-
-**Colors**:
-- **Primary Gold**: `#FFD700` - Buttons, accents, highlights
-- **Deep Black**: `#0A0A0A` - Backgrounds, headers
-- **Vegas Red**: `#DC143C` - CTAs, urgent offers, "Book Now"
-- **White**: `#FFFFFF` - Text on dark backgrounds
-- **Dark Gray**: `#1A1A1A` - Text on light backgrounds
-
-**Typography**:
-- **Headings**: Playfair Display or Cinzel (elegant serif, luxury feel)
-- **Body Text**: Montserrat or Lato (modern, readable sans-serif)
-- **Font Sizes**:
-  - H1: 48px (mobile: 32px)
-  - H2: 36px (mobile: 28px)
-  - H3: 24px (mobile: 20px)
-  - Body: 16px (mobile: 14px)
-
-**Design Style**:
-- Elegant luxury (high-end casino aesthetic)
-- Large hero images (Vegas Strip, Grand Canyon)
-- Gold accents and borders
-- Smooth animations (fade-in, parallax scrolling)
-- Card-based tour listings with hover effects
-
-### 3. Languages - CRITICAL
-
-**Dual Language Support**: Turkish + English
-
-**Implementation**:
-- Language toggle in top-right corner (🇹🇷 Türkçe | 🇬🇧 English)
-- Store preference in localStorage
-- All content has both TR and EN versions
-- Use data attributes: `data-lang-en` and `data-lang-tr`
-
-**Example**:
-```html
-<h1>
-  <span data-lang-en>Welcome to Trip2Vegas</span>
-  <span data-lang-tr>Trip2Vegas'a Hoş Geldiniz</span>
-</h1>
-```
-
-### 4. Content Structure
-
-**Tours & Experiences** (40+ total):
-
-**Categories**:
-1. **Adventure**
-   - Helicopter tours (Grand Canyon, Vegas Strip)
-   - Exotic car rentals (Ferrari, Lamborghini)
-   - Shooting range experiences
-   - Tank driving
-
-2. **Entertainment**
-   - Cirque du Soleil shows
-   - Magic shows
-   - Concerts
-   - Sporting events (UFC, NBA, NHL)
-
-3. **Sightseeing**
-   - Grand Canyon tours
-   - Hoover Dam
-   - Red Rock Canyon
-   - Death Valley
-   - Area 51
-
-4. **Dining & Hospitality**
-   - Fine dining experiences
-   - Chef's table reservations
-   - Food tours
-
-**Tour Details** (Required fields):
-- Tour name (EN + TR)
-- Description (EN + TR)
-- Duration
-- Price (or "Request Quote")
-- Included items
-- Meeting point
-- Photos (3-5 high-quality images)
-
-### 5. Features - Phase 1 (Launch)
-
-**✅ MUST HAVE**:
-- Homepage with hero section
-- Tours catalog page (filter by category)
-- Individual tour detail pages (template-based)
-- About Us page
-- Contact form (Formspree or EmailJS)
-- Turkish/English language toggle
-- Mobile-responsive (mobile-first design)
-- Fast loading (optimized images, lazy load)
-- Google Analytics integration
-
-**❌ NOT IN PHASE 1** (Future):
-- Online booking/payment system
-- User accounts/login
-- Customer reviews
-- Blog section
-- Live chat
-
-### 6. Contact Form
-
-**Fields**:
-- Name (required)
-- Email (required)
-- Phone (optional)
-- Tour Interest (dropdown)
-- Message (required)
-- reCAPTCHA (spam protection)
-
-**Form Service**: Formspree (free tier) or EmailJS
-**Recipient**: info@trip2vegas.com
-
-### 7. Deployment
-
-**Hosting**: GitHub Pages (FREE)
-**Domain**: trip2vegas.com (DNS configuration needed)
-**CI/CD**: GitHub Actions (auto-deploy on push to main)
-
-**Deployment Workflow**:
-```
-Developer pushes to main
-    ↓
-GitHub Actions triggered
-    ↓
-Deploy to GitHub Pages
-    ↓
-Live at trip2vegas.com
-```
-
----
-
-## 🎯 Development Guidelines
-
-### DO:
-1. **Mobile-first design** - Start with mobile, scale up
-2. **Optimize images** - WebP format, lazy loading, max 500KB per image
-3. **Fast loading** - Minimize CSS/JS, use CDN for libraries
-4. **SEO-friendly** - Semantic HTML, meta tags, alt text
-5. **Accessibility** - ARIA labels, keyboard navigation, contrast ratios
-6. **Clean code** - Comments, consistent formatting, DRY principles
-
-### DON'T:
-1. **Use heavy frameworks** - No React/Vue/Angular (static site only)
-2. **Add backend features** - No databases, user auth (Phase 1)
-3. **Ignore mobile** - 60% of traffic is mobile
-4. **Use large images** - Optimize everything
-5. **Hardcode content** - Use JSON for tour data
-6. **Skip language support** - All content needs TR + EN
-
----
-
-## 📁 File Structure
-
-```
-trip2vegas/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml          # GitHub Pages deployment
-├── assets/
-│   ├── css/
-│   │   ├── main.css           # Core styles
-│   │   ├── responsive.css     # Mobile breakpoints
-│   │   └── vegas-theme.css    # Gold/Black/Red theme
-│   ├── js/
-│   │   ├── main.js            # Core functionality
-│   │   ├── language.js        # TR/EN toggle
-│   │   ├── tours.js           # Tour catalog functionality
-│   │   └── contact.js         # Contact form handling
-│   └── images/
-│       ├── logos/             # Brand assets
-│       ├── tours/             # Tour photos
-│       └── hero/              # Hero banners
-├── pages/
-│   ├── tours/
-│   │   ├── index.html         # Tours catalog
-│   │   └── [tour-slug].html   # Individual tour pages
-│   ├── about.html
-│   └── contact.html
-├── data/
-│   └── tours.json             # All tour data (EN + TR)
-├── index.html                 # Homepage
-├── .gitignore
-├── README.md
-└── AGENTS.md                  # This file
-```
-
----
-
-## 🚨 Common Mistakes - AVOID
-
-### ❌ DON'T:
-1. **Forget language toggle** - Every page needs TR/EN
-2. **Use inline styles** - Keep CSS in separate files
-3. **Ignore mobile breakpoints** - Test on 320px, 768px, 1024px, 1920px
-4. **Skip image optimization** - Run through TinyPNG or similar
-5. **Hardcode tour data** - Use tours.json for easy updates
-6. **Use complex build tools** - Keep it simple (no webpack/vite needed)
-7. **Forget reCAPTCHA** - Contact form needs spam protection
-8. **Skip alt text** - Every image needs descriptive alt attribute
-
-### ✅ DO:
-1. **Test in multiple browsers** - Chrome, Firefox, Safari, Edge
-2. **Validate HTML** - Use W3C validator
-3. **Check performance** - Google PageSpeed Insights (aim for 90+)
-4. **Preview on mobile** - Use real device, not just browser DevTools
-5. **Use version control** - Commit frequently with clear messages
-6. **Comment your code** - Especially language toggle logic
-7. **Keep it simple** - Static site, no unnecessary complexity
-
----
-
-## 🔄 Recent Updates
-
-### February 24, 2026 — Phase 1 COMPLETE
-✅ **Full website built and deployed**:
-- CSS design system: vegas-theme.css, main.css, responsive.css (mobile-first)
-- JS modules: language.js, components.js, main.js, tours.js, contact.js
-- Shared components: header.html, footer.html (loaded via fetch)
-- Homepage with hero, features, categories, featured tours, testimonials
-- Tours catalog (search + filter) + detail page (42 tours, bilingual EN/TR)
-- About page + Contact page with form
-- staticwebapp.config.json (routing + security headers)
-- sitemap.xml + robots.txt
-
-✅ **Custom domain configured**:
-- https://trip2vegas.com — LIVE (apex domain, alias A record + TXT validation)
-- https://www.trip2vegas.com — LIVE (CNAME to Azure SWA)
-- Azure DNS zone: trip2vegas-rg
-- Azure SWA: CoffeeFortuneAI-RG / trip2vegas
-- Default hostname: purple-cliff-0bd29300f.4.azurestaticapps.net
-
-### January 5, 2026 (Initial Setup)
-✅ **Project Initialization**:
-1. Created D:\trip2vegas folder
-2. Initialized Git repository
-3. Set up folder structure (assets, pages, data)
-4. Created .gitignore
-5. Created GitHub Actions workflow for deployment
-6. Created README.md and AGENTS.md
-
----
-
-## 🚀 NEXT STEPS (Phase 2+)
-
-### Phase 2 — C# Azure Functions API Layer
-**Tech stack**: C# (.NET 8), Azure Functions v4, PostgreSQL
-- [ ] Set up `api/` folder with C# Azure Functions isolated worker project
-- [ ] Contact form function (replace Formspree)
-- [ ] Hotelbeds auth client (SHA256 signatures) — **Owner has Bedsonline credentials, needs to get API key from https://developer.hotelbeds.com**
-- [ ] Pricing/markup engine
-- [ ] Update GitHub Actions workflow: `api_location: "api"`
-- [ ] Set environment variables in Azure Portal (API keys, connection strings)
-
-### Phase 3 — Hotelbeds Integration
-**Prerequisite**: API keys from developer.hotelbeds.com
-- [ ] Hotel search page + API function
-- [ ] Hotel detail page
-- [ ] Activities integration into tours page
-- [ ] Transfer search page
-- [ ] Turkish translation for API content
-
-### Phase 4 — AI Chatbot
-- [ ] AI chatbot widget (floating chat)
-- [ ] Chat API function (OpenAI/Codex)
-- [ ] Smart search bar with suggestions
-
-### Phase 5 — Online Booking & Payments
-- [ ] Stripe Checkout integration
-- [ ] Stripe webhooks
-- [ ] Hotelbeds booking confirmation
-- [ ] PostgreSQL for booking storage
-- [ ] Success/cancel pages
-
-### Phase 6 — Polish & Launch
-- [ ] Real tour images (WebP, lazy loading)
-- [ ] Lighthouse 90+ score
-- [ ] Final SEO (structured data, hreflang, keywords)
-
----
-
-## 🏗️ Architecture Decisions
-
-- **Frontend**: Static HTML/CSS/JS (no framework) — modular, mobile-first
-- **Backend (Phase 2+)**: C# Azure Functions (free with Azure SWA)
-- **Database (Phase 5+)**: PostgreSQL on GPU VM — see `C:\Users\rucha\.Codex\credentials.md` for all credentials
-- **Hosting**: Azure Static Web Apps (free tier)
-- **Payments**: Stripe
-- **AI**: TBD (OpenAI or Codex API)
-- **Language**: Bilingual EN/TR via `html[data-lang]` CSS-driven toggle
-
----
-
-## 📝 Content TODO
-
-**Needed from Client**:
-- [ ] High-quality tour photos (3-5 per tour)
-- [ ] Turkish translations for all tours
-- [ ] Company logo (PNG, transparent background)
-- [ ] Contact information (email, phone, address)
-- [ ] Social media links (Instagram, Facebook, WhatsApp)
-- [ ] Pricing information (or "Request Quote")
-- [ ] Company story (About Us content)
-
----
-
-## 🎨 Design Inspiration
-
-**Style References**:
-- Luxury casino websites (Bellagio, Wynn)
-- Premium travel agencies (Viator, GetYourGuide)
-- Vegas hotel sites (Caesars, MGM Grand)
-
-**Key Elements**:
-- Full-width hero images
-- Gold accents and elegant typography
-- Smooth scroll animations
-- Card-based layouts
-- Dark backgrounds with bright CTAs
-
----
-
-## 📞 Project Contact
-
+# Trip2Vegas — Project Context
+
+**Last updated**: November 17, 2026
+**What**: Premium Las Vegas travel agency website. Primary market: Turkish tourists; also international.
+**Live**: https://trip2vegas.com (and www) · **Repo**: https://github.com/ruchanruchan/trip2vegas (branch `master`)
 **Developer**: richard@raqballusa.com
-**Business Owner**: [Add contact]
-**Domain DNS**: Azure DNS (zone: trip2vegas-rg, nameservers: ns1-03.azure-dns.com)
 
 ---
 
-## 🤖 AI Assistant Instructions
+## Rules (read first)
 
-When working on this project:
+1. **Bilingual, no exceptions.** Every piece of visible text needs English and Turkish.
+2. **Vegas luxury theme.** Gold / black / red; use the CSS variables in `vegas-theme.css`, never hard-coded colors.
+3. **Mobile first.** About 60% of traffic is mobile. Check 320, 768, 1024 and 1920px.
+4. **Static frontend, no frameworks, no build tools.** Plain HTML/CSS/JS. No React/Vue, no webpack/vite.
+5. **Tour content lives in `data/tours.json`**, never hard-coded in HTML.
+6. **No inline styles in new code.** Put CSS in the stylesheets. (Older markup still has some.)
+7. **Images**: WebP, lazy-loaded, descriptive alt text, under 500KB each.
+8. **Semantic, accessible HTML**: heading order, ARIA labels, keyboard navigation, contrast.
+9. **Never commit secrets.** All credentials are in `C:\Users\rucha\.claude\credentials.md` (outside the repo).
 
-1. **Always check this file first** at the start of each session
-2. **Maintain Vegas Luxury theme** - Gold/Black/Red color scheme
-3. **Every feature needs TR + EN** - No exceptions
-4. **Mobile-first approach** - Design for 320px first
-5. **Keep it static** - No backend features in Phase 1
-6. **Optimize everything** - Images, CSS, JS (aim for <100KB per page)
-7. **Use semantic HTML** - Proper heading hierarchy, alt text
-8. **Comment your code** - Especially language toggle and tour loading
-9. **Test on mobile** - Responsive design is critical
+## Deploying
 
-**Remember**:
-- Phase 1 is static (Phase 2+ adds C# Azure Functions + PostgreSQL)
-- Azure Static Web Apps deployment (free hosting)
-- Turkish + English support (dual language, CSS-driven toggle)
-- Vegas Luxury aesthetic (gold, black, red)
-- 42 tours in data/tours.json (bilingual)
-- GitHub repo: https://github.com/ruchanruchan/trip2vegas
+Push to `master` → GitHub Actions → Azure Static Web Apps. Takes 1-2 minutes.
+The owner reviews on the live site, so verify changes at https://trip2vegas.com after the run finishes.
 
----
+| Thing | Value |
+|---|---|
+| Static Web App | `trip2vegas`, resource group `CoffeeFortuneAI-RG`, Free tier |
+| Default hostname | purple-cliff-0bd29300f.4.azurestaticapps.net |
+| DNS | Azure DNS zone in `trip2vegas-rg` |
+| Workflow | `.github/workflows/azure-static-web-apps-purple-cliff-0bd29300f.yml` (`app_location: "/"`, `api_location: "api"`) |
+| Routing / headers | `staticwebapp.config.json` (no SPA fallback; unknown URLs return `404.html`) |
 
-**END OF CRITICAL INFORMATION**
+## Structure
+
+```
+index.html                  Homepage
+404.html                    Not-found page (root-relative asset paths)
+pages/tours/index.html      Catalog (search + category filter)
+pages/tours/detail.html     One template for all tours: detail.html?slug=<slug>
+pages/about/index.html
+pages/contact/index.html
+components/header.html      Loaded into every page by components.js
+components/footer.html
+data/tours.json             42 tours, bilingual
+assets/css/                 vegas-theme.css (tokens, language toggle), main.css, responsive.css
+assets/js/                  language.js, components.js, main.js, tours.js, contact.js
+assets/images/tours/        <slug>.webp (1280x800) and <slug>-sm.webp (640x400)
+assets/images/hero/         Hero, category tiles, page header, CTA, About, og-image.jpg
+assets/images/icons.svg     Line-icon sprite: <svg class="icon"><use href="/assets/images/icons.svg#i-name">
+assets/images/logos/        favicon.svg, apple-touch-icon.png (favicon.ico is at the root)
+api/                        C# Azure Functions (contact form)
+scripts/generate-images.py  AI image generation
+sitemap.xml, robots.txt
+```
+
+The site is always served from the domain root: `Components.getBasePath()` returns `/`, so use root-relative paths in JS.
+
+## Design system
+
+- **Colors**: gold `#FFD700`, black `#0A0A0A`, red `#DC143C`, white `#FFFFFF`, dark gray `#1A1A1A` (`--color-gold`, `--color-black`, `--color-red`, …).
+- **Fonts**: Playfair Display (headings), Cinzel (accent/uppercase titles), Montserrat (body).
+- **Sizes**: H1 48px (mobile 32), H2 36 (28), H3 24 (20), body 16 (14).
+- **Style**: high-end casino look; full-width photo heroes with dark overlays, gold borders, card layouts with hover effects, fade-in animations.
+
+## Languages (EN + TR)
+
+- Both versions are in the page; CSS hides the inactive one via `html[data-lang]`:
+  ```html
+  <span data-lang-en>Welcome</span><span data-lang-tr>Hoş Geldiniz</span>
+  ```
+- `tours.json` fields are `{ "en": "...", "tr": "..." }`.
+- `language.js` stores the choice in localStorage (`trip2vegas_lang`) and assumes exactly two languages.
+- Adding a third language means touching every text pair. If that is ever needed, first move page text into per-language JSON files.
+
+## Tours (`data/tours.json`)
+
+- Categories: `adventure` (11), `entertainment` (11), `sightseeing` (11), `dining` (9, includes hospitality/VIP).
+- Fields: `slug`, `name`, `description`, `longDescription`, `category`, `price` (null = "Request Quote"), `priceUnit` (optional: `person` default, `couple`, `vehicle`), `duration`, `groupSize`, `icon`, `featured`, `meetingPoint`, `included[]`, `highlights[]`.
+- Images are found by slug; an optional `image` field overrides the filename.
+- When adding or removing a tour: add its prompt to `scripts/generate-images.py`, generate the image, and update `sitemap.xml` and the category counts on the homepage.
+- Prices are market estimates, not supplier quotes.
+- The NBA tour stays: Las Vegas has no NBA team, so it is worded as Summer League / preseason / special events.
+
+## Images (AI-generated)
+
+- FAL AI, FLUX schnell for tour photos, FLUX dev for hero-level images. Roughly $0.003-0.025 per image.
+- `set FAL_KEY=<key>` then `python scripts/generate-images.py` (only missing images) or `--force <slug-or-name>` to redo one.
+- Tours named after real brands or performers (Cirque, Copperfield, Gordon Ramsay, UFC, NBA…) deliberately use generic scenes: no likenesses, no logos. Keep it that way.
+- Look at every generated image before shipping; reject garbled text and odd anatomy.
+- Owner preference for people in photos: seen from behind, no faces.
+
+## Contact form
+
+- `assets/js/contact.js` posts JSON to `POST /api/contact` (`api/ContactFunction.cs`, C# .NET 8 isolated worker).
+- Email goes through the shared Azure Communication Services (`comservice1` + `comemailservice1`, resource group `resourcegroup`; trip2vegas.com is a verified sender domain).
+- From `DoNotReply@trip2vegas.com` to `pa@trip2vegas.com`; Reply-To is the customer.
+- SWA app settings: `ACS_CONNECTION_STRING`, `CONTACT_TO`, `CONTACT_FROM`.
+- Spam protection: hidden honeypot field `website`, 3-second minimum fill time, server-side validation. Bots receive a fake success. No reCAPTCHA.
+
+## Business details on the site
+
+- WhatsApp: +1 (702) 534-9884 (`wa.me/17025349884`)
+- Email: pa@trip2vegas.com (info@ also works; use pa@)
+- No social media accounts; do not add Instagram/Facebook links.
+- Google Analytics: Google tag `GTM-PMJW2PP7` → GA4 property `G-8VE2XZC9N1`, in the `<head>` of every page.
+- **Unconfirmed placeholder content**: "5000+ happy guests", "4.9 rating", the three homepage testimonials, office hours on the contact page.
+
+## Roadmap
+
+- **Phase 1 (done)**: static bilingual site, 42 tours, custom domain.
+- **Phase 2 (in progress)**: C# Azure Functions API. Done: `api/` project, contact form. To do: Hotelbeds auth client (SHA256 signatures; owner has Bedsonline credentials and needs an API key from developer.hotelbeds.com), pricing/markup engine.
+- **Phase 3**: Hotelbeds integration — hotel search and detail pages, activities in the tours page, transfers, Turkish translation of API content.
+- **Phase 4**: AI chatbot widget and chat API; smart search suggestions.
+- **Phase 5**: Stripe Checkout and webhooks, Hotelbeds booking confirmation, PostgreSQL (on the GPU VM) for bookings.
+- **Phase 6**: real tour photos from the client, Lighthouse 90+, structured data.
+
+**Still needed from the client**: real tour photos, a logo (PNG, transparent), confirmed pricing, the company story, and the placeholder items listed above.
