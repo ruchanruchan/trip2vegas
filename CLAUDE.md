@@ -1,6 +1,6 @@
 # 🤖 CLAUDE - Critical Context & Instructions
 
-**Last Updated**: January 5, 2026
+**Last Updated**: November 17, 2026
 **Project**: Trip2Vegas - Las Vegas Travel Agency Website
 **Repository**: https://github.com/yourusername/trip2vegas (to be created)
 **Production**: https://trip2vegas.com
@@ -233,6 +233,33 @@ trip2vegas/
 
 ## 🔄 Recent Updates
 
+### November 16-17, 2026 — Images, contact API, SEO, analytics (all LIVE)
+✅ **AI-generated images** (FAL AI, FLUX schnell/dev, ~$0.25 total):
+- 42 tour photos in `assets/images/tours/` (`<slug>.webp` 1280x800 + `<slug>-sm.webp` 640x400)
+- Hero, category tiles, page header, CTA, About photos + `og-image.jpg` in `assets/images/hero/`
+- Regenerate with `scripts/generate-images.py` (needs `FAL_KEY` env var; `--force <name>` redoes one)
+- Branded tours (Cirque, Copperfield, UFC, NBA, etc.) deliberately use generic scenes: no likenesses/logos
+
+✅ **Contact form backend** (replaces Formspree):
+- `api/ContactFunction.cs` — C# .NET 8 isolated Azure Function, `POST /api/contact`
+- Sends via Azure Communication Services (`comservice1` / `comemailservice1`, resource group `resourcegroup`; domain trip2vegas.com verified)
+- From `DoNotReply@trip2vegas.com` → `pa@trip2vegas.com`, Reply-To = customer
+- SWA app settings: `ACS_CONNECTION_STRING`, `CONTACT_TO`, `CONTACT_FROM`
+- Spam protection: honeypot field (`website`) + 3-second timing check + server validation (no reCAPTCHA)
+- Workflow `api_location: "api"`; `staticwebapp.config.json` → `platform.apiRuntime: dotnet-isolated:8.0`
+
+✅ **Site fixes**:
+- WhatsApp: +1 (702) 534-9884; contact email pa@trip2vegas.com; Instagram/Facebook links removed (no accounts)
+- Google Analytics: Google tag `GTM-PMJW2PP7` → GA4 property `G-8VE2XZC9N1`, on all pages
+- Favicon (`favicon.ico`, `assets/images/logos/`), og:image + canonical + hreflang on all pages
+- Sitemap lists all tours; real `404.html` (navigationFallback removed — site is not an SPA)
+- Line icons from `assets/images/icons.svg` sprite replace decorative emoji
+- `Components.getBasePath()` now returns `/` (site always served from domain root)
+- Tour prices reviewed (estimates, not supplier quotes); optional `priceUnit` field: person | couple | vehicle
+- NBA tour kept: worded as Summer League / preseason / special events (no Vegas NBA team)
+
+⚠️ **Still placeholder content** — confirm with owner: "5000+ happy guests", "4.9 rating", homepage testimonials, office hours
+
 ### February 24, 2026 — Phase 1 COMPLETE
 ✅ **Full website built and deployed**:
 - CSS design system: vegas-theme.css, main.css, responsive.css (mobile-first)
@@ -266,11 +293,11 @@ trip2vegas/
 
 ### Phase 2 — C# Azure Functions API Layer
 **Tech stack**: C# (.NET 8), Azure Functions v4, PostgreSQL
-- [ ] Set up `api/` folder with C# Azure Functions isolated worker project
-- [ ] Contact form function (replace Formspree)
+- [x] Set up `api/` folder with C# Azure Functions isolated worker project
+- [x] Contact form function (replaced Formspree — done Nov 2026)
 - [ ] Hotelbeds auth client (SHA256 signatures) — **Owner has Bedsonline credentials, needs to get API key from https://developer.hotelbeds.com**
 - [ ] Pricing/markup engine
-- [ ] Update GitHub Actions workflow: `api_location: "api"`
+- [x] Update GitHub Actions workflow: `api_location: "api"`
 - [ ] Set environment variables in Azure Portal (API keys, connection strings)
 
 ### Phase 3 — Hotelbeds Integration
@@ -304,7 +331,7 @@ trip2vegas/
 
 - **Frontend**: Static HTML/CSS/JS (no framework) — modular, mobile-first
 - **Backend (Phase 2+)**: C# Azure Functions (free with Azure SWA)
-- **Database (Phase 5+)**: PostgreSQL
+- **Database (Phase 5+)**: PostgreSQL on GPU VM — see `C:\Users\rucha\.claude\credentials.md` for all credentials
 - **Hosting**: Azure Static Web Apps (free tier)
 - **Payments**: Stripe
 - **AI**: TBD (OpenAI or Claude API)
