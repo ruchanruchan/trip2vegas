@@ -32,3 +32,6 @@ desktop.ini
 api/bin/
 api/obj/
 api/local.settings.json
+
+# Python
+__pycache__/
